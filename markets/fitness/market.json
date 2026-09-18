@@ -1,0 +1,29 @@
+{
+ "category": "Fitness tracking and athletic social apps bought by runners and cyclists",
+ "segments": [
+  {
+   "id": "seg:casual",
+   "name": "Casual exercisers",
+   "filters": "a few activities a week, mostly free tier"
+  },
+  {
+   "id": "seg:serious",
+   "name": "Serious amateur athletes",
+   "filters": "training for races, pays for analysis"
+  },
+  {
+   "id": "seg:clubs",
+   "name": "Clubs and groups",
+   "filters": "organise rides, runs and challenges"
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.strava.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Segments named on the company's own site."
+  }
+ ]
+}

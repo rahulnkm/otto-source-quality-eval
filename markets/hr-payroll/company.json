@@ -1,0 +1,49 @@
+{
+ "company": {
+  "name": "Gusto",
+  "website": "https://gusto.com",
+  "one_line": "Payroll, benefits and HR for small businesses, run by 500,000+ businesses."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Gusto",
+   "features": [
+    {
+     "id": "feat:payroll",
+     "name": "Payroll",
+     "does": "Runs payroll in minutes, files taxes, AutoPilot runs it automatically."
+    },
+    {
+     "id": "feat:benefits",
+     "name": "Benefits",
+     "does": "Health, dental and 401k for the team."
+    },
+    {
+     "id": "feat:onboarding",
+     "name": "Onboarding and hiring",
+     "does": "Offer letters, onboarding checklists, digital signatures."
+    },
+    {
+     "id": "feat:time",
+     "name": "Time tracking",
+     "does": "Syncs hours straight into payroll."
+    },
+    {
+     "id": "feat:compliance",
+     "name": "Compliance",
+     "does": "Required trainings, policies and benefits handled."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://gusto.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Gusto's own site: product names and segments."
+  }
+ ]
+}

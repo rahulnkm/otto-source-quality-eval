@@ -1,0 +1,29 @@
+{
+ "category": "GTM data, enrichment and outbound tooling bought by go-to-market and revenue operations teams",
+ "segments": [
+  {
+   "id": "seg:agency",
+   "name": "Agencies and consultants",
+   "filters": "run campaigns for client companies"
+  },
+  {
+   "id": "seg:lean",
+   "name": "Lean in-house GTM teams",
+   "filters": "one to five people owning pipeline"
+  },
+  {
+   "id": "seg:revops",
+   "name": "RevOps at scale",
+   "filters": "dedicated ops team, CRM of record"
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.clay.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Segments named on the company's own site."
+  }
+ ]
+}

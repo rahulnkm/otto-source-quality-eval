@@ -1,0 +1,54 @@
+{
+ "company": {
+  "name": "Apollo.io",
+  "website": "https://www.apollo.io",
+  "one_line": "B2B sales engagement platform: contact data, prospecting, dialing and AI agents, sold to sales and RevOps teams."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Apollo.io",
+   "features": [
+    {
+     "id": "feat:data",
+     "name": "Apollo Data",
+     "does": "240M contacts and 30M companies."
+    },
+    {
+     "id": "feat:workspace",
+     "name": "Workspace",
+     "does": "Prospecting, outreach and dialing in one place."
+    },
+    {
+     "id": "feat:harness",
+     "name": "GTM Harness",
+     "does": "AI agents for research and outreach."
+    },
+    {
+     "id": "feat:waterfall",
+     "name": "Waterfall enrichment",
+     "does": "Fills gaps across providers."
+    },
+    {
+     "id": "feat:dialer",
+     "name": "Parallel dialer",
+     "does": "Calls several numbers at once."
+    },
+    {
+     "id": "feat:extension",
+     "name": "Chrome extension",
+     "does": "Prospects from the browser."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.apollo.io",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Apollo.io's own site: product names and segments."
+  }
+ ]
+}

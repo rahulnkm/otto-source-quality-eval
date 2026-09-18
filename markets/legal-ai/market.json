@@ -1,0 +1,11 @@
+{
+  "category": "AI for legal work: research, drafting, review and diligence bought by law firms and in-house legal teams",
+  "segments": [
+    { "id": "seg:biglaw", "name": "Large law firms", "filters": "200+ lawyers, AmLaw 200 or Global 100, has a knowledge management or innovation function" },
+    { "id": "seg:midsize-firms", "name": "Mid-size and boutique firms", "filters": "10 to 200 lawyers, no dedicated innovation team" },
+    { "id": "seg:inhouse", "name": "In-house legal teams", "filters": "corporate legal departments, general counsel and legal ops" }
+  ],
+  "sources": [
+    { "id": "src:1", "url": "https://legora.com", "speaker": "seller", "pulled": "2026-09-17", "note": "Segments named on Legora's own site (law firms, in-house)." }
+  ]
+}

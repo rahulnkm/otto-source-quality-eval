@@ -1,0 +1,54 @@
+{
+ "company": {
+  "name": "Vanta",
+  "website": "https://www.vanta.com",
+  "one_line": "Compliance automation: SOC 2, ISO 27001 and continuous GRC, sold from startups to enterprise."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Vanta",
+   "features": [
+    {
+     "id": "feat:automated",
+     "name": "Automated compliance",
+     "does": "Collects evidence continuously for SOC 2 and ISO 27001."
+    },
+    {
+     "id": "feat:grc",
+     "name": "Continuous GRC",
+     "does": "Keeps controls monitored between audits."
+    },
+    {
+     "id": "feat:access",
+     "name": "Personnel and access",
+     "does": "Tracks who has access to what."
+    },
+    {
+     "id": "feat:tpr",
+     "name": "Third party risk",
+     "does": "Reviews vendors."
+    },
+    {
+     "id": "feat:questionnaire",
+     "name": "Questionnaire automation",
+     "does": "Answers security questionnaires."
+    },
+    {
+     "id": "feat:trust",
+     "name": "Trust Center",
+     "does": "Public page for a company's security posture."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.vanta.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Vanta's own site: product names and segments."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "slug": "clinical-ai",
+ "question": "The company is Abridge, AI clinical documentation from the patient conversation, used in 300+ health systems. Map the pains of the people who would buy and use it: the physicians and nurses who dictate into it, the CMIOs and IT leaders who buy and roll it out, and the billing people downstream of the note. Work from what those people say in public in their own words.",
+ "seller_domain": "abridge.com",
+ "market_keywords": [
+  "clinician",
+  "physician",
+  "nurse",
+  "documentation",
+  "ehr",
+  "epic",
+  "note",
+  "patient",
+  "health system",
+  "burnout"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "Toast",
+    "website": "https://pos.toasttab.com",
+    "one_line": "Point-of-sale and restaurant management platform, sold to restaurants and retail, used in 180,000 locations."
+  },
+  "products": [
+    {
+      "id": "prod:toast",
+      "name": "Toast platform",
+      "features": [
+        { "id": "feat:pos", "name": "Point of sale", "does": "Takes orders and payments on Toast hardware built for busy service." },
+        { "id": "feat:offline", "name": "Offline mode", "does": "Keeps serving customers when the internet drops." },
+        { "id": "feat:kds", "name": "Kitchen display system", "does": "Puts every order from every channel in one place for the kitchen." },
+        { "id": "feat:online", "name": "Online ordering", "does": "Commission-free ordering channel." },
+        { "id": "feat:labor", "name": "Labor management", "does": "Payroll, remote clock-in and tip distribution." },
+        { "id": "feat:iq", "name": "Toast IQ", "does": "AI assistant that forecasts sales and suggests labor and menu changes." },
+        { "id": "feat:marketing", "name": "Marketing", "does": "SMS, email, loyalty and gift cards." },
+        { "id": "feat:inventory", "name": "Inventory sync", "does": "Real-time stock across locations." }
+      ]
+    }
+  ],
+  "sources": [
+    { "id": "src:1", "url": "https://pos.toasttab.com", "speaker": "seller", "pulled": "2026-09-17", "note": "Toast's own site: features, location count, pricing note." }
+  ]
+}

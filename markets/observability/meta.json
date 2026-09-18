@@ -1,0 +1,6 @@
+{
+  "slug": "observability",
+  "question": "The company is Grafana Labs, an observability platform. Map the pains of the people who would buy and use it: platform and SRE teams, backend engineers on call, and the engineering leaders who pay the bill. Work from what those people say in public in their own words.",
+  "seller_domain": "grafana.com",
+  "market_keywords": ["observability", "monitoring", "metrics", "logs", "traces", "kubernetes", "on-call", "incident", "dashboards"]
+}

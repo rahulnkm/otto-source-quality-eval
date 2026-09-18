@@ -1,0 +1,54 @@
+{
+ "company": {
+  "name": "HubSpot",
+  "website": "https://www.hubspot.com",
+  "one_line": "Customer platform of connected hubs for marketing, sales and service, used by 306,000+ customers."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "HubSpot",
+   "features": [
+    {
+     "id": "feat:smartcrm",
+     "name": "Smart CRM",
+     "does": "One customer record the hubs share."
+    },
+    {
+     "id": "feat:marketing",
+     "name": "Marketing Hub",
+     "does": "Campaigns, email and automation."
+    },
+    {
+     "id": "feat:sales",
+     "name": "Sales Hub",
+     "does": "Pipeline, deals and sequences."
+    },
+    {
+     "id": "feat:service",
+     "name": "Service Hub",
+     "does": "Support tickets and retention."
+    },
+    {
+     "id": "feat:data",
+     "name": "Data Hub",
+     "does": "Unifies customer data across tools."
+    },
+    {
+     "id": "feat:agent",
+     "name": "Agent Hub",
+     "does": "AI agents across the funnel."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.hubspot.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "HubSpot's own site: product names and segments."
+  }
+ ]
+}

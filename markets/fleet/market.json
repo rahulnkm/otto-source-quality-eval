@@ -1,0 +1,29 @@
+{
+ "category": "Fleet telematics and connected operations bought by transport, construction and field service operators",
+ "segments": [
+  {
+   "id": "seg:trucking",
+   "name": "Transportation and logistics fleets",
+   "filters": "long haul and regional trucking"
+  },
+  {
+   "id": "seg:construction",
+   "name": "Construction and field services",
+   "filters": "mixed vehicle and equipment fleets"
+  },
+  {
+   "id": "seg:public",
+   "name": "Public sector fleets",
+   "filters": "transit, government and schools"
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.samsara.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Segments named on the company's own site."
+  }
+ ]
+}

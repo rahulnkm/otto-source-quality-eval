@@ -1,0 +1,54 @@
+{
+ "company": {
+  "name": "Notion",
+  "website": "https://www.notion.com",
+  "one_line": "Workspace for docs, projects and knowledge, with AI and agents, sold to teams from startups to enterprise."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Notion",
+   "features": [
+    {
+     "id": "feat:docs",
+     "name": "Docs",
+     "does": "Writing and pages."
+    },
+    {
+     "id": "feat:projects",
+     "name": "Projects",
+     "does": "Task and project tracking."
+    },
+    {
+     "id": "feat:kb",
+     "name": "Knowledge base",
+     "does": "Company wiki and enterprise search."
+    },
+    {
+     "id": "feat:ai",
+     "name": "Notion AI and agents",
+     "does": "Answers questions and automates tasks over the workspace."
+    },
+    {
+     "id": "feat:meeting",
+     "name": "AI meeting notes",
+     "does": "Captures and summarizes meetings."
+    },
+    {
+     "id": "feat:calendar",
+     "name": "Notion Calendar",
+     "does": "Calendar tied to the workspace."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.notion.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Notion's own site: product names and segments."
+  }
+ ]
+}

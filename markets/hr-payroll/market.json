@@ -1,0 +1,29 @@
+{
+ "category": "Payroll, benefits and HR software bought by small business owners",
+ "segments": [
+  {
+   "id": "seg:micro",
+   "name": "Under 10 employees",
+   "filters": "owner runs payroll themselves"
+  },
+  {
+   "id": "seg:smb",
+   "name": "10 to 100 employees",
+   "filters": "has an office manager or part-time HR"
+  },
+  {
+   "id": "seg:accountants",
+   "name": "Accountants and bookkeepers",
+   "filters": "run payroll on behalf of client businesses"
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://gusto.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Segments named on the company's own site."
+  }
+ ]
+}

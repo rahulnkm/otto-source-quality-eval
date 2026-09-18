@@ -1,0 +1,11 @@
+{
+  "category": "Restaurant point of sale and management software bought by restaurant owners and operators",
+  "segments": [
+    { "id": "seg:independent", "name": "Independent single-location restaurants", "filters": "1 location, owner-operator, under 50 staff" },
+    { "id": "seg:multi", "name": "Multi-location groups and franchises", "filters": "2 to 100 locations, has an operations or IT lead" },
+    { "id": "seg:quick", "name": "Quick service and counter-service", "filters": "counter ordering, high ticket volume, thin margins" }
+  ],
+  "sources": [
+    { "id": "src:1", "url": "https://pos.toasttab.com", "speaker": "seller", "pulled": "2026-09-17", "note": "Segments named on Toast's own site (restaurants, retail, multi-location)." }
+  ]
+}

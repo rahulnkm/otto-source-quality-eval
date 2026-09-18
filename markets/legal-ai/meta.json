@@ -1,0 +1,7 @@
+{
+  "slug": "legal-ai",
+  "question": "The company is Legora, a collaborative AI platform for lawyers. Map the pains of the people who would buy and use it: lawyers in law firms and in-house legal teams, and the partners, knowledge lawyers and legal operations people who decide. Work from what those people say in public in their own words.",
+  "seller_domain": "legora.com",
+  "market_keywords": ["legal", "law firm", "lawyer", "contract", "counsel", "litigation", "paralegal", "legal team"],
+  "note": "Company and market inputs are short on purpose: both arms get the same ones, and the eval scores the sources each arm brings back, not the inputs."
+}

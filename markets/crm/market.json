@@ -1,0 +1,29 @@
+{
+ "category": "CRM and marketing automation bought by revenue teams",
+ "segments": [
+  {
+   "id": "seg:startup",
+   "name": "Startups and small teams",
+   "filters": "under 50 staff, first CRM"
+  },
+  {
+   "id": "seg:midmarket",
+   "name": "Mid-market revenue teams",
+   "filters": "50 to 1,000 staff, has RevOps"
+  },
+  {
+   "id": "seg:agency",
+   "name": "Agencies and partners",
+   "filters": "run HubSpot for their own clients"
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.hubspot.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Segments named on the company's own site."
+  }
+ ]
+}

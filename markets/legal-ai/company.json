@@ -1,0 +1,27 @@
+{
+  "company": {
+    "name": "Legora",
+    "website": "https://legora.com",
+    "hq": "Stockholm, Sweden",
+    "one_line": "Collaborative AI for lawyers: an agentic operating system for legal work, sold to law firms and in-house legal teams."
+  },
+  "products": [
+    {
+      "id": "prod:aos",
+      "name": "Legora aOS",
+      "features": [
+        { "id": "feat:agent", "name": "Agent", "does": "Plans, executes, reviews and delivers end-to-end legal work." },
+        { "id": "feat:monitors", "name": "Monitors", "does": "Continuously scans global regulation and surfaces what matters before it bites." },
+        { "id": "feat:lists", "name": "Lists", "does": "Generates structured lists from documents so AI output connects to legal workflows." },
+        { "id": "feat:tabular", "name": "Tabular review", "does": "Reviews many documents side by side in a table." },
+        { "id": "feat:portal", "name": "Portal", "does": "Delivers work to clients and collaborators." },
+        { "id": "feat:security", "name": "Security posture", "does": "SOC 2 Type II, ISO 27001, ISO 42001, GDPR and HIPAA, with no AI training on customer data." }
+      ]
+    }
+  ],
+  "segments_served": ["law firms", "in-house legal teams"],
+  "practices": ["M&A", "litigation", "banking", "tax", "insurance"],
+  "sources": [
+    { "id": "src:1", "url": "https://legora.com", "speaker": "seller", "pulled": "2026-09-17", "note": "Legora's own site: product names, segments, certifications." }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "Grafana Labs",
+    "website": "https://grafana.com",
+    "one_line": "Observability platform: dashboards, metrics, logs, traces and profiles, sold from startups to the Fortune 500."
+  },
+  "products": [
+    {
+      "id": "prod:cloud",
+      "name": "Grafana Cloud",
+      "features": [
+        { "id": "feat:dashboards", "name": "Dashboards and visualization", "does": "Charts any data source in one place." },
+        { "id": "feat:logs", "name": "Log management (Loki)", "does": "Stores and queries logs." },
+        { "id": "feat:metrics", "name": "Metrics (Mimir)", "does": "Stores and queries time series." },
+        { "id": "feat:traces", "name": "Traces (Tempo)", "does": "Follows a request across services." },
+        { "id": "feat:k8s", "name": "Kubernetes monitoring", "does": "Watches clusters and workloads." },
+        { "id": "feat:irm", "name": "Incident response and management", "does": "On-call scheduling, alerting and incident handling." },
+        { "id": "feat:k6", "name": "Performance and load testing (k6)", "does": "Load tests services before users find the limit." },
+        { "id": "feat:ai", "name": "AI investigations and assistant", "does": "Suggests where an incident's cause is." }
+      ]
+    }
+  ],
+  "sources": [
+    { "id": "src:1", "url": "https://grafana.com", "speaker": "seller", "pulled": "2026-09-17", "note": "Grafana's own site: product list and customer range." }
+  ]
+}

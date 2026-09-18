@@ -1,0 +1,29 @@
+{
+ "category": "Security compliance automation bought by security and engineering leaders",
+ "segments": [
+  {
+   "id": "seg:startup",
+   "name": "Startups chasing a first SOC 2",
+   "filters": "under 50 staff, no security team"
+  },
+  {
+   "id": "seg:scaling",
+   "name": "Scaling security teams",
+   "filters": "50 to 500 staff, a security lead exists"
+  },
+  {
+   "id": "seg:regulated",
+   "name": "Regulated buyers",
+   "filters": "healthcare, fintech and government requirements"
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.vanta.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Segments named on the company's own site."
+  }
+ ]
+}

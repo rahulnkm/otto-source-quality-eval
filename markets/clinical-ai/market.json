@@ -1,0 +1,29 @@
+{
+ "category": "AI clinical documentation bought by health systems for physicians and nurses",
+ "segments": [
+  {
+   "id": "seg:system",
+   "name": "Large health systems",
+   "filters": "300+ systems, CMIO and IT own the rollout"
+  },
+  {
+   "id": "seg:specialty",
+   "name": "Specialty practices",
+   "filters": "40+ specialties, smaller groups"
+  },
+  {
+   "id": "seg:nursing",
+   "name": "Nursing organisations",
+   "filters": "inpatient nursing documentation"
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.abridge.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Segments named on the company's own site."
+  }
+ ]
+}

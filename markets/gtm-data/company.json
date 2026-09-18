@@ -1,0 +1,54 @@
+{
+ "company": {
+  "name": "Clay",
+  "website": "https://www.clay.com",
+  "one_line": "GTM data and agent platform: waterfall enrichment, signals and AI research agents for go-to-market teams."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Clay",
+   "features": [
+    {
+     "id": "feat:audiences",
+     "name": "Audiences",
+     "does": "Centralised source of target accounts and people."
+    },
+    {
+     "id": "feat:waterfall",
+     "name": "Waterfall enrichment",
+     "does": "Runs 200+ data providers in cost order."
+    },
+    {
+     "id": "feat:claygents",
+     "name": "Claygents",
+     "does": "AI research agents on each row."
+    },
+    {
+     "id": "feat:signals",
+     "name": "Signals and intent",
+     "does": "Tracks buying signals."
+    },
+    {
+     "id": "feat:workflows",
+     "name": "Workflows and functions",
+     "does": "Orchestration and formatting."
+    },
+    {
+     "id": "feat:sequencer",
+     "name": "Sequencer and ads",
+     "does": "Sends messages and syncs ad audiences."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.clay.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Clay's own site: product names and segments."
+  }
+ ]
+}

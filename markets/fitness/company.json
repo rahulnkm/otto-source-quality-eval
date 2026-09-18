@@ -1,0 +1,49 @@
+{
+ "company": {
+  "name": "Strava",
+  "website": "https://www.strava.com",
+  "one_line": "Activity tracking and a social network for runners, cyclists and other athletes, free with a paid subscription tier."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Strava",
+   "features": [
+    {
+     "id": "feat:track",
+     "name": "Track and analyze",
+     "does": "Records activities with pace, distance and performance metrics."
+    },
+    {
+     "id": "feat:social",
+     "name": "Share and connect",
+     "does": "Feed, followers and kudos."
+    },
+    {
+     "id": "feat:explore",
+     "name": "Explore and compete",
+     "does": "Segments, routes, clubs and challenges."
+    },
+    {
+     "id": "feat:beacon",
+     "name": "Beacon",
+     "does": "Live location sharing for safety, subscribers only."
+    },
+    {
+     "id": "feat:plans",
+     "name": "Training plans",
+     "does": "Subscriber training and route planning."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.strava.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Strava's own site: product names and segments."
+  }
+ ]
+}

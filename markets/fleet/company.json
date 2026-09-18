@@ -1,0 +1,49 @@
+{
+ "company": {
+  "name": "Samsara",
+  "website": "https://www.samsara.com",
+  "one_line": "Connected operations platform: dash cams, fleet telematics, equipment and workforce management for physical operations."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Samsara",
+   "features": [
+    {
+     "id": "feat:cameras",
+     "name": "Cameras and video",
+     "does": "AI dash cams and site security."
+    },
+    {
+     "id": "feat:telematics",
+     "name": "Fleet telematics",
+     "does": "GPS tracking, routing and fuel."
+    },
+    {
+     "id": "feat:equipment",
+     "name": "Equipment management",
+     "does": "Trailer and asset tracking."
+    },
+    {
+     "id": "feat:workforce",
+     "name": "Workforce management",
+     "does": "Driver app, coaching and training."
+    },
+    {
+     "id": "feat:platform",
+     "name": "Platform",
+     "does": "Workflows, reporting and AI analytics."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.samsara.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Samsara's own site: product names and segments."
+  }
+ ]
+}

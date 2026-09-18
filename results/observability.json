@@ -1,0 +1,549 @@
+{
+ "market": "observability",
+ "scoredAt": "2026-09-18T02:43:39.904Z",
+ "arms": [
+  {
+   "arm": "base",
+   "file": "base-2026-09-18T02-23-36-751Z.json",
+   "accepted": true,
+   "costUsd": 3.495922000000001,
+   "rounds": 1,
+   "pains": 10,
+   "sources": 22,
+   "domains": 2,
+   "cited": 21,
+   "unverifiable": 0,
+   "faultySources": 2,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 2,
+    "sells_as_buyer": 1,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 30,
+    "onPage": 30,
+    "wordForWord": 27,
+    "notOnPage": 0,
+    "unverifiable": 0,
+    "notInRecord": 5
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://grafana.com",
+     "host": "grafana.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=20783096",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://news.ycombinator.com/item?id=35865745",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=46631061",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=38093281",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=45438010",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=25434387",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=41654011",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=32165415",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=48091591",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=48120391",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=48090579",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=48121224",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=40683695",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=44346010",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=42255013",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=37828173",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:18",
+     "url": "https://news.ycombinator.com/item?id=49214950",
+     "host": "news.ycombinator.com",
+     "speaker": "founder",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:19",
+     "url": "https://grafana.com/press/2026/03/18/grafana-labs-4th-annual-observability-survey-reveals-a-field-at-a-crossroads-ai-economics-complexity-and-the-enduring-power-of-open-source/",
+     "host": "grafana.com",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:20",
+     "url": "https://news.ycombinator.com/item?id=46895383",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:21",
+     "url": "https://news.ycombinator.com/item?id=48120258",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:22",
+     "url": "https://news.ycombinator.com/item?id=43835949",
+     "host": "news.ycombinator.com",
+     "speaker": "founder",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    }
+   ],
+   "badQuotes": [],
+   "gray": []
+  },
+  {
+   "arm": "otto",
+   "file": "otto-2026-09-18T02-32-15-189Z.json",
+   "accepted": true,
+   "costUsd": 4.815160499999999,
+   "rounds": 2,
+   "pains": 5,
+   "sources": 24,
+   "domains": 7,
+   "cited": 21,
+   "unverifiable": 0,
+   "faultySources": 5,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 5,
+    "sells_as_buyer": 0,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 28,
+    "onPage": 28,
+    "wordForWord": 28,
+    "notOnPage": 0,
+    "unverifiable": 0,
+    "notInRecord": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://news.ycombinator.com/item?id=38093281",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=45438010",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-ba2nz3vsyg46a?page=41",
+     "host": "aws.amazon.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=45529822",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=35073050",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=32174459",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=32175621",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=41654011",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=40937269",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=36495756",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://henrikgerdes.me/blog/2025-11-grafana-mess/",
+     "host": "henrikgerdes.me",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=44326664",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=30183011",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=12372423",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=24128852",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=36923243",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.networkworld.com/article/4067370/tool-sprawl-hampers-enterprise-observability-efforts.html",
+     "host": "networkworld.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:18",
+     "url": "https://grafana.com/observability-survey/2025/",
+     "host": "grafana.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.apmdigest.com/observability-costs-rising-faster-value",
+     "host": "apmdigest.com",
+     "speaker": "press",
+     "verdict": "sells",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:20",
+     "url": "https://logz.io/blog/optimize-observability-spending-recap/",
+     "host": "logz.io",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:21",
+     "url": "https://news.ycombinator.com/item?id=45963212",
+     "host": "news.ycombinator.com",
+     "speaker": "seller",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:22",
+     "url": "https://news.ycombinator.com/item?id=45937214",
+     "host": "news.ycombinator.com",
+     "speaker": "vendor",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    },
+    {
+     "id": "src:23",
+     "url": "https://news.ycombinator.com/item?id=41207181",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:24",
+     "url": "https://news.ycombinator.com/item?id=39914918",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 429
+    }
+   ],
+   "badQuotes": [],
+   "gray": [
+    {
+     "id": "src:3",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-ba2nz3vsyg46a?page=41",
+     "host": "aws.amazon.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (observability, logs) with no sales call to action"
+    },
+    {
+     "id": "src:11",
+     "url": "https://henrikgerdes.me/blog/2025-11-grafana-mess/",
+     "host": "henrikgerdes.me",
+     "speaker": "practitioner",
+     "reason": "talks about this market (observability, monitoring, kubernetes) with no sales call to action"
+    }
+   ]
+  }
+ ],
+ "domains": [
+  {
+   "host": "grafana.com",
+   "verdict": "sells",
+   "why": "the company being researched"
+  },
+  {
+   "host": "news.ycombinator.com",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
+  },
+  {
+   "host": "aws.amazon.com",
+   "verdict": "unknown",
+   "why": "talks about this market (observability, logs) with no sales call to action"
+  },
+  {
+   "host": "henrikgerdes.me",
+   "verdict": "unknown",
+   "why": "talks about this market (observability, monitoring, kubernetes) with no sales call to action"
+  },
+  {
+   "host": "networkworld.com",
+   "verdict": "unknown",
+   "why": "talks about this market (observability, monitoring, logs) with no sales call to action"
+  },
+  {
+   "host": "apmdigest.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (observability, monitoring, logs)"
+  },
+  {
+   "host": "logz.io",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (observability, monitoring, metrics)"
+  }
+ ]
+}

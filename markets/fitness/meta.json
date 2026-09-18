@@ -1,0 +1,16 @@
+{
+ "slug": "fitness",
+ "question": "The company is Strava, Activity tracking and a social network for runners, cyclists and other athletes, free with a paid subscription tier. Map the pains of the people who would buy and use it: the athletes who record every activity, the ones deciding whether the subscription is worth it, and the club organisers who run group challenges. Work from what those people say in public in their own words.",
+ "seller_domain": "strava.com",
+ "market_keywords": [
+  "running",
+  "cycling",
+  "athlete",
+  "training",
+  "gps",
+  "segments",
+  "kudos",
+  "workout",
+  "subscription"
+ ]
+}

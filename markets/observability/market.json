@@ -1,0 +1,11 @@
+{
+  "category": "Observability and monitoring software bought by engineering and platform teams",
+  "segments": [
+    { "id": "seg:platform", "name": "Platform and SRE teams", "filters": "owns the cluster and the on-call rota, 50+ engineers" },
+    { "id": "seg:startup", "name": "Small engineering teams", "filters": "under 50 engineers, no dedicated platform team" },
+    { "id": "seg:enterprise", "name": "Enterprise engineering orgs", "filters": "Fortune 500, procurement and compliance in the loop" }
+  ],
+  "sources": [
+    { "id": "src:1", "url": "https://grafana.com", "speaker": "seller", "pulled": "2026-09-17", "note": "Customer range named on Grafana's own site (startups to Fortune 500)." }
+  ]
+}

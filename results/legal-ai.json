@@ -1,0 +1,501 @@
+{
+ "market": "legal-ai",
+ "scoredAt": "2026-09-18T02:31:16.483Z",
+ "arms": [
+  {
+   "arm": "base",
+   "file": "base-2026-09-18T01-30-40-056Z.json",
+   "accepted": true,
+   "costUsd": 4.072073,
+   "rounds": 1,
+   "pains": 10,
+   "sources": 8,
+   "domains": 8,
+   "cited": 8,
+   "unverifiable": 0,
+   "faultySources": 1,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 1,
+    "sells_as_buyer": 1,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 24,
+    "onPage": 24,
+    "wordForWord": 22,
+    "notOnPage": 0,
+    "unverifiable": 0,
+    "notInRecord": 15
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://www.understandingai.org/p/ai-is-just-starting-to-change-the",
+     "host": "understandingai.org",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.lexisnexis.co.uk/blog/in-house/regulatory-compliance-the-top-challenge-for-in-house-counsel-in-2025",
+     "host": "lexisnexis.co.uk",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.artificiallawyer.com/2026/02/12/we-get-nothing-from-law-firm-ai-use-client/",
+     "host": "artificiallawyer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://caselaw.findlaw.com/court/us-dis-crt-sd-new-yor/2335142.html",
+     "host": "caselaw.findlaw.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.fulkersonadvisors.com/research/ai-in-outside-counsel-guidelines",
+     "host": "fulkersonadvisors.com",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://abovethelaw.com/2026/08/law-firms-are-buying-ai-but-are-they-really-using-it/",
+     "host": "abovethelaw.com",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://juro.com/general-counsel/state-of-in-house-2025",
+     "host": "juro.com",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:8",
+     "url": "https://dysfunctionchronicles.substack.com/p/the-hell-of-document-review",
+     "host": "dysfunctionchronicles.substack.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    }
+   ],
+   "badQuotes": [],
+   "gray": [
+    {
+     "id": "src:2",
+     "url": "https://www.lexisnexis.co.uk/blog/in-house/regulatory-compliance-the-top-challenge-for-in-house-counsel-in-2025",
+     "host": "lexisnexis.co.uk",
+     "speaker": "practitioner",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.artificiallawyer.com/2026/02/12/we-get-nothing-from-law-firm-ai-use-client/",
+     "host": "artificiallawyer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://caselaw.findlaw.com/court/us-dis-crt-sd-new-yor/2335142.html",
+     "host": "caselaw.findlaw.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.fulkersonadvisors.com/research/ai-in-outside-counsel-guidelines",
+     "host": "fulkersonadvisors.com",
+     "speaker": "analyst",
+     "reason": "talks about this market (legal, law firm, counsel) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://abovethelaw.com/2026/08/law-firms-are-buying-ai-but-are-they-really-using-it/",
+     "host": "abovethelaw.com",
+     "speaker": "analyst",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    }
+   ]
+  },
+  {
+   "arm": "otto",
+   "file": "otto-2026-09-18T01-44-20-019Z.json",
+   "accepted": true,
+   "costUsd": 6.3588059999999995,
+   "rounds": 1,
+   "pains": 6,
+   "sources": 17,
+   "domains": 6,
+   "cited": 15,
+   "unverifiable": 0,
+   "faultySources": 4,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 4,
+    "sells_as_buyer": 0,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 18,
+    "onPage": 18,
+    "wordForWord": 12,
+    "notOnPage": 0,
+    "unverifiable": 0,
+    "notInRecord": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://abovethelaw.com/2025/09/midlevel-biglaw-associates-cant-believe-how-terrible-the-technology-is-at-their-firms/",
+     "host": "abovethelaw.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.propertyinsurancecoveragelaw.com/blog/ai-legal-profession-human-judgment-verification/",
+     "host": "propertyinsurancecoveragelaw.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.lawnext.com/2026/09/which-ai-product-is-most-popular-among-law-firms-findings-of-iltas-tech-survey-may-surprise-you.html",
+     "host": "lawnext.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://abovethelaw.com/2026/08/law-firms-are-buying-ai-but-are-they-really-using-it/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.damiencharlotin.com/hallucinations/",
+     "host": "damiencharlotin.com",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://www.lawnext.com/2026/03/ai-adoption-among-legal-professionals-has-more-than-doubled-in-a-year-new-8am-report-finds-but-firms-lag-far-behind-individual-practitioners.html",
+     "host": "lawnext.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://abovethelaw.com/2026/08/lawyers-want-to-figure-out-ai-but-many-struggle-to-know-where-to-start/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:8",
+     "url": "https://abovethelaw.com/2026/06/biglaw-chair-gets-real-with-how-ai-is-changing-the-role-of-associate/",
+     "host": "abovethelaw.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:9",
+     "url": "https://abovethelaw.com/2026/08/new-survey-says-lawyers-are-just-as-miserable-as-everyone-else/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://abovethelaw.com/2026/04/elite-biglaw-firm-learns-the-real-cost-of-ai-hallucinations-the-firms-reputation/",
+     "host": "abovethelaw.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://inhouseconnect.org/resource-center/news/what-slows-down-contracting-usually-has-nothing-to-do-with-contract-review-2/",
+     "host": "inhouseconnect.org",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://inhouseconnect.org/resource-center/news/legal-teams-keep-buying-tools-before-they-understand-the-process-they-are-fixing/",
+     "host": "inhouseconnect.org",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.artificiallawyer.com/2026/09/16/31-of-law-firms-say-ai-improves-profitability/",
+     "host": "artificiallawyer.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:14",
+     "url": "https://www.artificiallawyer.com/2026/09/15/lawyers-are-burning-out-can-ai-help/",
+     "host": "artificiallawyer.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:15",
+     "url": "https://abovethelaw.com/2026/08/the-ai-user-experience-is-more-important-than-ever/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:16",
+     "url": "https://inhouseconnect.org/resource-center/news/in-house-lawyers-spend-a-fifth-of-their-time-fighting-microsoft-word-and-nobody-taught-them-not-to/",
+     "host": "inhouseconnect.org",
+     "speaker": "vendor",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:17",
+     "url": "https://inhouseconnect.org/resource-center/news/legal-departments-dont-have-a-workload-problem-they-have-a-design-problem-2/",
+     "host": "inhouseconnect.org",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    }
+   ],
+   "badQuotes": [],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://abovethelaw.com/2025/09/midlevel-biglaw-associates-cant-believe-how-terrible-the-technology-is-at-their-firms/",
+     "host": "abovethelaw.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.propertyinsurancecoveragelaw.com/blog/ai-legal-profession-human-judgment-verification/",
+     "host": "propertyinsurancecoveragelaw.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (law firm, contract, litigation) with no sales call to action"
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.lawnext.com/2026/09/which-ai-product-is-most-popular-among-law-firms-findings-of-iltas-tech-survey-may-surprise-you.html",
+     "host": "lawnext.com",
+     "speaker": "press",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://abovethelaw.com/2026/08/law-firms-are-buying-ai-but-are-they-really-using-it/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.damiencharlotin.com/hallucinations/",
+     "host": "damiencharlotin.com",
+     "speaker": "analyst",
+     "reason": "front page unreadable (400)"
+    },
+    {
+     "id": "src:7",
+     "url": "https://abovethelaw.com/2026/08/lawyers-want-to-figure-out-ai-but-many-struggle-to-know-where-to-start/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
+    },
+    {
+     "id": "src:8",
+     "url": "https://abovethelaw.com/2026/06/biglaw-chair-gets-real-with-how-ai-is-changing-the-role-of-associate/",
+     "host": "abovethelaw.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://abovethelaw.com/2026/08/new-survey-says-lawyers-are-just-as-miserable-as-everyone-else/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
+    },
+    {
+     "id": "src:10",
+     "url": "https://abovethelaw.com/2026/04/elite-biglaw-firm-learns-the-real-cost-of-ai-hallucinations-the-firms-reputation/",
+     "host": "abovethelaw.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:11",
+     "url": "https://inhouseconnect.org/resource-center/news/what-slows-down-contracting-usually-has-nothing-to-do-with-contract-review-2/",
+     "host": "inhouseconnect.org",
+     "speaker": "practitioner",
+     "reason": "talks about this market (legal, contract, counsel) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://inhouseconnect.org/resource-center/news/legal-teams-keep-buying-tools-before-they-understand-the-process-they-are-fixing/",
+     "host": "inhouseconnect.org",
+     "speaker": "practitioner",
+     "reason": "talks about this market (legal, contract, counsel) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.artificiallawyer.com/2026/09/16/31-of-law-firms-say-ai-improves-profitability/",
+     "host": "artificiallawyer.com",
+     "speaker": "press",
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+    },
+    {
+     "id": "src:15",
+     "url": "https://abovethelaw.com/2026/08/the-ai-user-experience-is-more-important-than-ever/",
+     "host": "abovethelaw.com",
+     "speaker": "press",
+     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
+    },
+    {
+     "id": "src:17",
+     "url": "https://inhouseconnect.org/resource-center/news/legal-departments-dont-have-a-workload-problem-they-have-a-design-problem-2/",
+     "host": "inhouseconnect.org",
+     "speaker": "practitioner",
+     "reason": "talks about this market (legal, contract, counsel) with no sales call to action"
+    }
+   ]
+  }
+ ],
+ "domains": [
+  {
+   "host": "understandingai.org",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
+  },
+  {
+   "host": "lexisnexis.co.uk",
+   "verdict": "unknown",
+   "why": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+  },
+  {
+   "host": "artificiallawyer.com",
+   "verdict": "unknown",
+   "why": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+  },
+  {
+   "host": "caselaw.findlaw.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "fulkersonadvisors.com",
+   "verdict": "unknown",
+   "why": "talks about this market (legal, law firm, counsel) with no sales call to action"
+  },
+  {
+   "host": "abovethelaw.com",
+   "verdict": "unknown",
+   "why": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+  },
+  {
+   "host": "juro.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (legal, lawyer, contract)"
+  },
+  {
+   "host": "dysfunctionchronicles.substack.com",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
+  },
+  {
+   "host": "propertyinsurancecoveragelaw.com",
+   "verdict": "unknown",
+   "why": "talks about this market (law firm, contract, litigation) with no sales call to action"
+  },
+  {
+   "host": "lawnext.com",
+   "verdict": "unknown",
+   "why": "talks about this market (legal, law firm, lawyer) with no sales call to action"
+  },
+  {
+   "host": "damiencharlotin.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (400)"
+  },
+  {
+   "host": "inhouseconnect.org",
+   "verdict": "unknown",
+   "why": "talks about this market (legal, contract, counsel) with no sales call to action"
+  }
+ ]
+}

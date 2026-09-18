@@ -1,0 +1,49 @@
+{
+ "company": {
+  "name": "Abridge",
+  "website": "https://www.abridge.com",
+  "one_line": "AI clinical documentation from the patient conversation, used in 300+ health systems."
+ },
+ "products": [
+  {
+   "id": "prod:main",
+   "name": "Abridge",
+   "features": [
+    {
+     "id": "feat:clinician",
+     "name": "Clinician documentation",
+     "does": "Turns the visit conversation into a draft note."
+    },
+    {
+     "id": "feat:rcm",
+     "name": "Revenue cycle",
+     "does": "Billable documentation from the start."
+    },
+    {
+     "id": "feat:nursing",
+     "name": "Nursing",
+     "does": "Draft documentation from natural conversation."
+    },
+    {
+     "id": "feat:cds",
+     "name": "Clinical decision support",
+     "does": "Surfaces guidance during care."
+    },
+    {
+     "id": "feat:signals",
+     "name": "Care Signals",
+     "does": "Flags follow-up from the conversation."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "src:1",
+   "url": "https://www.abridge.com",
+   "speaker": "seller",
+   "pulled": "2026-09-17",
+   "note": "Abridge's own site: product names and segments."
+  }
+ ]
+}
