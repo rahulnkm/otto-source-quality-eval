@@ -1,0 +1,31 @@
+arm,source,host,speaker,why_unclear,url
+base,src:1,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/strava.com
+base,src:2,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/strava.com?page=2
+base,src:3,forum.slowtwitch.com,buyer,"talks about this market (running, cycling) with no sales call to action",https://forum.slowtwitch.com/t/strava-subscription/827636
+base,src:4,bikehub.co.za,buyer,"talks about this market (running, cycling, training) with no sales call to action",https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/
+base,src:5,singletrackworld.com,buyer,"front page unreadable (403)",https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/
+base,src:6,road.cc,customer,"talks about this market (cycling, athlete, training) with no sales call to action",https://road.cc/content/news/strava-year-sport-now-only-subscribers-317425
+base,src:7,the5krunner.com,practitioner,"front page unreadable (403)",https://the5krunner.com/2020/05/18/strava-turn-off-key-features-welcome-to-the-paywall/
+base,src:8,dcrainmaker.com,practitioner,"talks about this market (running, cycling, training) with no sales call to action",https://www.dcrainmaker.com/2024/11/stravas-changes-to-kill-off-apps.html
+base,src:9,living360.uk,buyer,"talks about this market (workout) with no sales call to action",https://living360.uk/strava-run-tiktok-overtraining-burnout/
+base,src:10,singletrackworld.com,operator,"front page unreadable (403)",https://singletrackworld.com/forum/topic/club-mileage-tracker
+base,src:11,github.com,operator,"talks about this market (running) with no sales call to action",https://github.com/picasticks/StravaClubTracker
+base,src:12,github.com,operator,"talks about this market (running) with no sales call to action",https://github.com/roboes/strava-club-scraper
+base,src:13,road.cc,buyer,"talks about this market (cycling, athlete, training) with no sales call to action",https://road.cc/content/news/strava-koms-are-being-hijacked-112mph-motorbikers-296049
+base,src:14,singletrackworld.com,buyer,"front page unreadable (403)",https://singletrackworld.com/forum/off-topic/strava-accuracy-via-gps-any-way-of-making-it-better/
+base,src:15,road.cc,buyer,"talks about this market (cycling, athlete, training) with no sales call to action",https://road.cc/content/news/230829-strava-makes-activity-feed-non-chronological-and-launches-blog-posts-all-users
+base,src:16,news.ncsu.edu,analyst,"talks about this market (training) with no sales call to action",https://news.ncsu.edu/2023/06/fitness-app-privacy-loophole/
+base,src:17,mikecldi.substack.com,buyer,"talks about this market (running) with no sales call to action",https://mikecldi.substack.com/p/eight-things-i-wish-strava-developed
+base,src:18,the5krunner.com,practitioner,"front page unreadable (403)",https://the5krunner.com/2026/07/29/ride-with-gps-waivers-vs-strava-per-event-waivers-and-emergency-contacts/
+base,src:19,marathonhandbook.com,customer,"front page unreadable (403)",https://marathonhandbook.com/quitting-strava/
+otto,src:1,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/strava.com
+otto,src:2,singletrackworld.com,practitioner,"front page unreadable (403)",https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/
+otto,src:3,forum.slowtwitch.com,practitioner,"talks about this market (running, cycling) with no sales call to action",https://forum.slowtwitch.com/t/strava-flagging/824787
+otto,src:5,forum.slowtwitch.com,buyer,"talks about this market (running, cycling) with no sales call to action",https://forum.slowtwitch.com/t/strava-subscription/827636
+otto,src:6,singletrackworld.com,buyer,"front page unreadable (403)",https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing/
+otto,src:7,singletrackworld.com,practitioner,"front page unreadable (403)",https://singletrackworld.com/forum/bike-forum/my-strava-is-being-a-dkhelp/
+otto,src:8,singletrackworld.com,practitioner,"front page unreadable (403)",https://singletrackworld.com/forum/topic/club-mileage-tracker
+otto,src:9,github.com,practitioner,"talks about this market (running) with no sales call to action",https://github.com/picasticks/StravaClubTracker
+otto,src:10,singletrackworld.com,practitioner,"front page unreadable (403)",https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/
+otto,src:11,road.cc,press,"talks about this market (cycling, athlete, training) with no sales call to action",https://road.cc/content/news/strava-apologises-price-hike-controversy-298843
+otto,src:12,dcrainmaker.com,press,"talks about this market (running, cycling, training) with no sales call to action",https://www.dcrainmaker.com/2023/01/strava-raises-prices-doubling.html

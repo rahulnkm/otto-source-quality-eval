@@ -1,0 +1,34 @@
+arm,source,host,speaker,why_unclear,url
+base,src:1,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io
+base,src:2,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io
+base,src:3,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io
+base,src:4,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io
+base,src:5,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io
+base,src:6,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:7,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:8,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:9,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:10,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:11,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?page=4
+base,src:12,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?page=4
+base,src:13,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews/
+base,src:14,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews?page=3
+base,src:15,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews/
+base,src:16,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating
+base,src:17,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews?page=3
+base,src:18,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating
+base,src:29,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:30,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:32,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io?stars=1&stars=2
+base,src:34,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating
+base,src:35,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating
+otto,src:1,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/zoominfo.com
+otto,src:2,aws.amazon.com,buyer,"talks about this market (email, data) with no sales call to action",https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu
+otto,src:3,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/apollo.io
+otto,src:4,getapp.com,buyer,"front page unreadable (403)",https://www.getapp.com/marketing-software/a/apollo-io/reviews/
+otto,src:5,getapp.com,practitioner,"front page unreadable (403)",https://www.getapp.com/marketing-software/a/zoominfo/reviews/
+otto,src:6,getapp.com,practitioner,"front page unreadable (403)",https://www.getapp.com/it-management-software/a/zoominfo-operationsos/reviews/
+otto,src:7,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/seamless.ai
+otto,src:8,chromewebstore.google.com,practitioner,"talks about this market (sales, email, crm) with no sales call to action",https://chromewebstore.google.com/detail/apollo-free-b2b-phone-num/alhgpfoeiimagjlnfekdhkjlkiomcapa/reviews
+otto,src:9,getapp.com,practitioner,"front page unreadable (403)",https://www.getapp.com/sales-software/a/salesloft/reviews/
+otto,src:10,getapp.com,practitioner,"front page unreadable (403)",https://www.getapp.com/sales-software/a/phoneburner/reviews/

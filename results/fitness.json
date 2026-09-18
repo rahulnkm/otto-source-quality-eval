@@ -1,0 +1,948 @@
+{
+ "market": "fitness",
+ "scoredAt": "2026-09-18T18:52:21.521Z",
+ "arms": [
+  {
+   "arm": "base",
+   "file": "base-2026-09-18T03-27-19-660Z.json",
+   "accepted": true,
+   "costUsd": 4.173029999999999,
+   "rounds": 1,
+   "pains": 11,
+   "sources": 20,
+   "domains": 13,
+   "cited": 20,
+   "unverifiable": 4,
+   "faultySources": 4,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 3,
+    "sells_as_buyer": 1,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 41,
+    "onPage": 27,
+    "wordForWord": 22,
+    "notOnPage": 6,
+    "unverifiable": 8,
+    "notInRecord": 23
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://www.trustpilot.com/review/strava.com",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.trustpilot.com/review/strava.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 403
+    },
+    {
+     "id": "src:3",
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "host": "forum.slowtwitch.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/",
+     "host": "bikehub.co.za",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:5",
+     "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/",
+     "host": "singletrackworld.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:6",
+     "url": "https://road.cc/content/news/strava-year-sport-now-only-subscribers-317425",
+     "host": "road.cc",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://the5krunner.com/2020/05/18/strava-turn-off-key-features-welcome-to-the-paywall/",
+     "host": "the5krunner.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.dcrainmaker.com/2024/11/stravas-changes-to-kill-off-apps.html",
+     "host": "dcrainmaker.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:9",
+     "url": "https://living360.uk/strava-run-tiktok-overtraining-burnout/",
+     "host": "living360.uk",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "host": "singletrackworld.com",
+     "speaker": "operator",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:11",
+     "url": "https://github.com/picasticks/StravaClubTracker",
+     "host": "github.com",
+     "speaker": "operator",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://github.com/roboes/strava-club-scraper",
+     "host": "github.com",
+     "speaker": "operator",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://road.cc/content/news/strava-koms-are-being-hijacked-112mph-motorbikers-296049",
+     "host": "road.cc",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:14",
+     "url": "https://singletrackworld.com/forum/off-topic/strava-accuracy-via-gps-any-way-of-making-it-better/",
+     "host": "singletrackworld.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:15",
+     "url": "https://road.cc/content/news/230829-strava-makes-activity-feed-non-chronological-and-launches-blog-posts-all-users",
+     "host": "road.cc",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ncsu.edu/2023/06/fitness-app-privacy-loophole/",
+     "host": "news.ncsu.edu",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:17",
+     "url": "https://mikecldi.substack.com/p/eight-things-i-wish-strava-developed",
+     "host": "mikecldi.substack.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:18",
+     "url": "https://the5krunner.com/2026/07/29/ride-with-gps-waivers-vs-strava-per-event-waivers-and-emergency-contacts/",
+     "host": "the5krunner.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:19",
+     "url": "https://marathonhandbook.com/quitting-strava/",
+     "host": "marathonhandbook.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:20",
+     "url": "https://stories.strava.com/articles/keeping-stravas-segment-leaderboards-fair-an-engineers-perspective",
+     "host": "stories.strava.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
+    }
+   ],
+   "badQuotes": [
+    {
+     "quote": "mines going from £3.99 to £8.99, only a 125% increase!",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "it's been a nudge to get me to downgrade to the free version",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "I found very little of use and nothing of 'must have' in the full version.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "Strava is purely social for me. I refuse to pay for social…",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "I've only found the subscription of value when I've traveled to unknown places & used their heat maps.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "Both of the sets of features I just do not need currently...And Strava premium is only useful if you care about the segments.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "Mrs Dubs did one of these, people logged on Strava and she manually transferred into a spreadsheet giving Kudos when she'd logged it.",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Yes - just trying to find something less manual. But that methodology seems as sound as anything",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Strava's waiver system does not collect emergency contacts.",
+     "cites": [
+      "src:18"
+     ],
+     "url": "https://the5krunner.com/2026/07/29/ride-with-gps-waivers-vs-strava-per-event-waivers-and-emergency-contacts/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Strava's waiver system does not collect emergency contacts.",
+     "cites": [
+      "src:18"
+     ],
+     "url": "https://the5krunner.com/2026/07/29/ride-with-gps-waivers-vs-strava-per-event-waivers-and-emergency-contacts/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Strava premium nearly killed my love of cycling...I found myself chasing segments and stuff that I could never beat.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "I doubt it, used to have the same with an iPhone which is why I bought a Garmin",
+     "cites": [
+      "src:14"
+     ],
+     "url": "https://singletrackworld.com/forum/off-topic/strava-accuracy-via-gps-any-way-of-making-it-better/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Another issue is a lot of segments on Strava are poorly set up",
+     "cites": [
+      "src:14"
+     ],
+     "url": "https://singletrackworld.com/forum/off-topic/strava-accuracy-via-gps-any-way-of-making-it-better/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "I contacted Strava Support and logged several cases...but they haven't responded for weeks.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://www.trustpilot.com/review/strava.com?page=2",
+     "why": "words are not on the cited page"
+    }
+   ],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://www.trustpilot.com/review/strava.com",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.trustpilot.com/review/strava.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:3",
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "host": "forum.slowtwitch.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (running, cycling) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/",
+     "host": "bikehub.co.za",
+     "speaker": "buyer",
+     "reason": "talks about this market (running, cycling, training) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/",
+     "host": "singletrackworld.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:6",
+     "url": "https://road.cc/content/news/strava-year-sport-now-only-subscribers-317425",
+     "host": "road.cc",
+     "speaker": "customer",
+     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
+    },
+    {
+     "id": "src:7",
+     "url": "https://the5krunner.com/2020/05/18/strava-turn-off-key-features-welcome-to-the-paywall/",
+     "host": "the5krunner.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.dcrainmaker.com/2024/11/stravas-changes-to-kill-off-apps.html",
+     "host": "dcrainmaker.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (running, cycling, training) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://living360.uk/strava-run-tiktok-overtraining-burnout/",
+     "host": "living360.uk",
+     "speaker": "buyer",
+     "reason": "talks about this market (workout) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "host": "singletrackworld.com",
+     "speaker": "operator",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:11",
+     "url": "https://github.com/picasticks/StravaClubTracker",
+     "host": "github.com",
+     "speaker": "operator",
+     "reason": "talks about this market (running) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://github.com/roboes/strava-club-scraper",
+     "host": "github.com",
+     "speaker": "operator",
+     "reason": "talks about this market (running) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://road.cc/content/news/strava-koms-are-being-hijacked-112mph-motorbikers-296049",
+     "host": "road.cc",
+     "speaker": "buyer",
+     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
+    },
+    {
+     "id": "src:14",
+     "url": "https://singletrackworld.com/forum/off-topic/strava-accuracy-via-gps-any-way-of-making-it-better/",
+     "host": "singletrackworld.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:15",
+     "url": "https://road.cc/content/news/230829-strava-makes-activity-feed-non-chronological-and-launches-blog-posts-all-users",
+     "host": "road.cc",
+     "speaker": "buyer",
+     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ncsu.edu/2023/06/fitness-app-privacy-loophole/",
+     "host": "news.ncsu.edu",
+     "speaker": "analyst",
+     "reason": "talks about this market (training) with no sales call to action"
+    },
+    {
+     "id": "src:17",
+     "url": "https://mikecldi.substack.com/p/eight-things-i-wish-strava-developed",
+     "host": "mikecldi.substack.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (running) with no sales call to action"
+    },
+    {
+     "id": "src:18",
+     "url": "https://the5krunner.com/2026/07/29/ride-with-gps-waivers-vs-strava-per-event-waivers-and-emergency-contacts/",
+     "host": "the5krunner.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:19",
+     "url": "https://marathonhandbook.com/quitting-strava/",
+     "host": "marathonhandbook.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    }
+   ]
+  },
+  {
+   "arm": "otto",
+   "file": "otto-2026-09-18T03-30-48-849Z.json",
+   "accepted": true,
+   "costUsd": 3.6580939999999997,
+   "rounds": 1,
+   "pains": 7,
+   "sources": 13,
+   "domains": 8,
+   "cited": 12,
+   "unverifiable": 6,
+   "faultySources": 2,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 2,
+    "sells_as_buyer": 0,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 35,
+    "onPage": 14,
+    "wordForWord": 14,
+    "notOnPage": 5,
+    "unverifiable": 16,
+    "notInRecord": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://www.trustpilot.com/review/strava.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:2",
+     "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:3",
+     "url": "https://forum.slowtwitch.com/t/strava-flagging/824787",
+     "host": "forum.slowtwitch.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://www.mtbr.com/threads/should-i-report-to-strava-that-the-new-kom-is-probably-taken-by-an-ebiker.1044773/",
+     "host": "mtbr.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 202
+    },
+    {
+     "id": "src:5",
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "host": "forum.slowtwitch.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing/",
+     "host": "singletrackworld.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:7",
+     "url": "https://singletrackworld.com/forum/bike-forum/my-strava-is-being-a-dkhelp/",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:8",
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:9",
+     "url": "https://github.com/picasticks/StravaClubTracker",
+     "host": "github.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:11",
+     "url": "https://road.cc/content/news/strava-apologises-price-hike-controversy-298843",
+     "host": "road.cc",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.dcrainmaker.com/2023/01/strava-raises-prices-doubling.html",
+     "host": "dcrainmaker.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://blog.veloviewer.com/spotting-and-resolving-flagged-strava-activities-using-veloviewer/",
+     "host": "blog.veloviewer.com",
+     "speaker": "vendor",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    }
+   ],
+   "badQuotes": [
+    {
+     "quote": "getting really annoyed now as my strava wont record my rides properly",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/my-strava-is-being-a-dkhelp/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Nothing! It is an absolute joke, or maybe im not target audience for strava.",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "I found very little of use and nothing of 'must have' in the full version",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "I like it cuz I'm an idiot and whenever I unsubscribe I feel like I'm missing something out",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "The route creator is about the only thing that makes it worth it",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "I've set a calendar reminder to check 30 days before renewal and cancel if necessary.",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "On many of my local rides that include Templeton woods in Dundee I have been flagged for 'bad GPS data'.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Tried that a week ago with no result or acknowledgment. Is it normally a slow process?",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Strava support can be glacially slow, I think my last ticket with them took over a month.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "However, I found today that some dude just took the KOM. He posted his bike's photo on Strava and it's a eBike.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.mtbr.com/threads/should-i-report-to-strava-that-the-new-kom-is-probably-taken-by-an-ebiker.1044773/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "I think Strava is a fun way to compete with the people around me. That kind of stuff breaks the system.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://forum.slowtwitch.com/t/strava-flagging/824787",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "Report it and then message strava the need for an ebike category.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.mtbr.com/threads/should-i-report-to-strava-that-the-new-kom-is-probably-taken-by-an-ebiker.1044773/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Tried that a week ago with no result or acknowledgment. Is it normally a slow process?",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Strava support can be glacially slow, I think my last ticket with them took over a month.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Strava is a great way to build some momentum. But it only tracks group activity in time, and not distance.",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "anyone know of a better way for 70+ people to log their weekly mileage??",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "people logged on Strava and she manually transferred into a spreadsheet giving Kudos when she'd logged it.",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Does anyone else get requests from people they've never heard of to follow you on Strava? I've had 3 or 4, and so has Mr Pea. I don't get why anyone would do th",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The really odd requests come from random Australians or Americans. Either way if I don't know them I ignore them.",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Yup, one had only logged a single ride. Bit strange, but I did wonder about that.",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Don't forget to set your privacy settings for your start and finish (home or elsewhere) otherwise you may lose your bikes.",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "why": "page could not be read"
+    }
+   ],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://www.trustpilot.com/review/strava.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:2",
+     "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:3",
+     "url": "https://forum.slowtwitch.com/t/strava-flagging/824787",
+     "host": "forum.slowtwitch.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (running, cycling) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
+     "host": "forum.slowtwitch.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (running, cycling) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing/",
+     "host": "singletrackworld.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:7",
+     "url": "https://singletrackworld.com/forum/bike-forum/my-strava-is-being-a-dkhelp/",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:8",
+     "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:9",
+     "url": "https://github.com/picasticks/StravaClubTracker",
+     "host": "github.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (running) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
+     "host": "singletrackworld.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:11",
+     "url": "https://road.cc/content/news/strava-apologises-price-hike-controversy-298843",
+     "host": "road.cc",
+     "speaker": "press",
+     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.dcrainmaker.com/2023/01/strava-raises-prices-doubling.html",
+     "host": "dcrainmaker.com",
+     "speaker": "press",
+     "reason": "talks about this market (running, cycling, training) with no sales call to action"
+    }
+   ]
+  }
+ ],
+ "domains": [
+  {
+   "host": "trustpilot.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "forum.slowtwitch.com",
+   "verdict": "unknown",
+   "why": "talks about this market (running, cycling) with no sales call to action"
+  },
+  {
+   "host": "bikehub.co.za",
+   "verdict": "unknown",
+   "why": "talks about this market (running, cycling, training) with no sales call to action"
+  },
+  {
+   "host": "singletrackworld.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "road.cc",
+   "verdict": "unknown",
+   "why": "talks about this market (cycling, athlete, training) with no sales call to action"
+  },
+  {
+   "host": "the5krunner.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "dcrainmaker.com",
+   "verdict": "unknown",
+   "why": "talks about this market (running, cycling, training) with no sales call to action"
+  },
+  {
+   "host": "living360.uk",
+   "verdict": "unknown",
+   "why": "talks about this market (workout) with no sales call to action"
+  },
+  {
+   "host": "github.com",
+   "verdict": "unknown",
+   "why": "talks about this market (running) with no sales call to action"
+  },
+  {
+   "host": "news.ncsu.edu",
+   "verdict": "unknown",
+   "why": "talks about this market (training) with no sales call to action"
+  },
+  {
+   "host": "mikecldi.substack.com",
+   "verdict": "unknown",
+   "why": "talks about this market (running) with no sales call to action"
+  },
+  {
+   "host": "marathonhandbook.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "stories.strava.com",
+   "verdict": "sells",
+   "why": "the company being researched"
+  },
+  {
+   "host": "mtbr.com",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
+  },
+  {
+   "host": "blog.veloviewer.com",
+   "verdict": "unknown",
+   "why": "talks about this market (running, cycling, athlete) with no sales call to action"
+  }
+ ]
+}

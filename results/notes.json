@@ -1,0 +1,1141 @@
+{
+ "market": "notes",
+ "scoredAt": "2026-09-18T14:09:52.846Z",
+ "arms": [
+  {
+   "arm": "base",
+   "file": "base-2026-09-18T03-31-24-759Z.json",
+   "accepted": true,
+   "costUsd": 4.6343095000000005,
+   "rounds": 2,
+   "pains": 10,
+   "sources": 23,
+   "domains": 2,
+   "cited": 23,
+   "unverifiable": 0,
+   "faultySources": 2,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 2,
+    "sells_as_buyer": 1,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 35,
+    "onPage": 35,
+    "wordForWord": 35,
+    "notOnPage": 0,
+    "unverifiable": 0,
+    "notInRecord": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://news.ycombinator.com/item?id=41684106",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=41684067",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://news.ycombinator.com/item?id=41688838",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=44955664",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=41684328",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=44956529",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=41683952",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=41683860",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=30372802",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=30375930",
+     "host": "news.ycombinator.com",
+     "speaker": "operator",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=30371813",
+     "host": "news.ycombinator.com",
+     "speaker": "operator",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=35698607",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=35707297",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=32068273",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=32943637",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=41684368",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=45529863",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:18",
+     "url": "https://news.ycombinator.com/item?id=46538702",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:19",
+     "url": "https://news.ycombinator.com/item?id=46537735",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:20",
+     "url": "https://news.ycombinator.com/item?id=41702976",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:21",
+     "url": "https://slite.com/learn/enterprise-search-survey-findings",
+     "host": "slite.com",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:22",
+     "url": "https://news.ycombinator.com/item?id=27612894",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:23",
+     "url": "https://news.ycombinator.com/item?id=44955142",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    }
+   ],
+   "badQuotes": [],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://news.ycombinator.com/item?id=41684106",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=41684067",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:3",
+     "url": "https://news.ycombinator.com/item?id=41688838",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=44955664",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=41684328",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=44956529",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=41683952",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=41683860",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=30372802",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=30375930",
+     "host": "news.ycombinator.com",
+     "speaker": "operator",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=30371813",
+     "host": "news.ycombinator.com",
+     "speaker": "operator",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=35698607",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=35707297",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=32068273",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=32943637",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=41684368",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=45529863",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:18",
+     "url": "https://news.ycombinator.com/item?id=46538702",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:19",
+     "url": "https://news.ycombinator.com/item?id=46537735",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:20",
+     "url": "https://news.ycombinator.com/item?id=41702976",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:22",
+     "url": "https://news.ycombinator.com/item?id=27612894",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:23",
+     "url": "https://news.ycombinator.com/item?id=44955142",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    }
+   ]
+  },
+  {
+   "arm": "otto",
+   "file": "otto-2026-09-18T03-46-18-837Z.json",
+   "accepted": true,
+   "costUsd": 6.414164000000001,
+   "rounds": 2,
+   "pains": 8,
+   "sources": 43,
+   "domains": 2,
+   "cited": 38,
+   "unverifiable": 0,
+   "faultySources": 0,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 0,
+    "sells_as_buyer": 0,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 35,
+    "onPage": 35,
+    "wordForWord": 35,
+    "notOnPage": 0,
+    "unverifiable": 0,
+    "notInRecord": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://news.ycombinator.com/item?id=41683860",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=47761945",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://news.ycombinator.com/item?id=37278531",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=41772779",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=41688838",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=41706017",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=41622351",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=33626843",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=43383364",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=39030569",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=41372905",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=41687113",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=40000081",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=33625639",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=33625746",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=44815462",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=41687956",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:18",
+     "url": "https://news.ycombinator.com/item?id=43694965",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:19",
+     "url": "https://news.ycombinator.com/item?id=28457757",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:20",
+     "url": "https://news.ycombinator.com/item?id=41689326",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:21",
+     "url": "https://news.ycombinator.com/item?id=41685532",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:22",
+     "url": "https://news.ycombinator.com/item?id=41687586",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:23",
+     "url": "https://news.ycombinator.com/item?id=46538702",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:24",
+     "url": "https://news.ycombinator.com/item?id=46535350",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:25",
+     "url": "https://news.ycombinator.com/item?id=45527240",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:26",
+     "url": "https://news.ycombinator.com/item?id=27169183",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:27",
+     "url": "https://news.ycombinator.com/item?id=37743816",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:28",
+     "url": "https://news.ycombinator.com/item?id=41702976",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:29",
+     "url": "https://news.ycombinator.com/item?id=41687488",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:30",
+     "url": "https://news.ycombinator.com/item?id=41772736",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:31",
+     "url": "https://news.ycombinator.com/item?id=30393402",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:32",
+     "url": "https://news.ycombinator.com/item?id=47759908",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:33",
+     "url": "https://news.ycombinator.com/item?id=41692746",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:34",
+     "url": "https://www.trustpilot.com/reviews/6a26a9dd8b9c73c6b92bfde7",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:35",
+     "url": "https://www.trustpilot.com/reviews/6a01e2d3fbb831c7111cb5aa",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:36",
+     "url": "https://www.trustpilot.com/reviews/6aa306ce3b8a636e2d1861f5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:37",
+     "url": "https://www.trustpilot.com/reviews/6a2d4d8269dbd50c2e8c8c5b",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:38",
+     "url": "https://www.trustpilot.com/reviews/6a27224c659d6c49e0e14412",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:39",
+     "url": "https://www.trustpilot.com/reviews/6a2fdd1c2fc65faddba45304",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:40",
+     "url": "https://www.trustpilot.com/review/notion.so",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:41",
+     "url": "https://news.ycombinator.com/item?id=27168971",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:42",
+     "url": "https://news.ycombinator.com/item?id=37742750",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:43",
+     "url": "https://news.ycombinator.com/item?id=30163561",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    }
+   ],
+   "badQuotes": [],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://news.ycombinator.com/item?id=41683860",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=47761945",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:3",
+     "url": "https://news.ycombinator.com/item?id=37278531",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=41772779",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=41688838",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=41706017",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=41622351",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=33626843",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=43383364",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=39030569",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=41372905",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=41687113",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=40000081",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=33625639",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=33625746",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=44815462",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=41687956",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:18",
+     "url": "https://news.ycombinator.com/item?id=43694965",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:19",
+     "url": "https://news.ycombinator.com/item?id=28457757",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:20",
+     "url": "https://news.ycombinator.com/item?id=41689326",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:21",
+     "url": "https://news.ycombinator.com/item?id=41685532",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:22",
+     "url": "https://news.ycombinator.com/item?id=41687586",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:23",
+     "url": "https://news.ycombinator.com/item?id=46538702",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:24",
+     "url": "https://news.ycombinator.com/item?id=46535350",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:25",
+     "url": "https://news.ycombinator.com/item?id=45527240",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:26",
+     "url": "https://news.ycombinator.com/item?id=27169183",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:27",
+     "url": "https://news.ycombinator.com/item?id=37743816",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:28",
+     "url": "https://news.ycombinator.com/item?id=41702976",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:29",
+     "url": "https://news.ycombinator.com/item?id=41687488",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:30",
+     "url": "https://news.ycombinator.com/item?id=41772736",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:31",
+     "url": "https://news.ycombinator.com/item?id=30393402",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:32",
+     "url": "https://news.ycombinator.com/item?id=47759908",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:33",
+     "url": "https://news.ycombinator.com/item?id=41692746",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:34",
+     "url": "https://www.trustpilot.com/reviews/6a26a9dd8b9c73c6b92bfde7",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:35",
+     "url": "https://www.trustpilot.com/reviews/6a01e2d3fbb831c7111cb5aa",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:36",
+     "url": "https://www.trustpilot.com/reviews/6aa306ce3b8a636e2d1861f5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:37",
+     "url": "https://www.trustpilot.com/reviews/6a2d4d8269dbd50c2e8c8c5b",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:38",
+     "url": "https://www.trustpilot.com/reviews/6a27224c659d6c49e0e14412",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:39",
+     "url": "https://www.trustpilot.com/reviews/6a2fdd1c2fc65faddba45304",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:40",
+     "url": "https://www.trustpilot.com/review/notion.so",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:41",
+     "url": "https://news.ycombinator.com/item?id=27168971",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:42",
+     "url": "https://news.ycombinator.com/item?id=37742750",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    },
+    {
+     "id": "src:43",
+     "url": "https://news.ycombinator.com/item?id=30163561",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (wiki) with no sales call to action"
+    }
+   ]
+  }
+ ],
+ "domains": [
+  {
+   "host": "news.ycombinator.com",
+   "verdict": "unknown",
+   "why": "talks about this market (wiki) with no sales call to action"
+  },
+  {
+   "host": "slite.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (docs, workspace, knowledge base)"
+  },
+  {
+   "host": "trustpilot.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  }
+ ]
+}

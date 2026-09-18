@@ -1,0 +1,1798 @@
+{
+ "market": "crm",
+ "scoredAt": "2026-09-18T14:04:31.155Z",
+ "arms": [
+  {
+   "arm": "base",
+   "file": "base-2026-09-18T03-21-56-937Z.json",
+   "accepted": true,
+   "costUsd": 4.279131499999999,
+   "rounds": 2,
+   "pains": 11,
+   "sources": 20,
+   "domains": 13,
+   "cited": 20,
+   "unverifiable": 5,
+   "faultySources": 5,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 1,
+    "sells_as_buyer": 4,
+    "speaker_mislabel": 2
+   },
+   "quotes": {
+    "total": 47,
+    "onPage": 24,
+    "wordForWord": 20,
+    "notOnPage": 2,
+    "unverifiable": 21,
+    "notInRecord": 30
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:4",
+     "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:6",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:7",
+     "url": "https://www.trustpilot.com/review/www.hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.trustpilot.com/review/www.hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:9",
+     "url": "https://tonydowling.substack.com/p/why-your-sales-team-wont-update-hubspot",
+     "host": "tonydowling.substack.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://www.revblack.com/guides/hubspot-audit-checklist",
+     "host": "revblack.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.meticulosity.com/blog/revitalize-your-digital-presence-a-comprehensive-guide-to-conducting-a-hubspot-website-audit",
+     "host": "meticulosity.com",
+     "speaker": "practitioner",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://revefied.com/revefied-blog/how-to-clean-up-a-messy-hubspot-crm-without-breaking-everything",
+     "host": "revefied.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=37751007",
+     "host": "news.ycombinator.com",
+     "speaker": "founder",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=31532952",
+     "host": "news.ycombinator.com",
+     "speaker": "founder",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:15",
+     "url": "https://www.salesforce.com/news/stories/sales-research-2023/",
+     "host": "salesforce.com",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:16",
+     "url": "https://www.hubspot.com/database-decay",
+     "host": "hubspot.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.pedowitzgroup.com/blog/hubspot-ai-tools-2026-blog",
+     "host": "pedowitzgroup.com",
+     "speaker": "practitioner",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:18",
+     "url": "https://blog.send.win/manage-multiple-hubspot-accounts-multi-account-management-guide-2026/",
+     "host": "blog.send.win",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.lyntonweb.com/library/why-companies-leaving-hubspot-2026",
+     "host": "lyntonweb.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:20",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=993",
+     "host": "aws.amazon.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    }
+   ],
+   "badQuotes": [
+    {
+     "quote": "There are a lot of great functions, but they are hidden behind a paywall",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The main downside is pricing, especially once you start needing the more advanced features",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "HubSpot can be expensive if you buy all the different accesses and seats get expensive.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/?page=5",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "it can become expensive fairly quickly as you add more contacts",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The price has gone up a lot lately for a small business it might be too expensive.",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "my sales team flat-out refuses to use it",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Extremely confusing interface",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "It just gets very messy sometimes and to be honest I wish it was a little easier",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "names switching, phone numbers/files/titles getting corrupted",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "HubSpot creates new properties if I don't set everything correctly",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "the information is outdated or inaccurate",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The implementation of workflows is tedious and can necessitate a HubSpot expert.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Dashboards can be setup...but is limited in how it can be customized",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Some of the reporting is lackluster, especially if your billing setup is non-standard",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The HubSpot Marketing Hub is not the most comprehensive in terms of reporting features.",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "reporting can feel limited unless you upgrade",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Restricted Customization on Lower Tiers: The reporting and template customization options feel unnecessarily locked down",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "You can't change the source of a lead...Hubspot classifies this as an 'organic lead'...I can't change it.",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "HubSpot is expensive and can sometimes take a while to see clear ROIs.",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "we were left with an incomplete system, ongoing costs, and a substantial investment of time",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "the setup took longer than the time I allowed for it to take",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "On signing the contract, the sales team had changed us from month-to-month to annual contract",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "HubSpot's native switcher forces a full page refresh and redirects you to the home dashboard of the new portal, causing you to lose your current page state and ",
+     "cites": [
+      "src:18"
+     ],
+     "url": "https://blog.send.win/manage-multiple-hubspot-accounts-multi-account-management-guide-2026/",
+     "why": "words are not on the cited page"
+    }
+   ],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:4",
+     "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:6",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
+     "host": "capterra.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:7",
+     "url": "https://www.trustpilot.com/review/www.hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.trustpilot.com/review/www.hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:9",
+     "url": "https://tonydowling.substack.com/p/why-your-sales-team-wont-update-hubspot",
+     "host": "tonydowling.substack.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (crm, sales) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://www.revblack.com/guides/hubspot-audit-checklist",
+     "host": "revblack.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (crm, marketing, sales) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://revefied.com/revefied-blog/how-to-clean-up-a-messy-hubspot-crm-without-breaking-everything",
+     "host": "revefied.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (crm, marketing, sales) with no sales call to action"
+    },
+    {
+     "id": "src:18",
+     "url": "https://blog.send.win/manage-multiple-hubspot-accounts-multi-account-management-guide-2026/",
+     "host": "blog.send.win",
+     "speaker": "practitioner",
+     "reason": "sells something, but not obviously into this market"
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.lyntonweb.com/library/why-companies-leaving-hubspot-2026",
+     "host": "lyntonweb.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (crm, marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:20",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=993",
+     "host": "aws.amazon.com",
+     "speaker": "customer",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    }
+   ]
+  },
+  {
+   "arm": "otto",
+   "file": "otto-2026-09-18T03-26-38-711Z.json",
+   "accepted": true,
+   "costUsd": 4.339012,
+   "rounds": 2,
+   "pains": 8,
+   "sources": 59,
+   "domains": 6,
+   "cited": 57,
+   "unverifiable": 29,
+   "faultySources": 3,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 3,
+    "sells_as_buyer": 0,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 52,
+    "onPage": 23,
+    "wordForWord": 18,
+    "notOnPage": 1,
+    "unverifiable": 28,
+    "notInRecord": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:4",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:6",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:7",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:9",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:10",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:14",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:15",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:16",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:18",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:20",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:21",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:23",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:24",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:25",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:26",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:27",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:28",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:29",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:30",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:31",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:32",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:33",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:34",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:35",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:36",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:37",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:38",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:39",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:41",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:42",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:43",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:44",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 403
+    },
+    {
+     "id": "src:45",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:46",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:47",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:48",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:49",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:50",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:51",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:52",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
+     "host": "aws.amazon.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:53",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:54",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:55",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:56",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:57",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-j45uk4re22wem?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:58",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-j45uk4re22wem?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:59",
+     "url": "https://www.hubspot.com/pricing/marketing?products=marketing-hub-professional",
+     "host": "hubspot.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:60",
+     "url": "https://www.saastr.com/the-great-price-surge-of-2025-a-comprehensive-breakdown-of-pricing-increases-and-the-issues-they-have-created-for-all-of-us",
+     "host": "saastr.com",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    }
+   ],
+   "badQuotes": [
+    {
+     "quote": "It's difficult for marketing to budget for the price",
+     "cites": [
+      "src:22"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "HubSpot in general nickle and dimes you on a lot of their services.",
+     "cites": [
+      "src:23"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Pricing can become a challenge as you grow",
+     "cites": [
+      "src:21"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Once you begin the addition of more contacts into the list, then the bill quickly skyrockets",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "cost jumps drastically as your contact database grows",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Marketing contacts pricing structure can be confusing and some things are additional costs",
+     "cites": [
+      "src:26"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "HubSpot Marketing Hub costs can increase quickly as you scale contacts or unlock advanced features",
+     "cites": [
+      "src:16"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "AI workflows, custom reports, and A/B testing are locked behind Professional tiers",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Most of the important features other than the basic CRM and messaging are in the pro package which can be expensive.",
+     "cites": [
+      "src:24"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The price is astronomical for what it is.",
+     "cites": [
+      "src:29"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The price is just getting out of control. All the best features continue to get pay walled behind subscriptions",
+     "cites": [
+      "src:12"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "many of the more powerful tools are locked behind paywalls",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "paid nearly £2k in subscription that has ultimately never been used",
+     "cites": [
+      "src:44"
+     ],
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "Customer support and account managers were useless",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "the customer service usually only directs you to some generic articles",
+     "cites": [
+      "src:11"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "I had no idea how to use it. I found it difficult to navigate as a beginner and I couldn't find any help resources that worked for me.",
+     "cites": [
+      "src:25"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The support isn't always the most helpful. There have been times when we haven't been notified of significant changes to thinks like API tokens and integrations",
+     "cites": [
+      "src:28"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "In terms of reporting options, the HubSpot Marketing Hub falls short of being the most complete. For instance, it is unable to give in-depth client segmentation",
+     "cites": [
+      "src:27"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Reporting customization could also be more flexible",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "limitations when it came to data and analysis",
+     "cites": [
+      "src:20"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Some settings and reports take a little digging to find",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Tools like A/B testing or advanced reporting are only available on higher tier plans",
+     "cites": [
+      "src:18"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "AI workflows, custom reports, and A/B testing are locked behind Professional tiers",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "I spent more time watching tutorial videos than actually using it",
+     "cites": [
+      "src:15"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "The UX design and navigation is not very clear. Hard to navigate when you are new the the software",
+     "cites": [
+      "src:14"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "To much going on and can seem like you get lost with the options",
+     "cites": [
+      "src:19"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "integration limit with our LMS, requires manual upload from the NetSuite",
+     "cites": [
+      "src:17"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "I have had to deal with CSV formatting problems",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "why": "page could not be read"
+    },
+    {
+     "quote": "Wish it was easier to integrate with other platforms.",
+     "cites": [
+      "src:13"
+     ],
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "why": "page could not be read"
+    }
+   ],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:4",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:6",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:7",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:9",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:10",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:14",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:15",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:16",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:18",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:20",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:21",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:23",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:24",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:25",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:26",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:27",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:28",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "host": "capterra.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:29",
+     "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
+     "host": "capterra.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:30",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:31",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:32",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:33",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:34",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:35",
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:36",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:37",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:38",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:39",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:41",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:42",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:43",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:44",
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:45",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (email, reporting) with no sales call to action"
+    },
+    {
+     "id": "src:46",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (email, reporting) with no sales call to action"
+    },
+    {
+     "id": "src:47",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (email, reporting) with no sales call to action"
+    },
+    {
+     "id": "src:48",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (email, reporting) with no sales call to action"
+    },
+    {
+     "id": "src:49",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (email, reporting) with no sales call to action"
+    },
+    {
+     "id": "src:50",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (email, reporting) with no sales call to action"
+    },
+    {
+     "id": "src:51",
+     "url": "https://www.smartcustomer.com/reviews/hubspot.com",
+     "host": "smartcustomer.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (email, reporting) with no sales call to action"
+    },
+    {
+     "id": "src:52",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
+     "host": "aws.amazon.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:53",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:54",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:55",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:56",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:57",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-j45uk4re22wem?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:58",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-j45uk4re22wem?page=1",
+     "host": "aws.amazon.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (marketing, email) with no sales call to action"
+    },
+    {
+     "id": "src:60",
+     "url": "https://www.saastr.com/the-great-price-surge-of-2025-a-comprehensive-breakdown-of-pricing-increases-and-the-issues-they-have-created-for-all-of-us",
+     "host": "saastr.com",
+     "speaker": "press",
+     "reason": "talks about this market (crm, marketing, sales) with no sales call to action"
+    }
+   ]
+  }
+ ],
+ "domains": [
+  {
+   "host": "capterra.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "trustpilot.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "tonydowling.substack.com",
+   "verdict": "unknown",
+   "why": "talks about this market (crm, sales) with no sales call to action"
+  },
+  {
+   "host": "revblack.com",
+   "verdict": "unknown",
+   "why": "talks about this market (crm, marketing, sales) with no sales call to action"
+  },
+  {
+   "host": "meticulosity.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (marketing, sales, deals)"
+  },
+  {
+   "host": "revefied.com",
+   "verdict": "unknown",
+   "why": "talks about this market (crm, marketing, sales) with no sales call to action"
+  },
+  {
+   "host": "news.ycombinator.com",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
+  },
+  {
+   "host": "salesforce.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (crm, marketing, sales)"
+  },
+  {
+   "host": "hubspot.com",
+   "verdict": "sells",
+   "why": "the company being researched"
+  },
+  {
+   "host": "pedowitzgroup.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (crm, marketing, sales)"
+  },
+  {
+   "host": "blog.send.win",
+   "verdict": "unknown",
+   "why": "sells something, but not obviously into this market"
+  },
+  {
+   "host": "lyntonweb.com",
+   "verdict": "unknown",
+   "why": "talks about this market (crm, marketing, email) with no sales call to action"
+  },
+  {
+   "host": "aws.amazon.com",
+   "verdict": "unknown",
+   "why": "talks about this market (marketing, email) with no sales call to action"
+  },
+  {
+   "host": "smartcustomer.com",
+   "verdict": "unknown",
+   "why": "talks about this market (email, reporting) with no sales call to action"
+  },
+  {
+   "host": "saastr.com",
+   "verdict": "unknown",
+   "why": "talks about this market (crm, marketing, sales) with no sales call to action"
+  }
+ ]
+}

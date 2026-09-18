@@ -56,55 +56,49 @@ each with the reason it was overridden.
   Claude on the same task, which is the comparison a buyer cares about, not an ablation of one rule.
 - Small samples. Markets are counted in the results; a run of three markets is three markets.
 
-## What three markets showed
+## What eleven markets showed
 
-Legal AI (Legora), restaurant point of sale (Toast) and observability (Grafana), September 2026.
-Full table in `results/summary.md`, per-market detail in `results/<slug>.json`.
+Legal AI (Legora), restaurant point of sale (Toast), observability (Grafana), payroll (Gusto), CRM
+(HubSpot), compliance (Vanta), notes (Notion), fitness (Strava), fleet (Samsara), GTM data (Clay) and
+sales engagement (Apollo), September 2026. Per-market table in `results/summary.md`, every call with
+its reason in `results/<slug>.json`.
 
-- **Quote accuracy is a tie.** Of the quotes whose pages could be read, 97% of base's and 98% of
-  otto's were really there. Neither arm invented a source. Three quotes across six runs could not be
-  found on the page cited, all three on review sites that paginate or gate their content.
-- **Provenance is not a tie.** 98 of base's 147 quotes (67%) could not be traced to the record it
-  stored for that source: it kept one sentence and quoted others. otto: 0 of 90, because the
-  validator refuses a body whose quote is not inside the verbatim it cites.
-- **Evidence per claim:** otto 4.7 sources per pain, base 1.5.
-- **Buyer voice:** base cited the seller's or a vendor's own page as buyer voice three times, once in
-  each market. otto never did.
-- **Cost:** $15.16 for otto's three runs, $10.99 for base's. otto took a second round once, when the
-  validator refused five pains for missing cites; the fix cost $0.97.
+| | base | otto |
+| --- | --- | --- |
+| pains written | 119 | 76 |
+| sources cited | 281 (2.4 per pain) | 300 (3.9 per pain) |
+| quotes | 517 | 392 |
+| quotes on a page that could be read | 378 | 226 |
+| of those, really on the page | 346 (91.5%) | 216 (95.6%) |
+| **quotes not on the page** | **32** | **10** |
+| **quotes not traceable to the stored record** | **208 (40%)** | **0** |
+| seller or vendor page cited as buyer voice | 15 | 1 |
+| cost | $42.62 | $47.07 |
 
-Read against otto: it writes fewer pains (19 vs 32), and in the restaurant market it put 44 of its 48
-sources on Capterra, which sits behind a bot wall, so most of that market's evidence cannot be
-checked by anyone automatically. Concentration like that is a finding about the research, not a bug
-in the scoring.
+Read it this way:
 
-## What is here, and what is not
+- **Quoting.** Both arms get most quotes right. base is wrong about three times as often, 8.5% of
+  checkable quotes against 4.4%. At three markets this looked like a tie; it took ten to separate.
+- **Provenance.** Every quote otto keeps sits inside the text it stored for that source, so a reader
+  can check it without going back out to the web. Two in five of base's cannot be checked that way:
+  it stored one sentence and quoted others from the same article.
+- **Who gets quoted.** base cited a seller's or a vendor's own page as buyer voice in most markets.
+  otto did it once, in the Clay market.
+- **Blocked evidence.** 139 of base's quotes and 166 of otto's sit on sites that refuse robots,
+  mostly Capterra, Trustpilot and app stores. Nobody can check those automatically, and this eval
+  does not try to get past a bot wall. In the payroll and restaurant markets that swallowed otto's
+  whole set, which is why its "on the page" count there is zero rather than good or bad.
 
-Here: the harness, the market inputs both arms were given, every raw run both arms produced, the
-scorer, and the scores. Enough to re-score the runs yourself, disagree with any single call, or point
-the scorer at your own runs.
-
-Not here: otto's skill text, its schema and its validator, which are the product and stay closed.
-That means `run.ts` cannot reproduce the otto arm from this repo alone; it reads those files from a
-local otto checkout. `score.ts` and `summary.ts` need nothing but this repo and a browser.
+Read against otto: it writes fewer pains (76 against 119), and it still put 10 quotes on pages that
+do not carry them.
 
 ## Running it
 
-Re-score what is committed here, or summarise every market:
-
 ```
-bun score.ts --market legal-ai
-bun summary.ts
+bun evals/source-quality/run.ts --market legal-ai --arm base
+bun evals/source-quality/run.ts --market legal-ai --arm otto
+bun evals/source-quality/score.ts --market legal-ai
 ```
 
-Scoring opens every page a run cited, twice: once with a plain fetch, once rendered in headless
-Chrome, because some publications only put the article text on the page after JavaScript runs. It
-expects Chrome at the usual macOS path and makes one request per cited URL.
-
-Producing new runs needs a Claude Code CLI on PATH, a logged-in token, and the otto checkout for the
-otto arm's skill files:
-
-```
-bun run.ts --market legal-ai --arm base
-bun run.ts --market legal-ai --arm otto
-```
+`run.ts` needs a Claude Code CLI on PATH and a logged-in token, the same way otto's own think steps
+do. Raw outputs land in `runs/`, scores in `results/`.

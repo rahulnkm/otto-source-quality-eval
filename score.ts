@@ -10,6 +10,7 @@ import { EVAL, MARKETS } from "./prompts";
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36";
 const FETCH_TIMEOUT_MS = 25_000;
+const RENDER_TIMEOUT_MS = 40_000;
 const WIRES = ["prnewswire.com", "businesswire.com", "globenewswire.com", "einpresswire.com", "prweb.com", "accesswire.com", "newswire.com"];
 const SPONSORED = /\b(sponsored content|sponsored post|sponsored by|advertorial|paid partnership|promoted content)\b/i;
 /** What a page selling software says to get you into a pipeline. A publication asking for a subscription says none of it. */
@@ -59,19 +60,34 @@ const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
  * body with JavaScript, and a fetch of their HTML scored real, quotable sentences as missing. So the
  * page is rendered in headless Chrome, and a plain fetch only decides whether the URL answers at all.
  */
-async function fetchPage(url: string): Promise<Page> {
+/** A host that just rate-limited us gets a pause before the next request, so one busy site does not read as a wall of dead links. */
+const lastHit = new Map<string, number>();
+const politeWait = async (url: string) => {
+  const host = (() => { try { return new URL(url).hostname; } catch { return ""; } })();
+  const since = Date.now() - (lastHit.get(host) ?? 0);
+  if (since < 1200) await Bun.sleep(1200 - since);
+  lastHit.set(host, Date.now());
+};
+
+async function fetchPage(url: string, attempt = 0): Promise<Page> {
   let status: number | null = null;
+  await politeWait(url);
   try {
     const res = await fetch(url, { method: "GET", headers: { "user-agent": UA, accept: "text/html,*/*" }, redirect: "follow", signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
     status = res.status;
+    // Too many requests is our own fault, not the page's: back off and ask again before calling it unreadable.
+    if ((status === 429 || status === 503) && attempt < 3) { await Bun.sleep(4000 * (attempt + 1)); return fetchPage(url, attempt + 1); }
     var fetched = res.headers.get("content-type")?.includes("text") !== false ? htmlToText(await res.text()) : "";
   } catch (e) {
     return { status: null, text: "", rendered: "", error: (e as Error).message };
   }
   try {
+    // Chrome can hang on a page that never settles, and an unbounded wait stalls the whole run: give it a deadline.
     const proc = Bun.spawn([CHROME, "--headless=new", "--disable-gpu", "--no-sandbox", "--virtual-time-budget=9000", `--user-agent=${UA}`, "--dump-dom", url], { stdout: "pipe", stderr: "ignore" });
-    const dom = await new Response(proc.stdout).text();
+    const killer = setTimeout(() => proc.kill(), RENDER_TIMEOUT_MS);
+    const dom = await new Response(proc.stdout).text().catch(() => "");
     await proc.exited;
+    clearTimeout(killer);
     return { status, text: fetched, rendered: htmlToText(dom) };
   } catch {
     return { status, text: fetched, rendered: "" };
