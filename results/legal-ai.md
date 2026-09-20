@@ -1,13 +1,13 @@
 # legal-ai
 
-Scored 2026-09-18. Domain verdicts are in `legal-ai.json`, each with the reason it was made.
+Scored 2026-09-20. Domain verdicts are in `legal-ai.json`, each with the reason it was made.
 
 Quotes: every quoted sentence, checked against the page it cites.
 
-| arm | quotes | on the page | punctuation matches too | not on the page | page unreadable | not in the stored record |
-| --- | --- | --- | --- | --- | --- | --- |
-| base | 24 | 24 (100%) | 22 | 0 (0%) | 0 | 15 (63%) |
-| otto | 18 | 18 (100%) | 12 | 0 (0%) | 0 | 0 (0%) |
+| arm | quotes | word for word | elided or bracketed | part on the page | not on the page | page unreadable | not in the stored record |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| base | 24 | 23 | 1 | 0 | 0 | 0 | 15 (63%) |
+| otto | 18 | 13 | 5 | 0 | 0 | 0 | 0 (0%) |
 
 Sources: who the evidence came from.
 

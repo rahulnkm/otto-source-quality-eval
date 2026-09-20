@@ -1,6 +1,8 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { EVAL, MARKETS } from "./prompts";
+import { Browser } from "./browser";
+import { classifyQuote, buyerVoiceIds, pageUsable, htmlToText as toText, words as wordsOf, type Verdict as QuoteVerdict } from "./verify";
 
 /**
  * Scores both arms' bodies on facts a reader can check by opening a page: it answers, the quoted
@@ -10,12 +12,19 @@ import { EVAL, MARKETS } from "./prompts";
 
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36";
 const FETCH_TIMEOUT_MS = 25_000;
-const RENDER_TIMEOUT_MS = 40_000;
 const WIRES = ["prnewswire.com", "businesswire.com", "globenewswire.com", "einpresswire.com", "prweb.com", "accesswire.com", "newswire.com"];
 const SPONSORED = /\b(sponsored content|sponsored post|sponsored by|advertorial|paid partnership|promoted content)\b/i;
 /** What a page selling software says to get you into a pipeline. A publication asking for a subscription says none of it. */
 const SELLS = /\b(book a demo|request a demo|get a demo|schedule a demo|see it in action|start free trial|start a free trial|start for free|try it free|free trial|talk to sales|contact sales|request a quote|request pricing|get started free|our products|our solutions|product tour)\b/i;
 const BUYER_CLASS = new Set(["buyer", "practitioner", "customer", "prospect"]);
+/** What a bot wall says instead of the article. A page showing this was not read, either way. */
+const BOT_WALL = /just a moment|performing security verification|enable javascript and cookies|verify you are (a )?human|access denied|attention required/i;
+/**
+ * Review listings paginate and reorder: the page that carried a review yesterday carries different
+ * ones today. A quote missing from one of these pages is a quote we cannot check, never a quote
+ * someone invented, and the rule applies to both arms alike.
+ */
+const REVIEW_HOSTS = ["capterra.com", "trustpilot.com", "g2.com", "getapp.com", "softwareadvice.com", "sitejabber.com", "producthunt.com", "apps.apple.com", "play.google.com", "glassdoor.com", "indeed.com", "bbb.org"];
 
 type Fault = "dead" | "record_verbatim_not_on_page" | "sells_as_buyer" | "speaker_mislabel";
 
@@ -24,42 +33,16 @@ interface Meta { seller_domain: string; market_keywords: string[] }
 /** Hand calls that beat the rule, each with the reason, so the answer key stays readable. */
 interface Overrides { sells?: Record<string, string>; independent?: Record<string, string> }
 
-/**
- * Words only, no punctuation. A page that closes a quotation with a comma where the record kept the
- * sentence's full stop is still the same sentence; matching on characters called real quotes fake.
- */
-const words = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const words = wordsOf;
 const squash = (s: string) => s.toLowerCase().replace(/[‘’‛]/g, "'").replace(/[“”]/g, '"').replace(/[–—−]/g, "-").replace(/\s+/g, " ").trim();
 const hostOf = (url: string) => { try { return new URL(url).hostname.replace(/^www\./, "").toLowerCase(); } catch { return ""; } };
 /** A domain covers its own subdomains: a vendor's help centre is still the vendor. */
 const under = (host: string, domain: string) => host === domain || host.endsWith(`.${domain}`);
 
-const NAMED: Record<string, string> = { nbsp: " ", amp: "&", quot: '"', apos: "'", lt: "<", gt: ">", rsquo: "\u2019", lsquo: "\u2018", ldquo: "\u201c", rdquo: "\u201d", mdash: "\u2014", ndash: "\u2013", hellip: "\u2026", eacute: "\u00e9" };
+const htmlToText = toText;
 
-/**
- * Page text for a substring check. Numeric entities matter as much as named ones: a page that
- * writes an apostrophe as &#8217; reads as a missing quote to anyone who only decodes &rsquo;,
- * which scored real quotes as fabricated until this decoded both.
- */
-function htmlToText(html: string): string {
-  return html
-    .replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, " ")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&#x([0-9a-f]+);/gi, (_, h: string) => String.fromCodePoint(parseInt(h, 16)))
-    .replace(/&#(\d+);/g, (_, d: string) => String.fromCodePoint(Number(d)))
-    .replace(/&([a-z]+);/gi, (m, name: string) => NAMED[name.toLowerCase()] ?? m)
-    .replace(/\s+/g, " ");
-}
+interface Page { status: number | null; text: string; rendered: string; alt: string; error?: string }
 
-interface Page { status: number | null; text: string; rendered: string; error?: string }
-
-const CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-
-/**
- * A page as a reader sees it. Plain fetch was not enough: several publications render the article
- * body with JavaScript, and a fetch of their HTML scored real, quotable sentences as missing. So the
- * page is rendered in headless Chrome, and a plain fetch only decides whether the URL answers at all.
- */
 /** A host that just rate-limited us gets a pause before the next request, so one busy site does not read as a wall of dead links. */
 const lastHit = new Map<string, number>();
 const politeWait = async (url: string) => {
@@ -69,29 +52,39 @@ const politeWait = async (url: string) => {
   lastHit.set(host, Date.now());
 };
 
+/** One browser for the whole run: starting Chrome per page cost about forty seconds each. */
+const browser = new Browser();
+
+/**
+ * A page as a reader sees it: the raw HTML, the text a real browser shows after scrolling to the
+ * bottom, and for a forum thread the whole thread as JSON. All three are kept because each catches
+ * what the others miss, and a quote counts as found when any of them holds it.
+ */
 async function fetchPage(url: string, attempt = 0): Promise<Page> {
   let status: number | null = null;
+  let fetched = "";
   await politeWait(url);
   try {
     const res = await fetch(url, { method: "GET", headers: { "user-agent": UA, accept: "text/html,*/*" }, redirect: "follow", signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
     status = res.status;
     // Too many requests is our own fault, not the page's: back off and ask again before calling it unreadable.
     if ((status === 429 || status === 503) && attempt < 3) { await Bun.sleep(4000 * (attempt + 1)); return fetchPage(url, attempt + 1); }
-    var fetched = res.headers.get("content-type")?.includes("text") !== false ? htmlToText(await res.text()) : "";
+    fetched = res.headers.get("content-type")?.includes("text") !== false ? htmlToText(await res.text()) : "";
   } catch (e) {
-    return { status: null, text: "", rendered: "", error: (e as Error).message };
+    if (attempt < 1) { await Bun.sleep(2000); return fetchPage(url, attempt + 1); }
+    return { status: null, text: "", rendered: "", alt: "", error: (e as Error).message };
   }
-  try {
-    // Chrome can hang on a page that never settles, and an unbounded wait stalls the whole run: give it a deadline.
-    const proc = Bun.spawn([CHROME, "--headless=new", "--disable-gpu", "--no-sandbox", "--virtual-time-budget=9000", `--user-agent=${UA}`, "--dump-dom", url], { stdout: "pipe", stderr: "ignore" });
-    const killer = setTimeout(() => proc.kill(), RENDER_TIMEOUT_MS);
-    const dom = await new Response(proc.stdout).text().catch(() => "");
-    await proc.exited;
-    clearTimeout(killer);
-    return { status, text: fetched, rendered: htmlToText(dom) };
-  } catch {
-    return { status, text: fetched, rendered: "" };
+  const rendered = await browser.text(url);
+  // A forum thread shows about twenty posts and loads the rest as you scroll a container no window
+  // scroll can reach. Discourse hands the whole thread over as JSON at the same path.
+  let alt = "";
+  if (/\/t\/[^/]+\/\d+/.test(url)) {
+    try {
+      const res = await fetch(`${url.replace(/[?#].*$/, "").replace(/\/$/, "")}.json`, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+      if (res.ok) alt = htmlToText(await res.text());
+    } catch { /* the thread simply is not Discourse */ }
   }
+  return { status, text: fetched, rendered, alt };
 }
 
 type Verdict = "sells" | "independent" | "unknown";
@@ -118,8 +111,8 @@ async function classify(host: string, meta: Meta, overrides: Overrides, cache: M
     if (!page.text && !page.rendered) page = await fetchPage(`https://www.${host}/`);
     if ((!page.text && !page.rendered) || (page.status !== null && page.status >= 400)) call = { host, verdict: "unknown", why: `front page unreadable (${page.status ?? page.error ?? "no answer"})` };
     else {
-      const cta = SELLS.test(page.text + page.rendered);
-      const hits = meta.market_keywords.filter((k) => (page.text + page.rendered).toLowerCase().includes(k.toLowerCase()));
+      const cta = SELLS.test(page.text + page.rendered + page.alt);
+      const hits = meta.market_keywords.filter((k) => (page.text + page.rendered + page.alt).toLowerCase().includes(k.toLowerCase()));
       if (cta && hits.length) call = { host, verdict: "sells", why: `front page has a sales call to action and this market's words (${hits.slice(0, 3).join(", ")})` };
       else if (!cta && !hits.length) call = { host, verdict: "independent", why: "front page sells nothing into this market" };
       else call = { host, verdict: "unknown", why: cta ? "sells something, but not obviously into this market" : `talks about this market (${hits.slice(0, 3).join(", ")}) with no sales call to action` };
@@ -160,7 +153,7 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
   const pains = Array.isArray(body.pains) ? (body.pains as Record<string, unknown>[]) : [];
 
   // Buyer voice, per the skill's own checks.json: the pain itself and the quotes under by_role.
-  const buyerVoiceIds = new Set(citedIds(pains));
+  const buyerVoice = buyerVoiceIds(body);
   const byId = new Map(sources.map((s) => [s.id, s]));
   const faults: Record<Fault, number> = { dead: 0, record_verbatim_not_on_page: 0, sells_as_buyer: 0, speaker_mislabel: 0 };
   const detail: Scored["detail"] = [];
@@ -181,16 +174,17 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
    * renders fine in a browser is readable; a bot wall that renders an "are you human" notice is not,
    * and its pages stay unverifiable rather than being counted either way.
    */
-  const BOT_WALL = /just a moment|performing security verification|enable javascript and cookies|verify you are (a )?human|access denied|attention required/i;
   const readable = (p: Page) => {
     if (p.status === 404 || p.status === 410) return false;
-    const best = p.text.length > p.rendered.length ? p.text : p.rendered;
-    return best.length > 400 && !BOT_WALL.test(best.slice(0, 600));
+    // Either view can be the bot wall, and a wall in one view must not be rescued by boilerplate in the other.
+    const views = [p.text, p.rendered, p.alt].filter((t) => t.length > 400);
+    const real = views.filter((t) => !BOT_WALL.test(t.slice(0, 600)));
+    return real.length > 0 && real.some((t) => t.length > 400);
   };
   /** Either view of the page counts: a sentence that only appears after the JavaScript runs is still on the page. */
   const holds = (p: Page, phrase: string, exact = false) => {
     const norm = exact ? squash : words;
-    return [p.text, p.rendered].some((t) => t.length > 200 && norm(t).includes(norm(phrase)));
+    return [p.text, p.rendered, p.alt].some((t) => t.length > 200 && !BOT_WALL.test(t.slice(0, 600)) && norm(t).includes(norm(phrase)));
   };
   /** A quotation of several sentences is on the page when each of its sentences is: speakers pause, pages paginate. */
   const sentencesOf = (text: string) => text.split(/(?<=[.!?])\s+/).map((x) => x.trim()).filter((x) => x.split(/\s+/).length >= 3);
@@ -207,7 +201,7 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
    * source, and against the page itself. Only the second is a citation fault; the first says the
    * record cannot be audited without going back to the web.
    */
-  const quotes = { total: 0, onPage: 0, wordForWord: 0, notOnPage: 0, unverifiable: 0, notInRecord: 0 };
+  const quotes = { total: 0, onPage: 0, wordForWord: 0, notOnPage: 0, unverifiable: 0, notInRecord: 0, elided: 0, partial: 0 };
   const badQuotes: Scored["badQuotes"] = [];
   const stitched = new Set<string>();
   for (const p of pains) {
@@ -222,12 +216,21 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
           ids.forEach((id) => stitched.add(id));
         }
         const fetched = await Promise.all(ids.map((id) => pageOf(byId.get(id)!.url)));
-        const found = fetched.some((pg) => readable(pg) && holdsAll(pg, q.verbatim!));
-        const exact = fetched.some((pg) => readable(pg) && holdsAll(pg, q.verbatim!, true));
-        if (exact) quotes.wordForWord++;
-        const anyReadable = fetched.some(readable);
-        if (found) quotes.onPage++;
-        else if (!anyReadable) { quotes.unverifiable++; badQuotes.push({ quote: q.verbatim.slice(0, 160), cites: ids, url: byId.get(ids[0])!.url, why: "page could not be read" }); }
+        const views = fetched.flatMap((pg) => [pg.text, pg.rendered, pg.alt]);
+        let verdict = classifyQuote(q.verbatim, views);
+        // Never accuse on one reading: a page that was rate-limited or half-loaded gets fetched again.
+        if (verdict === "not_found" || verdict === "partial") {
+          await Bun.sleep(1500);
+          const second = await Promise.all(ids.map((id) => fetchPage(byId.get(id)!.url)));
+          const again = classifyQuote(q.verbatim, second.flatMap((pg) => [pg.text, pg.rendered, pg.alt]));
+          // The kinder reading wins: the point is to be sure before calling a quote invented.
+          const rank: Record<QuoteVerdict, number> = { verbatim: 0, elided: 1, partial: 2, unverifiable: 3, not_found: 4 };
+          if (rank[again] < rank[verdict]) verdict = again;
+        }
+        if (verdict === "verbatim") { quotes.onPage++; quotes.wordForWord++; }
+        else if (verdict === "elided") { quotes.onPage++; quotes.elided++; }
+        else if (verdict === "partial") { quotes.partial++; badQuotes.push({ quote: q.verbatim.slice(0, 160), cites: ids, url: byId.get(ids[0])!.url, why: "part of the quote is on the page, part is not" }); }
+        else if (verdict === "unverifiable") { quotes.unverifiable++; badQuotes.push({ quote: q.verbatim.slice(0, 160), cites: ids, url: byId.get(ids[0])!.url, why: "the page could not be read" }); }
         else { quotes.notOnPage++; badQuotes.push({ quote: q.verbatim.slice(0, 160), cites: ids, url: byId.get(ids[0])!.url, why: "words are not on the cited page" }); }
       }
     }
@@ -249,10 +252,11 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
     // stripped before asking whether the words are there.
     const excerpts = (s.verbatim ?? "").split(/\s*\|\s*/).map((part) => part.replace(/^[^.!?:]{0,120}(?:,| at )[^.!?:]{0,120}:\s*/, "").trim()).filter(Boolean);
     const sentences = excerpts.flatMap(sentencesOf);
-    if (reachable && sentences.length && sentences.some((sent) => !holds(page, sent))) f.push("record_verbatim_not_on_page");
+    const reviewSite = REVIEW_HOSTS.some((h) => under(host, h));
+    if (reachable && !reviewSite && sentences.length && sentences.some((sent) => !holds(page, sent))) f.push("record_verbatim_not_on_page");
     if (call.verdict === "sells" && BUYER_CLASS.has(s.speaker)) f.push("speaker_mislabel");
-    if (call.verdict === "sells" && buyerVoiceIds.has(s.id)) f.push("sells_as_buyer");
-    if (call.verdict === "unknown" && (BUYER_CLASS.has(s.speaker) || buyerVoiceIds.has(s.id))) gray.push({ id: s.id, url: s.url, host, speaker: s.speaker, reason: call.why });
+    if (call.verdict === "sells" && buyerVoice.has(s.id)) f.push("sells_as_buyer");
+    if (call.verdict === "unknown" && (BUYER_CLASS.has(s.speaker) || buyerVoice.has(s.id))) gray.push({ id: s.id, url: s.url, host, speaker: s.speaker, reason: call.why });
     else if (reachable && SPONSORED.test(page.text) && !["seller", "vendor", "astroturf"].includes(s.speaker)) gray.push({ id: s.id, url: s.url, host, speaker: s.speaker, reason: "page carries a sponsorship marker somewhere; check whether this article is the sponsored one" });
 
     for (const x of f) faults[x]++;
@@ -283,6 +287,7 @@ async function main() {
   const overrides = existsSync(overridesPath) ? (JSON.parse(readFileSync(overridesPath, "utf8")) as Overrides) : {};
   const dir = join(EVAL, "runs", slug);
   const cache = new Map<string, DomainCall>();
+  await browser.start();
 
   const scored: Scored[] = [];
   for (const arm of ["base", "otto"]) {
@@ -295,7 +300,7 @@ async function main() {
   mkdirSync(out, { recursive: true });
   writeFileSync(join(out, `${slug}.json`), JSON.stringify({ market: slug, scoredAt: new Date().toISOString(), arms: scored, domains: [...cache.values()] }, null, 1));
 
-  const quoteRows = scored.map((s) => `| ${s.arm} | ${s.quotes.total} | ${s.quotes.onPage} (${pct(s.quotes.onPage, s.quotes.total)}) | ${s.quotes.wordForWord} | ${s.quotes.notOnPage} (${pct(s.quotes.notOnPage, s.quotes.total)}) | ${s.quotes.unverifiable} | ${s.quotes.notInRecord} (${pct(s.quotes.notInRecord, s.quotes.total)}) |`);
+  const quoteRows = scored.map((s) => `| ${s.arm} | ${s.quotes.total} | ${s.quotes.wordForWord} | ${s.quotes.elided} | ${s.quotes.partial} | ${s.quotes.notOnPage} | ${s.quotes.unverifiable} | ${s.quotes.notInRecord} (${pct(s.quotes.notInRecord, s.quotes.total)}) |`);
   const sourceRows = scored.map((s) => `| ${s.arm} | ${s.pains} | ${s.sources} | ${s.domains} | ${s.faultySources} (${pct(s.faultySources, s.sources)}) | ${s.faults.record_verbatim_not_on_page} | ${s.faults.sells_as_buyer} | ${s.faults.speaker_mislabel} | ${s.faults.dead} | ${s.unverifiable} | $${s.costUsd.toFixed(2)} | ${s.rounds} |`);
   const md = `# ${slug}
 
@@ -303,8 +308,8 @@ Scored ${new Date().toISOString().slice(0, 10)}. Domain verdicts are in \`${slug
 
 Quotes: every quoted sentence, checked against the page it cites.
 
-| arm | quotes | on the page | punctuation matches too | not on the page | page unreadable | not in the stored record |
-| --- | --- | --- | --- | --- | --- | --- |
+| arm | quotes | word for word | elided or bracketed | part on the page | not on the page | page unreadable | not in the stored record |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 ${quoteRows.join("\n")}
 
 Sources: who the evidence came from.
@@ -317,6 +322,7 @@ ${sourceRows.join("\n")}
   const gray = scored.flatMap((s) => s.gray.map((g) => `${s.arm},${g.id},${g.host},${g.speaker},"${g.reason.replace(/"/g, "'")}",${g.url}`));
   writeFileSync(join(out, `${slug}-gray.csv`), `arm,source,host,speaker,why_unclear,url\n${gray.join("\n")}\n`);
   console.log(md);
+  await browser.stop();
   console.log(`domains judged: ${cache.size}. Gray cases for a human call: ${gray.length} -> results/${slug}-gray.csv`);
 }
 

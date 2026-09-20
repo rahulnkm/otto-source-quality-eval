@@ -1,6 +1,6 @@
 {
  "market": "restaurant-pos",
- "scoredAt": "2026-09-18T02:45:49.565Z",
+ "scoredAt": "2026-09-20T17:04:42.590Z",
  "arms": [
   {
    "arm": "base",
@@ -12,8 +12,8 @@
    "sources": 17,
    "domains": 9,
    "cited": 17,
-   "unverifiable": 8,
-   "faultySources": 3,
+   "unverifiable": 1,
+   "faultySources": 2,
    "faults": {
     "dead": 0,
     "record_verbatim_not_on_page": 2,
@@ -22,11 +22,13 @@
    },
    "quotes": {
     "total": 93,
-    "onPage": 15,
-    "wordForWord": 13,
-    "notOnPage": 2,
-    "unverifiable": 76,
-    "notInRecord": 78
+    "onPage": 29,
+    "wordForWord": 28,
+    "notOnPage": 53,
+    "unverifiable": 11,
+    "notInRecord": 78,
+    "elided": 1,
+    "partial": 0
    },
    "detail": [
     {
@@ -118,9 +120,7 @@
      "host": "bbb.org",
      "speaker": "operator",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -155,7 +155,7 @@
      "url": "https://apps.apple.com/us/app/mytoast/id1509268882",
      "host": "apps.apple.com",
      "speaker": "practitioner",
-     "verdict": "unknown",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
@@ -164,7 +164,7 @@
      "url": "https://apps.apple.com/us/app/toast-now/id6444586410",
      "host": "apps.apple.com",
      "speaker": "operator",
-     "verdict": "unknown",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
@@ -175,6 +175,7 @@
      "speaker": "analyst",
      "verdict": "sells",
      "faults": [
+      "record_verbatim_not_on_page",
       "sells_as_buyer"
      ],
      "status": 200
@@ -196,7 +197,7 @@
       "src:10"
      ],
      "url": "https://www.bbb.org/us/ma/boston/profile/point-of-sale-systems/toast-inc-0021-164973/complaints",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "This company has been very shady. The claims to match credit card processing by the sale person has yet to be fulfilled.",
@@ -204,15 +205,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "New features usually involve extra costs.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Complete lack of support and service. Just \"lost\" 5,000 loyalty emails---ooops, sorry? They also nickel and dime you for everything you want to connect.",
@@ -220,15 +213,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "set up was awful, customer service doesn't understand my needs. I have to all monthly to get my billing straight.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "price point for toast is higher than a lot of other POS",
@@ -236,7 +221,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "gets pricey with addons.",
@@ -244,7 +229,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Toast has made it virtually impossible to cancel our business account subscription. Despite contacting Toast support by phone and email to cancel the account an",
@@ -252,15 +237,7 @@
       "src:10"
      ],
      "url": "https://www.bbb.org/us/ma/boston/profile/point-of-sale-systems/toast-inc-0021-164973/complaints",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "LOCK YOU IN WITH FINANCING!!! STAY AWAY!!!!!",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "locking in Credit Card processing... I have 5 restaurants and 5 different rates",
@@ -268,7 +245,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Company has made it impossible to maximize the utilization.",
@@ -276,7 +253,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I cannot comment on the software itself because it was never installed or used. My concern relates to the sales process, where key information about the install",
@@ -284,7 +261,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Customer service, on hold for over 90 min how can you operate a restaurant when your system doesn't work.",
@@ -292,7 +269,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "The \"Support\" or lack there of leaves much to be desired. When I call support often times I am teaching or coaching their support people on what the issue is or",
@@ -300,15 +277,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "You stay on hold for 20/30 minutes almost every time you call. And most times the live chat is no better. You wait only to told to call and then you're on hold ",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Customer service in Tier 1 will waste your time trying to fix issues when they are not able to.",
@@ -316,7 +285,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Customer service is slow, often taking days or weeks to fix issues.",
@@ -324,7 +293,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "I can wait to talk to a support person for 20 minutes sometimes or even get a \"we'll call you back\" which comes 24 hours or more later which is such a bummer wh",
@@ -332,15 +301,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "It's impossible to solve a problem. Zero human contact.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Customer service usually screws up what you are trying to do instead of helping you.",
@@ -348,7 +309,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Once install was complete & initial live day was done, getting someone to help with concerns is disappointing.",
@@ -356,7 +317,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "lengthy wait times for repairs",
@@ -364,7 +325,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=16",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Bugs. Lots of weird bugs and down time during dinner service!",
@@ -372,15 +333,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=2",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "Too many updates... Almost everyday. Lots of Connectivity issues, especially when using the handheld devices. The credit card readers go offline a-lot. The P.O.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The software Goes offline too easy at times",
@@ -388,7 +341,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "It can often be very glitchy and will crash out",
@@ -396,7 +349,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The most thing that brings negative emotions is soft update, there is no any notifications about coming update.",
@@ -404,7 +357,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "I think that the syncing between screens can be extremely lethargic. Also, I feel that the performance really depends on the day.",
@@ -412,7 +365,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=17",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "not all features work in offline mode",
@@ -420,15 +373,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=21",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "Too many outages. Sometimes have issues with a connection.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "When something goes wrong with the system and I lose connection",
@@ -436,15 +381,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=16",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "Menu changes are not simple to accomplish",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Just that you need to go into and set up new menu items each time instead of a bulk upload",
@@ -452,7 +389,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=17",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It is not easy to use nor to maneuver - just not a end user friendly",
@@ -460,7 +397,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Permission sets for employees can be confusing",
@@ -468,7 +405,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Labor scheduling system is confusing to use. We ditch the system and just use our old manual system to manage the shift.",
@@ -476,15 +413,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "Everything else. Learning curve is steep. Clunky interface that is very unintuitive. Back end is a hot mess of word salad. Who designs this?",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "when the system has a disruption or even if you want to make certain changes you have to be at the store using the terminals. The backend is pretty useless and ",
@@ -492,15 +421,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "EVEN SIMPLE TASKS ARE IMPOSSIBLE...NO AUTOFILL FOR CUSTOMERS....ADDING EXISTING PRODUCTS YOU NEED TO MANUALLY SCROLL THROUGH ALL PRODUCTS!!!",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Toast is extremely complicated to get set up for some reason. Unlike other POS systems we have used in the past they do there PCI compliance through a router ra",
@@ -508,7 +429,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Toast makes lots of assumptions on set-up",
@@ -516,7 +437,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=16",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Good luck pulling even basic, typical reports any restaurant would need. A lot of the reports I would want are listed as possible but then they don't populate w",
@@ -524,7 +445,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The cash management is so confusing we can never get it correct.",
@@ -532,15 +453,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "CAN NOT FIND CHECKS STUFF VANISHES AND THE TECHS CAN'T EVEN FIGURE IT OUT",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "The cash drawer management is not efficient.",
@@ -548,7 +461,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=15",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "sales and A/R reports and cash did not tie out...a known problem that they are getting other calls on",
@@ -556,7 +469,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "reporting times out often",
@@ -564,7 +477,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=16",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "No report building wizard.",
@@ -572,7 +485,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "They make changes to reports but the legacy reports gave better information.",
@@ -580,7 +493,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I can't see more than 24 months of information and can only see it 6 months at a time.",
@@ -588,7 +501,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I was mislead by their sales team, it never felt right but i was sold on the 3rd party integration, once i found out they don't integrate, it took a month to fi",
@@ -596,7 +509,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "No response from sales reps. Take your money and disappear.",
@@ -604,15 +517,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "The sales team is a complete disaster. They never call you back or fix anything. Horrible customer service. You'll end up fixing everything yourself.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The fact that it took us so long to open, we had no opening support",
@@ -620,7 +525,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Getting in touch with a sales rep is difficult.",
@@ -628,7 +533,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "There's not enough of a rollout. Lots of seminars and video conferencing but for my personality, I would've liked to have a rep show me some hands on traning.",
@@ -636,7 +541,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Servers complain that when you close the credit card orders that you have to enter your POS number again.",
@@ -644,7 +549,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "we don't have enough toast tablets at the store",
@@ -652,7 +557,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=17",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "takes too many clicks/taps...5 steps when it needs to be one",
@@ -660,7 +565,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=21",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Starting tabs as a bartender is a disaster",
@@ -668,7 +573,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=21",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Would prefer...better functionality specifically for bartenders",
@@ -676,7 +581,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=16",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "when it updates we occasionally have problems with things",
@@ -684,7 +589,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=21",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It's a LOT to learn, and it's constantly evolving...",
@@ -692,7 +597,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "We are still working with our less tech savvy employees to get acclimated.",
@@ -700,7 +605,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The security feature on the setting I have experience with allowed for team members to observe manager passwords and easily exploit.",
@@ -708,15 +613,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "The smart tipping feature will not work. Tip pooling is a joke.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "There customer support is terrabile and if they approach you about payroll you better run.",
@@ -724,7 +621,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "clock in/clock out functions...harder to integrate to payroll",
@@ -732,7 +629,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=21",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "locking in Credit Card processing... I have 5 restaurants and 5 different rates",
@@ -740,7 +637,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Enterprise menu management...hard to keep organized",
@@ -748,7 +645,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=16",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Still many features only available at certain levels. Can't have both online ordering and pre-order. Controlling where online orders print in house.",
@@ -756,7 +653,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=17",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Not really designed for large scale/ high volume operations. KDS screens have some issues.",
@@ -764,7 +661,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "If using multiple restaurants, and one employee works at two of them, the manager even with full access for the first restaurant, it cant make employees changes",
@@ -772,7 +669,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "constant 'double charges' that guests see...when guests pay with 'tap to pay' it tends to put a hold on the total amount",
@@ -780,15 +677,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=2",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "It's got a few bugs -- one is updating the current inventory without our permission. It'll suddenly give us a heads up that it's decided that we have 4 plain ba",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Need improvements in labor and inventory features",
@@ -796,7 +685,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=21",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Labor scheduling system is confusing to use. We ditch the system and just use our old manual system to manage the shift.",
@@ -804,7 +693,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Inventory needs more checks and balances to make it more efficient.",
@@ -812,7 +701,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=17",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     }
    ],
    "gray": [
@@ -901,20 +790,6 @@
      "reason": "front page unreadable (403)"
     },
     {
-     "id": "src:14",
-     "url": "https://apps.apple.com/us/app/mytoast/id1509268882",
-     "host": "apps.apple.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (restaurant, pos) with no sales call to action"
-    },
-    {
-     "id": "src:15",
-     "url": "https://apps.apple.com/us/app/toast-now/id6444586410",
-     "host": "apps.apple.com",
-     "speaker": "operator",
-     "reason": "talks about this market (restaurant, pos) with no sales call to action"
-    },
-    {
      "id": "src:17",
      "url": "https://restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/elevated-costs-continue-to-pressure-restaurant-profitability/",
      "host": "restaurant.org",
@@ -933,21 +808,23 @@
    "sources": 48,
    "domains": 5,
    "cited": 47,
-   "unverifiable": 44,
-   "faultySources": 2,
+   "unverifiable": 3,
+   "faultySources": 1,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 2,
+    "record_verbatim_not_on_page": 1,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 44,
-    "onPage": 0,
+    "onPage": 1,
     "wordForWord": 0,
-    "notOnPage": 1,
-    "unverifiable": 43,
-    "notInRecord": 0
+    "notOnPage": 35,
+    "unverifiable": 8,
+    "notInRecord": 0,
+    "elided": 1,
+    "partial": 0
    },
    "detail": [
     {
@@ -1064,9 +941,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -1394,7 +1269,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "unable to take credit cards which is 80% of our sales",
@@ -1402,7 +1277,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "outages nearly every day or every other day",
@@ -1410,7 +1285,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "we never know if the system is going to work or not.",
@@ -1418,7 +1293,7 @@
       "src:41"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=8",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The system went down often, and it was VERY difficult to get a hold of tech support.",
@@ -1426,7 +1301,7 @@
       "src:36"
      ],
      "url": "https://www.capterra.com/p/211849/Lightspeed-Resturant/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "We are still having problems with the system, accurate reporting, credit card processing",
@@ -1434,7 +1309,7 @@
       "src:30"
      ],
      "url": "https://www.capterra.com/p/197473/SpotOn-Restaurant/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It froze and had to restart the point of sale all the time",
@@ -1442,7 +1317,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I've had $300 bar tabs completely disappear",
@@ -1450,7 +1325,7 @@
       "src:28"
      ],
      "url": "https://www.capterra.com/p/197473/SpotOn-Restaurant/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It's internet based and in the south we often have inclement weather.",
@@ -1458,7 +1333,7 @@
       "src:42"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "which caused issues with kitchen printing and network printing in general",
@@ -1466,7 +1341,7 @@
       "src:39"
      ],
      "url": "https://www.capterra.com/p/211849/Lightspeed-Resturant/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "how can you wait 48 hours to solve a problem with your point of sale?",
@@ -1474,7 +1349,7 @@
       "src:27"
      ],
      "url": "https://www.capterra.com/p/197473/SpotOn-Restaurant/reviews/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "You'll end up fixing everything yourself.",
@@ -1482,7 +1357,7 @@
       "src:43"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "It's impossible to solve a problem. Zero human contact.",
@@ -1490,15 +1365,7 @@
       "src:44"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "You make it so difficult to talk to anyone about any issue",
-     "cites": [
-      "src:13"
-     ],
-     "url": "https://www.trustpilot.com/review/toasttab.com",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "They may have a lot of useful software, but if you ever need help it's almost impossible to get it.",
@@ -1506,7 +1373,7 @@
       "src:48"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "three hours a week dealing with issues",
@@ -1514,7 +1381,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Over and over I've called for 10 months now",
@@ -1522,7 +1389,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "our tech guy spends 70 percent of his day on the phone with support",
@@ -1530,7 +1397,7 @@
       "src:11"
      ],
      "url": "https://www.capterra.com/p/135040/Revel-iPad-POS/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "customer support non-existant",
@@ -1538,7 +1405,7 @@
       "src:15"
      ],
      "url": "https://www.capterra.com/p/175628/Square-Point-of-Sale/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "our business paid over $39,000 in commission, merchant, and processing fees to the third-party delivery apps",
@@ -1546,7 +1413,7 @@
       "src:24"
      ],
      "url": "https://www.capterra.com/p/10002488/Owner/reviews/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "I do not have to pay 25-30% fee to 3rd party delivery",
@@ -1554,7 +1421,7 @@
       "src:25"
      ],
      "url": "https://www.capterra.com/p/10002488/Owner/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Why do they continue giving away a big percentage of their profits to these other",
@@ -1562,7 +1429,7 @@
       "src:31"
      ],
      "url": "https://www.capterra.com/p/229841/ChowNow/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Lower cost on commission comparing to other platforms such as ubereats, grubhub",
@@ -1570,7 +1437,7 @@
       "src:32"
      ],
      "url": "https://www.capterra.com/p/229841/ChowNow/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "keeps more of every sale in our business instead of paying large commission fees",
@@ -1578,7 +1445,7 @@
       "src:26"
      ],
      "url": "https://www.capterra.com/p/10002488/Owner/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "cost you money in lost orders",
@@ -1586,7 +1453,7 @@
       "src:17"
      ],
      "url": "https://www.capterra.com/p/197514/Delivery-Management-Sofware/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "perdevamo ordini sopratutto con Glovo",
@@ -1594,7 +1461,7 @@
       "src:18"
      ],
      "url": "https://www.capterra.com/p/197514/Delivery-Management-Sofware/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "With new Cuboh integration, it's not restaurant friendly",
@@ -1602,7 +1469,7 @@
       "src:34"
      ],
      "url": "https://www.capterra.com/p/229841/ChowNow/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The integrators they work with have been poor or non-responsive.",
@@ -1610,7 +1477,7 @@
       "src:38"
      ],
      "url": "https://www.capterra.com/p/211849/Lightspeed-Resturant/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "POS integration with OTTER. When something goes wrong, it's difficult to find and fix",
@@ -1618,7 +1485,7 @@
       "src:33"
      ],
      "url": "https://www.capterra.com/p/229841/ChowNow/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "missing products and corrupted information on the website",
@@ -1626,7 +1493,7 @@
       "src:19"
      ],
      "url": "https://www.capterra.com/p/197514/Delivery-Management-Sofware/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "$30,000 to leave",
@@ -1634,7 +1501,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "we have been trying to cancel for weeks now but have been given the run around",
@@ -1642,7 +1509,7 @@
       "src:37"
      ],
      "url": "https://www.capterra.com/p/211849/Lightspeed-Resturant/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "They changed the terms and conditions in the middle of our contract",
@@ -1650,7 +1517,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "15k cancellation fee for the 3 year contract you were never advised you had.",
@@ -1658,7 +1525,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/135040/Revel-iPad-POS/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The inventory module is laughably bad",
@@ -1666,7 +1533,7 @@
       "src:12"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=4",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Poor inventory management",
@@ -1674,7 +1541,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/135040/Revel-iPad-POS/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "The back of house reporting is a disaster",
@@ -1682,7 +1549,7 @@
       "src:14"
      ],
      "url": "https://www.capterra.com/p/175628/Square-Point-of-Sale/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Need to go to 10 different window for report",
@@ -1690,7 +1557,7 @@
       "src:29"
      ],
      "url": "https://www.capterra.com/p/197473/SpotOn-Restaurant/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "back end reports are not helpful",
@@ -1698,7 +1565,7 @@
       "src:15"
      ],
      "url": "https://www.capterra.com/p/175628/Square-Point-of-Sale/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "you still need third-party add-on apps to make it a complete POS package (things as basic as employee scheduling)",
@@ -1706,7 +1573,7 @@
       "src:16"
      ],
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=16",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I want to know total dollar spend for the written schedule per day",
@@ -1714,7 +1581,7 @@
       "src:22"
      ],
      "url": "https://www.capterra.com/p/123038/7shifts-Restaurant-Scheduling/reviews/?page=4",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I can quickly scroll back to last year and see our sales trends",
@@ -1722,7 +1589,7 @@
       "src:23"
      ],
      "url": "https://www.capterra.com/p/123038/7shifts-Restaurant-Scheduling/reviews/?page=4",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I was an excel user for my scheduling",
@@ -1730,7 +1597,7 @@
       "src:20"
      ],
      "url": "https://www.capterra.com/p/123038/7shifts-Restaurant-Scheduling/reviews/?page=4",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "eliminating the old multi tiered way of doing it with texts, messengers, google chats, emails, and in person requests",
@@ -1738,7 +1605,7 @@
       "src:21"
      ],
      "url": "https://www.capterra.com/p/123038/7shifts-Restaurant-Scheduling/reviews/?page=4",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     }
    ],
    "gray": [
@@ -1985,7 +1852,7 @@
      "url": "https://council.nyc.gov/press/2021/08/26/2102/",
      "host": "council.nyc.gov",
      "speaker": "press",
-     "reason": "talks about this market (pos, food) with no sales call to action"
+     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
     },
     {
      "id": "src:36",
@@ -2051,13 +1918,6 @@
      "reason": "front page unreadable (403)"
     },
     {
-     "id": "src:45",
-     "url": "https://www.restaurantdive.com/news/new-york-city-council-passes-permanent-15-delivery-fee-cap/605676/",
-     "host": "restaurantdive.com",
-     "speaker": "press",
-     "reason": "talks about this market (restaurant, pos, menu) with no sales call to action"
-    },
-    {
      "id": "src:47",
      "url": "https://www.capterra.com/p/136301/Toast-POS/reviews/?page=6",
      "host": "capterra.com",
@@ -2107,8 +1967,8 @@
   },
   {
    "host": "apps.apple.com",
-   "verdict": "unknown",
-   "why": "talks about this market (restaurant, pos) with no sales call to action"
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
   },
   {
    "host": "statusgator.com",

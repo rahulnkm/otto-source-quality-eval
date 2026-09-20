@@ -7,7 +7,7 @@ base,src:5,capterra.com,customer,"front page unreadable (403)",https://www.capte
 base,src:6,capterra.com,customer,"front page unreadable (403)",https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11
 base,src:7,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/www.hubspot.com
 base,src:8,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/www.hubspot.com?page=2
-base,src:9,tonydowling.substack.com,practitioner,"talks about this market (crm, sales) with no sales call to action",https://tonydowling.substack.com/p/why-your-sales-team-wont-update-hubspot
+base,src:9,tonydowling.substack.com,practitioner,"talks about this market (sales) with no sales call to action",https://tonydowling.substack.com/p/why-your-sales-team-wont-update-hubspot
 base,src:10,revblack.com,practitioner,"talks about this market (crm, marketing, sales) with no sales call to action",https://www.revblack.com/guides/hubspot-audit-checklist
 base,src:12,revefied.com,practitioner,"talks about this market (crm, marketing, sales) with no sales call to action",https://revefied.com/revefied-blog/how-to-clean-up-a-messy-hubspot-crm-without-breaking-everything
 base,src:18,blog.send.win,practitioner,"sells something, but not obviously into this market",https://blog.send.win/manage-multiple-hubspot-accounts-multi-account-management-guide-2026/
@@ -70,4 +70,3 @@ otto,src:55,aws.amazon.com,buyer,"talks about this market (marketing, email) wit
 otto,src:56,aws.amazon.com,practitioner,"talks about this market (marketing, email) with no sales call to action",https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=1
 otto,src:57,aws.amazon.com,practitioner,"talks about this market (marketing, email) with no sales call to action",https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-j45uk4re22wem?page=1
 otto,src:58,aws.amazon.com,practitioner,"talks about this market (marketing, email) with no sales call to action",https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-j45uk4re22wem?page=1
-otto,src:60,saastr.com,press,"talks about this market (crm, marketing, sales) with no sales call to action",https://www.saastr.com/the-great-price-surge-of-2025-a-comprehensive-breakdown-of-pricing-increases-and-the-issues-they-have-created-for-all-of-us

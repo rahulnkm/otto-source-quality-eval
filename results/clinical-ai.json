@@ -1,0 +1,625 @@
+{
+ "market": "clinical-ai",
+ "scoredAt": "2026-09-18T22:44:45.001Z",
+ "arms": [
+  {
+   "arm": "base",
+   "file": "base-2026-09-18T03-26-18-015Z.json",
+   "accepted": true,
+   "costUsd": 2.9969724999999996,
+   "rounds": 1,
+   "pains": 12,
+   "sources": 13,
+   "domains": 9,
+   "cited": 12,
+   "unverifiable": 0,
+   "faultySources": 2,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 1,
+    "sells_as_buyer": 1,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 50,
+    "onPage": 46,
+    "wordForWord": 33,
+    "notOnPage": 4,
+    "unverifiable": 0,
+    "notInRecord": 39
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://www.abridge.com",
+     "host": "abridge.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11933996/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://kevinmd.com/2026/04/severe-note-bloat-is-fueling-dangerous-physician-burnout.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:5",
+     "url": "https://kevinmd.com/2026/03/the-hidden-risks-and-rewards-of-ai-scribes-in-medicine.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:6",
+     "url": "https://kevinmd.com/2026/08/why-ambient-ai-scribe-notes-fail-the-2026-cms-audit.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:7",
+     "url": "https://kevinmd.com/2026/07/your-ambient-ai-scribe-consent-checkbox-is-not-consent.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:8",
+     "url": "https://aihc-assn.org/coding-under-pressure/",
+     "host": "aihc-assn.org",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:9",
+     "url": "https://klasresearch.com/archcollaborative/report/reducing-nursing-documentation-burden-2025/706",
+     "host": "klasresearch.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://phti.org/announcement/ai-scribes-reduce-clinician-burnout/",
+     "host": "phti.org",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.advisory.com/daily-briefing/2026/04/13/ai-scribes-oi-ec",
+     "host": "advisory.com",
+     "speaker": "analyst",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.cio.com/article/4149245/healthcare-cios-rethink-ai-rollout.html",
+     "host": "cio.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:13",
+     "url": "https://theskepticalcardiologist.substack.com/p/the-ambient-ai-medical-scribe-your",
+     "host": "theskepticalcardiologist.substack.com",
+     "speaker": "practitioner",
+     "verdict": "independent",
+     "faults": [],
+     "status": 200
+    }
+   ],
+   "badQuotes": [
+    {
+     "quote": "The AI-generated text is also superfluous, leading to bulky notes...Errors tend to be minor but are frequent.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "It feels as though [we] are frequently forced to double chart and/or check two places for information...exhausted with very little to show for it...",
+     "cites": [
+      "src:9"
+     ],
+     "url": "https://klasresearch.com/archcollaborative/report/reducing-nursing-documentation-burden-2025/706",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "Most of my visits are physical exams as a pediatrician and do not work well...I basically use to make sure I don't forget anything.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "[Vendor] does a very poor job of summarizing...often boiling down a 90-120 minute visit to just a few sentences",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
+     "why": "words are not on the cited page"
+    }
+   ],
+   "gray": [
+    {
+     "id": "src:2",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:3",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11933996/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://kevinmd.com/2026/04/severe-note-bloat-is-fueling-dangerous-physician-burnout.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:5",
+     "url": "https://kevinmd.com/2026/03/the-hidden-risks-and-rewards-of-ai-scribes-in-medicine.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:6",
+     "url": "https://kevinmd.com/2026/08/why-ambient-ai-scribe-notes-fail-the-2026-cms-audit.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:7",
+     "url": "https://kevinmd.com/2026/07/your-ambient-ai-scribe-consent-checkbox-is-not-consent.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:8",
+     "url": "https://aihc-assn.org/coding-under-pressure/",
+     "host": "aihc-assn.org",
+     "speaker": "practitioner",
+     "reason": "talks about this market (note) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://klasresearch.com/archcollaborative/report/reducing-nursing-documentation-burden-2025/706",
+     "host": "klasresearch.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (clinician, physician, nurse) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://phti.org/announcement/ai-scribes-reduce-clinician-burnout/",
+     "host": "phti.org",
+     "speaker": "analyst",
+     "reason": "talks about this market (patient, health system) with no sales call to action"
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.advisory.com/daily-briefing/2026/04/13/ai-scribes-oi-ec",
+     "host": "advisory.com",
+     "speaker": "analyst",
+     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.cio.com/article/4149245/healthcare-cios-rethink-ai-rollout.html",
+     "host": "cio.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    }
+   ]
+  },
+  {
+   "arm": "otto",
+   "file": "otto-2026-09-18T03-35-45-685Z.json",
+   "accepted": true,
+   "costUsd": 6.521903500000001,
+   "rounds": 2,
+   "pains": 7,
+   "sources": 16,
+   "domains": 6,
+   "cited": 15,
+   "unverifiable": 0,
+   "faultySources": 6,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 6,
+    "sells_as_buyer": 0,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 30,
+    "onPage": 28,
+    "wordForWord": 28,
+    "notOnPage": 2,
+    "unverifiable": 0,
+    "notInRecord": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11933996/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:2",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12844589/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:3",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13325621/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:4",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13120879/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:5",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13140808/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13220976/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12105566/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:8",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42127286/",
+     "host": "pubmed.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 203
+    },
+    {
+     "id": "src:9",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13287947/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://www.ama-assn.org/practice-management/digital-health/family-doctors-spend-86-minutes-pajama-time-ehrs-nightly",
+     "host": "ama-assn.org",
+     "speaker": "press",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://digital.ahrq.gov/ahrq-funded-projects/essential-nurse-documentation-studying-ehr-burden-during-covid-19-endburden",
+     "host": "digital.ahrq.gov",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785890",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:13",
+     "url": "https://kevinmd.com/2026/03/the-hidden-risks-and-rewards-of-ai-scribes-in-medicine.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:14",
+     "url": "https://techysurgeon.substack.com/p/youre-using-your-clinics-ambient",
+     "host": "techysurgeon.substack.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:15",
+     "url": "https://kevinmd.com/2026/08/why-ambient-ai-scribe-notes-fail-the-2026-cms-audit.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:16",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12492056/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "verdict": "unknown",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    }
+   ],
+   "badQuotes": [
+    {
+     "quote": "It's not my voice, right? [The ambient scribe] is a very different voice from my voice. My notes have a certain voice…",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12844589/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "It takes you 5 minutes to read through what happened in the last consultation, when it normally take[s] me in 20 seconds",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13220976/",
+     "why": "words are not on the cited page"
+    }
+   ],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11933996/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:2",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12844589/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:3",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13325621/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13120879/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13140808/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13220976/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "practitioner",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:7",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12105566/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    },
+    {
+     "id": "src:8",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42127286/",
+     "host": "pubmed.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "reason": "talks about this market (note) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://kevinmd.com/2026/03/the-hidden-risks-and-rewards-of-ai-scribes-in-medicine.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:14",
+     "url": "https://techysurgeon.substack.com/p/youre-using-your-clinics-ambient",
+     "host": "techysurgeon.substack.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (clinician) with no sales call to action"
+    },
+    {
+     "id": "src:15",
+     "url": "https://kevinmd.com/2026/08/why-ambient-ai-scribe-notes-fail-the-2026-cms-audit.html",
+     "host": "kevinmd.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:16",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12492056/",
+     "host": "pmc.ncbi.nlm.nih.gov",
+     "speaker": "analyst",
+     "reason": "talks about this market (documentation) with no sales call to action"
+    }
+   ]
+  }
+ ],
+ "domains": [
+  {
+   "host": "abridge.com",
+   "verdict": "sells",
+   "why": "the company being researched"
+  },
+  {
+   "host": "pmc.ncbi.nlm.nih.gov",
+   "verdict": "unknown",
+   "why": "talks about this market (documentation) with no sales call to action"
+  },
+  {
+   "host": "kevinmd.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "aihc-assn.org",
+   "verdict": "unknown",
+   "why": "talks about this market (note) with no sales call to action"
+  },
+  {
+   "host": "klasresearch.com",
+   "verdict": "unknown",
+   "why": "talks about this market (clinician, physician, nurse) with no sales call to action"
+  },
+  {
+   "host": "phti.org",
+   "verdict": "unknown",
+   "why": "talks about this market (patient, health system) with no sales call to action"
+  },
+  {
+   "host": "advisory.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (clinician, physician, patient)"
+  },
+  {
+   "host": "cio.com",
+   "verdict": "unknown",
+   "why": "front page unreadable (403)"
+  },
+  {
+   "host": "theskepticalcardiologist.substack.com",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
+  },
+  {
+   "host": "pubmed.ncbi.nlm.nih.gov",
+   "verdict": "unknown",
+   "why": "talks about this market (note) with no sales call to action"
+  },
+  {
+   "host": "ama-assn.org",
+   "verdict": "unknown",
+   "why": "talks about this market (physician, note, patient) with no sales call to action"
+  },
+  {
+   "host": "digital.ahrq.gov",
+   "verdict": "unknown",
+   "why": "talks about this market (physician, ehr, patient) with no sales call to action"
+  },
+  {
+   "host": "techysurgeon.substack.com",
+   "verdict": "unknown",
+   "why": "talks about this market (clinician) with no sales call to action"
+  }
+ ]
+}

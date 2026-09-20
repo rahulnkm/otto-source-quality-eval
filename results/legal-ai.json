@@ -1,6 +1,6 @@
 {
  "market": "legal-ai",
- "scoredAt": "2026-09-18T02:31:16.483Z",
+ "scoredAt": "2026-09-20T16:37:32.242Z",
  "arms": [
   {
    "arm": "base",
@@ -23,10 +23,12 @@
    "quotes": {
     "total": 24,
     "onPage": 24,
-    "wordForWord": 22,
+    "wordForWord": 23,
     "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 15
+    "notInRecord": 15,
+    "elided": 1,
+    "partial": 0
    },
    "detail": [
     {
@@ -165,10 +167,12 @@
    "quotes": {
     "total": 18,
     "onPage": 18,
-    "wordForWord": 12,
+    "wordForWord": 13,
     "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 0
+    "notInRecord": 0,
+    "elided": 5,
+    "partial": 0
    },
    "detail": [
     {

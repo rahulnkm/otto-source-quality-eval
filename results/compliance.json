@@ -1,6 +1,6 @@
 {
  "market": "compliance",
- "scoredAt": "2026-09-18T14:07:47.844Z",
+ "scoredAt": "2026-09-20T17:14:49.034Z",
  "arms": [
   {
    "arm": "base",
@@ -12,7 +12,7 @@
    "sources": 43,
    "domains": 3,
    "cited": 43,
-   "unverifiable": 0,
+   "unverifiable": 20,
    "faultySources": 4,
    "faults": {
     "dead": 0,
@@ -22,11 +22,13 @@
    },
    "quotes": {
     "total": 44,
-    "onPage": 40,
-    "wordForWord": 35,
-    "notOnPage": 4,
-    "unverifiable": 0,
-    "notInRecord": 0
+    "onPage": 21,
+    "wordForWord": 19,
+    "notOnPage": 0,
+    "unverifiable": 21,
+    "notInRecord": 0,
+    "elided": 2,
+    "partial": 2
    },
    "detail": [
     {
@@ -36,7 +38,7 @@
      "speaker": "founder",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:2",
@@ -45,7 +47,7 @@
      "speaker": "founder",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:3",
@@ -54,7 +56,7 @@
      "speaker": "founder",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:4",
@@ -108,7 +110,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:10",
@@ -117,7 +119,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:11",
@@ -126,7 +128,7 @@
      "speaker": "founder",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:12",
@@ -135,7 +137,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:13",
@@ -144,7 +146,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:14",
@@ -193,7 +195,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:19",
@@ -202,7 +204,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:20",
@@ -211,7 +213,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:21",
@@ -220,7 +222,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:22",
@@ -229,7 +231,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:23",
@@ -247,7 +249,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:25",
@@ -310,7 +312,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:32",
@@ -319,7 +321,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:33",
@@ -328,7 +330,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:34",
@@ -368,7 +370,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:38",
@@ -377,7 +379,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:39",
@@ -422,25 +424,97 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     }
    ],
    "badQuotes": [
+    {
+     "quote": "A potential customer has asked for SOC reports and my gut instinct is to simply say no deal.",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://news.ycombinator.com/item?id=25808608",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Every time I've been asked about SOC compliance, it turned out the underlying reason was either insurance or a requirement the customer had",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48145797",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "certification is about sales.",
+     "cites": [
+      "src:9"
+     ],
+     "url": "https://news.ycombinator.com/item?id=25809370",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "at the end of the day it's a huge pain grabbing screenshots for what feels like a very performative process.",
+     "cites": [
+      "src:12"
+     ],
+     "url": "https://news.ycombinator.com/item?id=49172683",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Oftentimes evidence is screenshots of the running environment (vomit) or audit logs.",
+     "cites": [
+      "src:13"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48492685",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "That evidence needs to be versioned (auditors love asking 'show me this policy as it existed 6 months ago')",
+     "cites": [
+      "src:24"
+     ],
+     "url": "https://news.ycombinator.com/item?id=46729951",
+     "why": "the page could not be read"
+    },
     {
      "quote": "something goes from being done in 2 hours to taking 3+ days.",
      "cites": [
       "src:14"
      ],
      "url": "https://news.ycombinator.com/item?id=32018066",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     },
     {
-     "quote": "my main motivator of achieving good outcomes for users, has been derailed by procedure.",
+     "quote": "your audit compliance software (something like Vanta.com) is going to be setup to mandate every CVE",
      "cites": [
-      "src:16"
+      "src:32"
      ],
-     "url": "https://news.ycombinator.com/item?id=32018066",
-     "why": "words are not on the cited page"
+     "url": "https://news.ycombinator.com/item?id=49155789",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "customer just told you to turn around in 2 days",
+     "cites": [
+      "src:38"
+     ],
+     "url": "https://news.ycombinator.com/item?id=42787454",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Having to fill endless security questionnaire without being sure you can even sell",
+     "cites": [
+      "src:37"
+     ],
+     "url": "https://news.ycombinator.com/item?id=42673560",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "it probably won't be cost-effective for most vendors to gather and collate this documentation",
+     "cites": [
+      "src:11"
+     ],
+     "url": "https://news.ycombinator.com/item?id=25795029",
+     "why": "the page could not be read"
     },
     {
      "quote": "They run anywhere from $250-$4500 each. The main problem is that there has become a race to longer questionnaires",
@@ -448,15 +522,95 @@
       "src:34"
      ],
      "url": "https://news.ycombinator.com/item?id=25793230",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     },
     {
-     "quote": "If every customer asked the same questions, such as these, it would be worthwhile compiling answers",
+     "quote": "That evidence needs to be versioned (auditors love asking 'show me this policy as it existed 6 months ago')",
      "cites": [
-      "src:36"
+      "src:24"
      ],
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "why": "words are not on the cited page"
+     "url": "https://news.ycombinator.com/item?id=46729951",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Vanta made SOC2 way more intimidating than it was.",
+     "cites": [
+      "src:21"
+     ],
+     "url": "https://news.ycombinator.com/item?id=43353299",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Vanta will ask (suggest? come perilously close to demand?) you do a lot of engineering work that is absolutely not necessary for a SOC2 attestation.",
+     "cites": [
+      "src:18"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48150981",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Most startups should be doing way, way less than automation platforms like these tell them they need to do",
+     "cites": [
+      "src:20"
+     ],
+     "url": "https://news.ycombinator.com/item?id=47461687",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "If Vanta has you set up some cloud detection capability, and it turns out as you mature your security organization that it wasn't necessary or even useful, you ",
+     "cites": [
+      "src:19"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48150981",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "once you do, then it gets set in stone and that's what you are audited against",
+     "cites": [
+      "src:31"
+     ],
+     "url": "https://news.ycombinator.com/item?id=44362665",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "It's incredibly easy to get SOC 2 audited and still have terrible security.",
+     "cites": [
+      "src:22"
+     ],
+     "url": "https://news.ycombinator.com/item?id=47612964",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "my whole company had a great laugh when a client required us to have a Pandemic Policy in 2019",
+     "cites": [
+      "src:33"
+     ],
+     "url": "https://news.ycombinator.com/item?id=25811616",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "The ROI is not even close to making sense. This looks like a huge PITA besides being expensive and requiring yearly investment.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://news.ycombinator.com/item?id=25808608",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "It costs $40k in year one and $30k/year in subsequent years",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://news.ycombinator.com/item?id=25810851",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "having experts that have done this before set you up for success in your $50k, year-long investment",
+     "cites": [
+      "src:43"
+     ],
+     "url": "https://news.ycombinator.com/item?id=25810614",
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -605,21 +759,21 @@
      "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
      "host": "grcpod.substack.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (compliance, soc 2, audit) with no sales call to action"
+     "reason": "talks about this market (audit, grc) with no sales call to action"
     },
     {
      "id": "src:27",
      "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
      "host": "grcpod.substack.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (compliance, soc 2, audit) with no sales call to action"
+     "reason": "talks about this market (audit, grc) with no sales call to action"
     },
     {
      "id": "src:28",
      "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
      "host": "grcpod.substack.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (compliance, soc 2, audit) with no sales call to action"
+     "reason": "talks about this market (audit, grc) with no sales call to action"
     },
     {
      "id": "src:29",
@@ -738,21 +892,23 @@
    "sources": 20,
    "domains": 3,
    "cited": 17,
-   "unverifiable": 1,
-   "faultySources": 11,
+   "unverifiable": 14,
+   "faultySources": 2,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 11,
+    "record_verbatim_not_on_page": 2,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 31,
-    "onPage": 28,
-    "wordForWord": 25,
+    "onPage": 13,
+    "wordForWord": 13,
     "notOnPage": 1,
-    "unverifiable": 2,
-    "notInRecord": 0
+    "unverifiable": 17,
+    "notInRecord": 0,
+    "elided": 0,
+    "partial": 0
    },
    "detail": [
     {
@@ -801,10 +957,8 @@
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:6",
@@ -812,10 +966,8 @@
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:7",
@@ -824,7 +976,7 @@
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:8",
@@ -842,7 +994,7 @@
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:10",
@@ -860,7 +1012,7 @@
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:12",
@@ -868,10 +1020,8 @@
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:13",
@@ -879,10 +1029,8 @@
      "host": "news.ycombinator.com",
      "speaker": "vendor",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:14",
@@ -900,7 +1048,7 @@
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:16",
@@ -908,10 +1056,8 @@
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:17",
@@ -919,10 +1065,8 @@
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:18",
@@ -930,10 +1074,8 @@
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:19",
@@ -941,10 +1083,8 @@
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     },
     {
      "id": "src:20",
@@ -952,13 +1092,67 @@
      "host": "news.ycombinator.com",
      "speaker": "vendor",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 429
     }
    ],
    "badQuotes": [
+    {
+     "quote": "we absolutely have clients that wouldn't be customers if we didn't have SOC 2",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48165463",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I doubt you could get it under $20k but that's the ballpark",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48165463",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "you're definitely transparently losing sales",
+     "cites": [
+      "src:12"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48151764",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "they were adamant that whatever platform we used _had_ to be SOC2 compliant",
+     "cites": [
+      "src:11"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48153191",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "we went with Strapi solely because of this requirement",
+     "cites": [
+      "src:11"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48153191",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "without a SOC2 you will be asked to fill out an insane 200+ questionnaire",
+     "cites": [
+      "src:9"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48152518",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "the hardest part is paperwork and staff procedures",
+     "cites": [
+      "src:17"
+     ],
+     "url": "https://news.ycombinator.com/item?id=8140695",
+     "why": "the page could not be read"
+    },
     {
      "quote": "We waste hours manually uploading their physical food safety certificates into the system just to clear the annoying red dashboard errors.",
      "cites": [
@@ -973,7 +1167,7 @@
       "src:3"
      ],
      "url": "https://capterra.com/p/211459/Vanta/reviews/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Risk management can be more flexible",
@@ -981,7 +1175,71 @@
       "src:3"
      ],
      "url": "https://capterra.com/p/211459/Vanta/reviews/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "The way we did it was scarily easy.",
+     "cites": [
+      "src:16"
+     ],
+     "url": "https://news.ycombinator.com/item?id=49665739",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I could have lied and said yes to everything and still got compliant",
+     "cites": [
+      "src:16"
+     ],
+     "url": "https://news.ycombinator.com/item?id=49665739",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I got a shiny badge after about an hour of answering questions",
+     "cites": [
+      "src:16"
+     ],
+     "url": "https://news.ycombinator.com/item?id=49665739",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "there are many SOC2 compliant companies that get pwnd so this isnt really reassuring in itself",
+     "cites": [
+      "src:16"
+     ],
+     "url": "https://news.ycombinator.com/item?id=49665739",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "half of SOC 2 is kinda bull crap and half of it is really good healthy processes",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48165463",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Even though I agree SOC2 in practice is of dubious security value",
+     "cites": [
+      "src:11"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48153191",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I spent a probably 5 hours a month the first year",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://news.ycombinator.com/item?id=48155797",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "there is an initial upfront cost with regards to documentation",
+     "cites": [
+      "src:18"
+     ],
+     "url": "https://news.ycombinator.com/item?id=31393594",
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -1128,7 +1386,7 @@
   {
    "host": "grcpod.substack.com",
    "verdict": "unknown",
-   "why": "talks about this market (compliance, soc 2, audit) with no sales call to action"
+   "why": "talks about this market (audit, grc) with no sales call to action"
   },
   {
    "host": "aws.amazon.com",

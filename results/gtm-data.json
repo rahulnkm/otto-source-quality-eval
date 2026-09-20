@@ -1,6 +1,6 @@
 {
  "market": "gtm-data",
- "scoredAt": "2026-09-18T17:40:51.495Z",
+ "scoredAt": "2026-09-20T16:45:14.812Z",
  "arms": [
   {
    "arm": "base",
@@ -22,11 +22,13 @@
    },
    "quotes": {
     "total": 38,
-    "onPage": 32,
-    "wordForWord": 21,
-    "notOnPage": 6,
+    "onPage": 33,
+    "wordForWord": 32,
+    "notOnPage": 3,
     "unverifiable": 0,
-    "notInRecord": 7
+    "notInRecord": 7,
+    "elided": 1,
+    "partial": 2
    },
    "detail": [
     {
@@ -246,15 +248,7 @@
       "src:4"
      ],
      "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "It's a platform so complex that it requires a translator.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://moxiegtm.substack.com/p/how-to-save-200k-and-2-months-without",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     },
     {
      "quote": "632 leads with verified emails out of 1,000, and an 8% bounce rate.",
@@ -270,7 +264,7 @@
       "src:4"
      ],
      "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     },
     {
      "quote": "Over 40%+ of emails bouncing tanked our sender reputation.",
@@ -287,7 +281,7 @@
      "url": "https://moxiegtm.substack.com/p/how-to-save-200k-and-2-months-without",
      "host": "moxiegtm.substack.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (gtm, enrichment, data) with no sales call to action"
+     "reason": "talks about this market (gtm) with no sales call to action"
     },
     {
      "id": "src:3",
@@ -378,7 +372,7 @@
      "url": "https://www.sloane-staffing.com/insights/gtm-engineer-salary-guide-2026/",
      "host": "sloane-staffing.com",
      "speaker": "analyst",
-     "reason": "talks about this market (gtm, outbound, revops) with no sales call to action"
+     "reason": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
     },
     {
      "id": "src:18",
@@ -400,20 +394,22 @@
    "domains": 4,
    "cited": 38,
    "unverifiable": 0,
-   "faultySources": 2,
+   "faultySources": 0,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 1,
-    "sells_as_buyer": 1,
+    "record_verbatim_not_on_page": 0,
+    "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 35,
     "onPage": 34,
-    "wordForWord": 31,
-    "notOnPage": 1,
+    "wordForWord": 34,
+    "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 0
+    "notInRecord": 0,
+    "elided": 0,
+    "partial": 1
    },
    "detail": [
     {
@@ -494,9 +490,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -738,7 +732,7 @@
      "url": "https://productstudio.substack.com/p/everyones-doing-outbound-wrong-in",
      "host": "productstudio.substack.com",
      "speaker": "practitioner",
-     "verdict": "unknown",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
@@ -747,7 +741,7 @@
      "url": "https://schoolofsdr.substack.com/p/your-sdr-supports-5-aes-makes-50",
      "host": "schoolofsdr.substack.com",
      "speaker": "practitioner",
-     "verdict": "unknown",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
@@ -757,9 +751,7 @@
      "host": "orum.com",
      "speaker": "vendor",
      "verdict": "sells",
-     "faults": [
-      "sells_as_buyer"
-     ],
+     "faults": [],
      "status": 200
     }
    ],
@@ -770,7 +762,7 @@
       "src:9"
      ],
      "url": "https://www.trustpilot.com/review/cognism.com",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     }
    ],
    "gray": [
@@ -1018,20 +1010,6 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:36",
-     "url": "https://productstudio.substack.com/p/everyones-doing-outbound-wrong-in",
-     "host": "productstudio.substack.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (gtm) with no sales call to action"
-    },
-    {
-     "id": "src:37",
-     "url": "https://schoolofsdr.substack.com/p/your-sdr-supports-5-aes-makes-50",
-     "host": "schoolofsdr.substack.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (outbound, leads, signals) with no sales call to action"
     }
    ]
   }
@@ -1045,7 +1023,7 @@
   {
    "host": "moxiegtm.substack.com",
    "verdict": "unknown",
-   "why": "talks about this market (gtm, enrichment, data) with no sales call to action"
+   "why": "talks about this market (gtm) with no sales call to action"
   },
   {
    "host": "linkedin.com",
@@ -1075,7 +1053,7 @@
   {
    "host": "sloane-staffing.com",
    "verdict": "unknown",
-   "why": "talks about this market (gtm, outbound, revops) with no sales call to action"
+   "why": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
   },
   {
    "host": "trustpilot.com",
@@ -1084,13 +1062,13 @@
   },
   {
    "host": "productstudio.substack.com",
-   "verdict": "unknown",
-   "why": "talks about this market (gtm) with no sales call to action"
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
   },
   {
    "host": "schoolofsdr.substack.com",
-   "verdict": "unknown",
-   "why": "talks about this market (outbound, leads, signals) with no sales call to action"
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
   },
   {
    "host": "orum.com",

@@ -1,6 +1,6 @@
 {
  "market": "fitness",
- "scoredAt": "2026-09-18T18:52:21.521Z",
+ "scoredAt": "2026-09-18T22:42:15.955Z",
  "arms": [
   {
    "arm": "base",
@@ -13,19 +13,19 @@
    "domains": 13,
    "cited": 20,
    "unverifiable": 4,
-   "faultySources": 4,
+   "faultySources": 2,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 3,
+    "record_verbatim_not_on_page": 1,
     "sells_as_buyer": 1,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 41,
-    "onPage": 27,
-    "wordForWord": 22,
-    "notOnPage": 6,
-    "unverifiable": 8,
+    "onPage": 29,
+    "wordForWord": 23,
+    "notOnPage": 3,
+    "unverifiable": 9,
     "notInRecord": 23
    },
    "detail": [
@@ -44,9 +44,7 @@
      "host": "trustpilot.com",
      "speaker": "customer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -55,9 +53,7 @@
      "host": "forum.slowtwitch.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -184,7 +180,7 @@
      "url": "https://mikecldi.substack.com/p/eight-things-i-wish-strava-developed",
      "host": "mikecldi.substack.com",
      "speaker": "buyer",
-     "verdict": "unknown",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
@@ -234,22 +230,6 @@
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/",
      "why": "page could not be read"
-    },
-    {
-     "quote": "I found very little of use and nothing of 'must have' in the full version.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "Strava is purely social for me. I refuse to pay for social…",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
-     "why": "words are not on the cited page"
     },
     {
      "quote": "I've only found the subscription of value when I've traveled to unknown places & used their heat maps.",
@@ -329,7 +309,7 @@
       "src:2"
      ],
      "url": "https://www.trustpilot.com/review/strava.com?page=2",
-     "why": "words are not on the cited page"
+     "why": "review listing paginates and reorders; the quote is not on the page today"
     }
    ],
    "gray": [
@@ -450,7 +430,7 @@
      "url": "https://mikecldi.substack.com/p/eight-things-i-wish-strava-developed",
      "host": "mikecldi.substack.com",
      "speaker": "buyer",
-     "reason": "talks about this market (running) with no sales call to action"
+     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
     },
     {
      "id": "src:18",
@@ -488,9 +468,9 @@
    },
    "quotes": {
     "total": 35,
-    "onPage": 14,
-    "wordForWord": 14,
-    "notOnPage": 5,
+    "onPage": 19,
+    "wordForWord": 19,
+    "notOnPage": 0,
     "unverifiable": 16,
     "notInRecord": 0
    },
@@ -627,38 +607,6 @@
      "why": "page could not be read"
     },
     {
-     "quote": "Nothing! It is an absolute joke, or maybe im not target audience for strava.",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "I found very little of use and nothing of 'must have' in the full version",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "I like it cuz I'm an idiot and whenever I unsubscribe I feel like I'm missing something out",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "The route creator is about the only thing that makes it worth it",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
-     "why": "words are not on the cited page"
-    },
-    {
      "quote": "I've set a calendar reminder to check 30 days before renewal and cancel if necessary.",
      "cites": [
       "src:6"
@@ -697,14 +645,6 @@
      ],
      "url": "https://www.mtbr.com/threads/should-i-report-to-strava-that-the-new-kom-is-probably-taken-by-an-ebiker.1044773/",
      "why": "page could not be read"
-    },
-    {
-     "quote": "I think Strava is a fun way to compete with the people around me. That kind of stuff breaks the system.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-flagging/824787",
-     "why": "words are not on the cited page"
     },
     {
      "quote": "Report it and then message strava the need for an ebike category.",
@@ -921,8 +861,8 @@
   },
   {
    "host": "mikecldi.substack.com",
-   "verdict": "unknown",
-   "why": "talks about this market (running) with no sales call to action"
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
   },
   {
    "host": "marathonhandbook.com",

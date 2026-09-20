@@ -11,8 +11,6 @@ base,src:10,bbb.org,operator,"talks about this market (menu) with no sales call 
 base,src:11,foxbusiness.com,press,"talks about this market (pos, food) with no sales call to action",https://www.foxbusiness.com/lifestyle/restaurateurs-fuming-ominous-new-fee-billed-customers-big-tech-vendor
 base,src:12,restaurantdive.com,press,"talks about this market (restaurant, pos, menu) with no sales call to action",https://www.restaurantdive.com/news/toast-fee-online-ordering-pos-payments-restaurants-square-shift4-spoton-clover-ncr/686718/
 base,src:13,trustpilot.com,operator,"front page unreadable (403)",https://www.trustpilot.com/review/toasttab.com
-base,src:14,apps.apple.com,practitioner,"talks about this market (restaurant, pos) with no sales call to action",https://apps.apple.com/us/app/mytoast/id1509268882
-base,src:15,apps.apple.com,operator,"talks about this market (restaurant, pos) with no sales call to action",https://apps.apple.com/us/app/toast-now/id6444586410
 base,src:17,restaurant.org,analyst,"talks about this market (restaurant, menu, food) with no sales call to action",https://restaurant.org/research-and-media/research/restaurant-economic-insights/analysis-commentary/elevated-costs-continue-to-pressure-restaurant-profitability/
 otto,src:1,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2
 otto,src:2,capterra.com,practitioner,"front page unreadable (403)",https://www.capterra.com/p/140677/TouchBistro/reviews/?page=2
@@ -48,7 +46,7 @@ otto,src:31,capterra.com,buyer,"front page unreadable (403)",https://www.capterr
 otto,src:32,capterra.com,practitioner,"front page unreadable (403)",https://www.capterra.com/p/229841/ChowNow/reviews/
 otto,src:33,capterra.com,practitioner,"front page unreadable (403)",https://www.capterra.com/p/229841/ChowNow/reviews/
 otto,src:34,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/229841/ChowNow/reviews/
-otto,src:35,council.nyc.gov,press,"talks about this market (pos, food) with no sales call to action",https://council.nyc.gov/press/2021/08/26/2102/
+otto,src:35,council.nyc.gov,press,"page carries a sponsorship marker somewhere; check whether this article is the sponsored one",https://council.nyc.gov/press/2021/08/26/2102/
 otto,src:36,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/211849/Lightspeed-Resturant/reviews/
 otto,src:37,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/211849/Lightspeed-Resturant/reviews/
 otto,src:38,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/211849/Lightspeed-Resturant/reviews/
@@ -58,6 +56,5 @@ otto,src:41,capterra.com,buyer,"front page unreadable (403)",https://www.capterr
 otto,src:42,capterra.com,practitioner,"front page unreadable (403)",https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12
 otto,src:43,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12
 otto,src:44,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/136301/Toast-POS/reviews/?page=12
-otto,src:45,restaurantdive.com,press,"talks about this market (restaurant, pos, menu) with no sales call to action",https://www.restaurantdive.com/news/new-york-city-council-passes-permanent-15-delivery-fee-cap/605676/
 otto,src:47,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/136301/Toast-POS/reviews/?page=6
 otto,src:48,capterra.com,buyer,"front page unreadable (403)",https://www.capterra.com/p/136301/Toast-POS/reviews/?page=10

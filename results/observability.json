@@ -1,6 +1,6 @@
 {
  "market": "observability",
- "scoredAt": "2026-09-18T02:43:39.904Z",
+ "scoredAt": "2026-09-20T16:54:15.928Z",
  "arms": [
   {
    "arm": "base",
@@ -26,7 +26,9 @@
     "wordForWord": 27,
     "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 5
+    "notInRecord": 5,
+    "elided": 3,
+    "partial": 0
    },
    "detail": [
     {
@@ -47,7 +49,7 @@
      "speaker": "customer",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:3",
@@ -260,7 +262,9 @@
     "wordForWord": 28,
     "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 0
+    "notInRecord": 0,
+    "elided": 0,
+    "partial": 0
    },
    "detail": [
     {
@@ -299,7 +303,7 @@
      "speaker": "buyer",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:5",
@@ -308,7 +312,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:6",
@@ -317,7 +321,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:7",
@@ -326,7 +330,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:8",
@@ -344,7 +348,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:10",
@@ -355,7 +359,7 @@
      "faults": [
       "record_verbatim_not_on_page"
      ],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:11",
@@ -375,7 +379,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:13",
@@ -395,7 +399,7 @@
      "faults": [
       "record_verbatim_not_on_page"
      ],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:15",
@@ -404,7 +408,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:16",
@@ -413,7 +417,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:17",
@@ -478,7 +482,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:24",
@@ -505,6 +509,13 @@
      "host": "henrikgerdes.me",
      "speaker": "practitioner",
      "reason": "talks about this market (observability, monitoring, kubernetes) with no sales call to action"
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.networkworld.com/article/4067370/tool-sprawl-hampers-enterprise-observability-efforts.html",
+     "host": "networkworld.com",
+     "speaker": "press",
+     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
     }
    ]
   }

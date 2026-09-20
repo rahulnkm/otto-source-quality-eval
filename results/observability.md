@@ -1,13 +1,13 @@
 # observability
 
-Scored 2026-09-18. Domain verdicts are in `observability.json`, each with the reason it was made.
+Scored 2026-09-20. Domain verdicts are in `observability.json`, each with the reason it was made.
 
 Quotes: every quoted sentence, checked against the page it cites.
 
-| arm | quotes | on the page | punctuation matches too | not on the page | page unreadable | not in the stored record |
-| --- | --- | --- | --- | --- | --- | --- |
-| base | 30 | 30 (100%) | 27 | 0 (0%) | 0 | 5 (17%) |
-| otto | 28 | 28 (100%) | 28 | 0 (0%) | 0 | 0 (0%) |
+| arm | quotes | word for word | elided or bracketed | part on the page | not on the page | page unreadable | not in the stored record |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| base | 30 | 27 | 3 | 0 | 0 | 0 | 5 (17%) |
+| otto | 28 | 28 | 0 | 0 | 0 | 0 | 0 (0%) |
 
 Sources: who the evidence came from.
 

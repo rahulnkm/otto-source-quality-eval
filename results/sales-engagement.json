@@ -1,6 +1,6 @@
 {
  "market": "sales-engagement",
- "scoredAt": "2026-09-18T17:43:47.757Z",
+ "scoredAt": "2026-09-20T16:49:26.261Z",
  "arms": [
   {
    "arm": "base",
@@ -12,21 +12,23 @@
    "sources": 34,
    "domains": 6,
    "cited": 33,
-   "unverifiable": 9,
-   "faultySources": 5,
+   "unverifiable": 0,
+   "faultySources": 3,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 4,
+    "record_verbatim_not_on_page": 2,
     "sells_as_buyer": 2,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 45,
-    "onPage": 32,
-    "wordForWord": 30,
-    "notOnPage": 1,
-    "unverifiable": 12,
-    "notInRecord": 0
+    "onPage": 35,
+    "wordForWord": 32,
+    "notOnPage": 10,
+    "unverifiable": 0,
+    "notInRecord": 0,
+    "elided": 3,
+    "partial": 0
    },
    "detail": [
     {
@@ -80,9 +82,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -200,7 +200,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:20",
@@ -209,7 +209,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:21",
@@ -218,7 +218,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:22",
@@ -227,7 +227,7 @@
      "speaker": "buyer",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:23",
@@ -254,7 +254,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:26",
@@ -330,9 +330,7 @@
      "host": "trustpilot.com",
      "speaker": "press",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -354,7 +352,7 @@
       "src:14"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "some emails can bounce or be missing",
@@ -362,7 +360,7 @@
       "src:14"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "contact data wasn't always accurate or up to date",
@@ -370,7 +368,7 @@
       "src:13"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Some contact information is outdated and credit can runs out quickly with heavy",
@@ -378,7 +376,7 @@
       "src:16"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Some contact information is outdated and credit can runs out quickly with heavy",
@@ -386,7 +384,7 @@
       "src:16"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "have to stay organized with your credits to maximize value",
@@ -394,7 +392,7 @@
       "src:15"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Unclear pricing, forced waterfall verification, slow email access",
@@ -402,23 +400,7 @@
       "src:18"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "There's a ton of leads agencies that gobble these up sending out tens of thousands of emails every day using the latest incarnation of this spamware, creating n",
-     "cites": [
-      "src:23"
-     ],
-     "url": "https://news.ycombinator.com/item?id=42380054",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "There's a new one every day because the last one got banned/isn't effective anymore.",
-     "cites": [
-      "src:23"
-     ],
-     "url": "https://news.ycombinator.com/item?id=42380054",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "UI can feel slightly cluttered, and initial setup takes some time",
@@ -426,7 +408,7 @@
       "src:34"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "ui and experience is overwhelming",
@@ -434,7 +416,7 @@
       "src:17"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "interface can feel a bit overwhelming at first",
@@ -442,14 +424,6 @@
       "src:35"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "Credits expire at the end of your billing cycle...Unused credits are forfeited with no refund or extension.",
-     "cites": [
-      "src:26"
-     ],
-     "url": "https://salesmotion.io/blog/apollo-pricing",
      "why": "words are not on the cited page"
     }
    ],
@@ -628,20 +602,22 @@
    "domains": 4,
    "cited": 9,
    "unverifiable": 0,
-   "faultySources": 10,
+   "faultySources": 2,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 10,
+    "record_verbatim_not_on_page": 2,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 22,
-    "onPage": 21,
-    "wordForWord": 20,
-    "notOnPage": 1,
+    "onPage": 15,
+    "wordForWord": 15,
+    "notOnPage": 7,
     "unverifiable": 0,
-    "notInRecord": 0
+    "notInRecord": 0,
+    "elided": 0,
+    "partial": 0
    },
    "detail": [
     {
@@ -650,9 +626,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -672,9 +646,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -683,9 +655,7 @@
      "host": "getapp.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -694,9 +664,7 @@
      "host": "getapp.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -705,9 +673,7 @@
      "host": "getapp.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -716,9 +682,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -738,9 +702,7 @@
      "host": "getapp.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -749,19 +711,65 @@
      "host": "getapp.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     }
    ],
    "badQuotes": [
+    {
+     "quote": "Some emails can bounce or be missing, and the interface can feel a little busy when I only need quick validation.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "your total list reduces by like 20%",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "after your credits are gone is brick tool, you can't use it.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "to lock businesses into unfavourable terms with no regard for the actual experience or outcome",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
+     "why": "words are not on the cited page"
+    },
     {
      "quote": "it required constant maintenance, which doesn't seem to be getting done",
      "cites": [
       "src:5"
      ],
      "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "The drawbacks I did not enjoy was the limited daily email caps that throttle outreach",
+     "cites": [
+      "src:9"
+     ],
+     "url": "https://www.getapp.com/sales-software/a/salesloft/reviews/",
+     "why": "words are not on the cited page"
+    },
+    {
+     "quote": "It doesn't really support heavy outbound usage at scale.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
      "why": "words are not on the cited page"
     }
    ],

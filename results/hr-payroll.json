@@ -1,6 +1,6 @@
 {
  "market": "hr-payroll",
- "scoredAt": "2026-09-18T14:01:30.109Z",
+ "scoredAt": "2026-09-20T17:37:21.057Z",
  "arms": [
   {
    "arm": "base",
@@ -12,21 +12,23 @@
    "sources": 61,
    "domains": 5,
    "cited": 58,
-   "unverifiable": 6,
-   "faultySources": 11,
+   "unverifiable": 3,
+   "faultySources": 5,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 11,
+    "record_verbatim_not_on_page": 5,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 60,
-    "onPage": 47,
-    "wordForWord": 37,
-    "notOnPage": 9,
-    "unverifiable": 4,
-    "notInRecord": 1
+    "onPage": 54,
+    "wordForWord": 47,
+    "notOnPage": 2,
+    "unverifiable": 2,
+    "notInRecord": 1,
+    "elided": 7,
+    "partial": 2
    },
    "detail": [
     {
@@ -208,9 +210,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -237,9 +237,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -248,9 +246,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -268,9 +264,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -360,9 +354,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -407,9 +399,7 @@
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 403
     },
     {
@@ -428,7 +418,7 @@
      "speaker": "founder",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:44",
@@ -437,7 +427,7 @@
      "speaker": "founder",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:45",
@@ -446,7 +436,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:46",
@@ -455,7 +445,7 @@
      "speaker": "operator",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:47",
@@ -464,7 +454,7 @@
      "speaker": "founder",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:48",
@@ -484,7 +474,7 @@
      "speaker": "founder",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:50",
@@ -504,7 +494,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:52",
@@ -513,7 +503,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:53",
@@ -524,7 +514,7 @@
      "faults": [
       "record_verbatim_not_on_page"
      ],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:54",
@@ -533,7 +523,7 @@
      "speaker": "founder",
      "verdict": "independent",
      "faults": [],
-     "status": 200
+     "status": 429
     },
     {
      "id": "src:55",
@@ -608,7 +598,7 @@
       "src:36"
      ],
      "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     },
     {
      "quote": "their Philippines-based support team gave me incorrect information that could have gotten me in BIG trouble with the IRS if my accountant hadn't fixed it.",
@@ -616,14 +606,14 @@
       "src:41"
      ],
      "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     },
     {
-     "quote": "we cannot get a real response out of them...going on 3 weeks. I still have no answers.",
+     "quote": "Every single pay period I spend half a day with AI chatbots, horrible UX, and roundabout solves just to pay one employee.",
      "cites": [
-      "src:20"
+      "src:12"
      ],
-     "url": "https://www.trustpilot.com/review/gusto.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
      "why": "words are not on the cited page"
     },
     {
@@ -632,47 +622,7 @@
       "src:56"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "The support is AI...chat with techs who know less about the software than most users.",
-     "cites": [
-      "src:26"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "I run a small business and it costs about $2000/Month group premium for a family of 4...So give or take, $25K per year per family/employee.",
-     "cites": [
-      "src:48"
-     ],
-     "url": "https://news.ycombinator.com/item?id=19902542",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "Gusto cancelled my employees' dental and vision insurance without telling me...Gusto is a danger to your business.",
-     "cites": [
-      "src:24"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "For the first year or so of our company, we didn't offer health benefits, and that cost us candidates...The current system distorts both the health care market ",
-     "cites": [
-      "src:50"
-     ],
-     "url": "https://news.ycombinator.com/item?id=929842",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "The benefits management portion of Gusto dropped the ball in a pretty significant way.",
-     "cites": [
-      "src:58"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "new hires enter their own information",
@@ -680,7 +630,7 @@
       "src:56"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "A bit glitchy when importing hours sometimes Doesn't automatically payout Ca meal break violations",
@@ -688,22 +638,6 @@
       "src:55"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=50",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "THEY KEEP BILLING YOU $260/MONTH...charged me over $500!!!",
-     "cites": [
-      "src:23"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "make sure you understand every separate service connected to their Gusto account, who actually provides that service, how much it costs, and exactly what must b",
-     "cites": [
-      "src:7"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
      "why": "words are not on the cited page"
     }
    ],
@@ -1056,7 +990,7 @@
    "sources": 18,
    "domains": 7,
    "cited": 14,
-   "unverifiable": 12,
+   "unverifiable": 0,
    "faultySources": 1,
    "faults": {
     "dead": 0,
@@ -1068,9 +1002,11 @@
     "total": 55,
     "onPage": 0,
     "wordForWord": 0,
-    "notOnPage": 0,
-    "unverifiable": 55,
-    "notInRecord": 0
+    "notOnPage": 55,
+    "unverifiable": 0,
+    "notInRecord": 0,
+    "elided": 0,
+    "partial": 0
    },
    "detail": [
     {
@@ -1245,7 +1181,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "They lie about forms and tax filing",
@@ -1253,7 +1189,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Each year Paychex would re-enroll us and I would have to contact the state",
@@ -1261,7 +1197,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "They consistently make mistakes which takes them months to correct",
@@ -1269,7 +1205,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Paychex just started withholding the max portion from the employee without ever saying a word to us.",
@@ -1277,7 +1213,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Prior tax issues when they file them, they don't get it handled promptly",
@@ -1285,7 +1221,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "had some tax issues that they were unhelpful at resolving",
@@ -1293,7 +1229,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "cannot get employees paid they have my money",
@@ -1301,7 +1237,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Never a person to assist. AI sends you to tabs that don't exist",
@@ -1309,7 +1245,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I have a hard time reaching an actual person",
@@ -1317,7 +1253,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Gusto missed one of our paydays",
@@ -1325,7 +1261,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It's not worth the hassle",
@@ -1333,7 +1269,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "can be difficult to speak with anyone live when you need assistance",
@@ -1341,7 +1277,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Wait times can be too long when contacting support",
@@ -1349,7 +1285,7 @@
       "src:12"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=40",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Customer support is inconcistent and poor.",
@@ -1357,7 +1293,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "They never fully finished helping us get our platform set up.",
@@ -1365,7 +1301,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "can be cost prohibitive and somewhat challenging to get support",
@@ -1373,7 +1309,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "They are closed on the weekends when it comes to customer support.",
@@ -1381,7 +1317,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "You are kind of left in the dark to figure it out yourself",
@@ -1389,7 +1325,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Can't get hold of the account rep and customer service rep. No one would answer or return our calls.",
@@ -1397,7 +1333,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "When issues arise, it can take days to get a response",
@@ -1405,7 +1341,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I don't like that the person we have currently doesn't return calls promptly",
@@ -1413,7 +1349,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It's hard to get someone on the phone to answer questions, sometimes there is a revolving door",
@@ -1421,7 +1357,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "not having a dedicated contact",
@@ -1429,7 +1365,7 @@
       "src:11"
      ],
      "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Contact person kept changing",
@@ -1437,7 +1373,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "We had 3 account managers with Paychex Flex, the first 2 had challenges following thru on items",
@@ -1445,7 +1381,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "While we do have dedicated support on the account admin side these staff seem to change",
@@ -1453,7 +1389,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "This assigned person switches frequently and sometimes are unresponsive",
@@ -1461,7 +1397,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "They switched our assigned payroll specialist so many times that I don't even know who it is now",
@@ -1469,7 +1405,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Every time I get a payroll account manager who is knowledgeable, they always get promoted",
@@ -1477,7 +1413,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The prices have gone up recently which I am not thrilled about.",
@@ -1485,7 +1421,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The price. Running payroll for a single employee costs too much",
@@ -1493,7 +1429,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It costs too much for what it does",
@@ -1501,7 +1437,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=33",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "At times they increase costs without notification",
@@ -1509,7 +1445,7 @@
       "src:9"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "In the end my annual budget tripled for 1 year. At times I would pay up to $153.00 per month",
@@ -1517,7 +1453,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The expense of adding employees adds up quickly",
@@ -1525,7 +1461,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "they charged the full months fee anyway",
@@ -1533,7 +1469,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "can get a bit pricey as your business grows",
@@ -1541,7 +1477,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "can be cost prohibitive and somewhat challenging to get support",
@@ -1549,7 +1485,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Wish they would handle the state registrations.",
@@ -1557,7 +1493,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "cannot handle multiple local jurisdictions",
@@ -1565,7 +1501,7 @@
       "src:11"
      ],
      "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Creating customized reports are nearly impossible.",
@@ -1573,7 +1509,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I have not found their reports to be as numerous and varied as some other payroll companies.",
@@ -1581,7 +1517,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Their reporting is definitely a very important feature that in Paychex Flex is not intuitive",
@@ -1589,7 +1525,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I wouldn't really recommend it.",
@@ -1597,7 +1533,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Reporting was sometimes difficult to pull the information we wanted",
@@ -1605,7 +1541,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "not as much customizability with reports, special deductions/earning codes",
@@ -1613,7 +1549,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "The reporting is also not intuitive, the wording used for templated report names is vague",
@@ -1621,7 +1557,7 @@
       "src:10"
      ],
      "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It's hard to create and review reports.",
@@ -1629,7 +1565,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "reports are hard for me to find",
@@ -1637,7 +1573,7 @@
       "src:11"
      ],
      "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "requires it to be typed in even when it is your regularly scheduled hours",
@@ -1645,7 +1581,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "I wish a 'normal' day could be saved rather than having to type",
@@ -1653,7 +1589,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=33",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "employees have to be reentered manually",
@@ -1661,7 +1597,7 @@
       "src:11"
      ],
      "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "Integrations with time and attendance, but the systems do not easily share",
@@ -1669,7 +1605,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     },
     {
      "quote": "It was tricky to get Gusto fully integrated with our preferred timekeeping system",
@@ -1677,7 +1613,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "page could not be read"
+     "why": "words are not on the cited page"
     }
    ],
    "gray": [
