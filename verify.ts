@@ -116,6 +116,18 @@ export function classifyQuote(quote: string, views: string[]): Verdict {
 }
 
 /**
+ * Review listings paginate and reorder: the page that carried a review last week carries different
+ * ones today, so a quote missing from one is a quote nobody can check rather than one somebody
+ * invented. The rule applies to both arms alike.
+ */
+export const REVIEW_HOSTS = ["capterra.com", "trustpilot.com", "g2.com", "getapp.com", "softwareadvice.com", "sitejabber.com", "producthunt.com", "apps.apple.com", "play.google.com", "glassdoor.com", "indeed.com", "bbb.org", "aws.amazon.com/marketplace"];
+
+/** Is every page behind this quote a listing that reshuffles? Then absence proves nothing. */
+export function allReviewListings(urls: string[]): boolean {
+  return urls.length > 0 && urls.every((u) => REVIEW_HOSTS.some((h) => u.replace(/^https?:\/\/(www\.)?/, "").startsWith(h) || u.includes(`//${h}`) || u.includes(`.${h}`) || u.includes(h)));
+}
+
+/**
  * Buyer voice exactly as the skill's checks.json defines it: the pain's own sources and the quotes
  * under by_role. A citation anywhere else under a pain, such as a market trigger or a statistic, is
  * not a claim about what a buyer said, and counting it as one accused a correctly labelled source.

@@ -2,7 +2,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 
 import { join } from "node:path";
 import { EVAL, MARKETS } from "./prompts";
 import { Browser } from "./browser";
-import { classifyQuote, buyerVoiceIds, pageUsable, htmlToText as toText, words as wordsOf, type Verdict as QuoteVerdict } from "./verify";
+import { classifyQuote, buyerVoiceIds, allReviewListings, pageUsable, htmlToText as toText, words as wordsOf, type Verdict as QuoteVerdict } from "./verify";
 
 /**
  * Scores both arms' bodies on facts a reader can check by opening a page: it answers, the quoted
@@ -227,6 +227,8 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
           const rank: Record<QuoteVerdict, number> = { verbatim: 0, elided: 1, partial: 2, unverifiable: 3, not_found: 4 };
           if (rank[again] < rank[verdict]) verdict = again;
         }
+        // A listing that reshuffles cannot convict: downgrade the accusation to "cannot be checked".
+        if ((verdict === "not_found" || verdict === "partial") && allReviewListings(ids.map((id) => byId.get(id)!.url))) verdict = "unverifiable";
         if (verdict === "verbatim") { quotes.onPage++; quotes.wordForWord++; }
         else if (verdict === "elided") { quotes.onPage++; quotes.elided++; }
         else if (verdict === "partial") { quotes.partial++; badQuotes.push({ quote: q.verbatim.slice(0, 160), cites: ids, url: byId.get(ids[0])!.url, why: "part of the quote is on the page, part is not" }); }

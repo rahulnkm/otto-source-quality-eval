@@ -1,5 +1,5 @@
 import { expect, test, describe } from "bun:test";
-import { classifyQuote, fragments, normalizeQuote, htmlToText, pageUsable, buyerVoiceIds, BOT_WALL } from "./verify";
+import { classifyQuote, allReviewListings, fragments, normalizeQuote, htmlToText, pageUsable, buyerVoiceIds, BOT_WALL } from "./verify";
 
 /**
  * Every case here is a quote this eval once called fake and a human found on the page. They are kept
@@ -84,6 +84,18 @@ describe("a quote the page does not have", () => {
 describe("fragments", () => {
   test("pieces under four words are dropped, since they match anything", () => {
     expect(fragments("Yes. It was fine. The dashboard lies about which controls are failing.")).toEqual(["The dashboard lies about which controls are failing."]);
+  });
+});
+
+describe("a listing that reshuffles cannot convict", () => {
+  test("review sites are recognised, including a marketplace path", () => {
+    expect(allReviewListings(["https://www.capterra.com/p/1/X/reviews/?page=5"])).toBe(true);
+    expect(allReviewListings(["https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-x"])).toBe(true);
+    expect(allReviewListings(["https://news.ycombinator.com/item?id=1"])).toBe(false);
+  });
+
+  test("one ordinary page among them means the quote is still checkable", () => {
+    expect(allReviewListings(["https://www.trustpilot.com/review/x", "https://example.org/post"])).toBe(false);
   });
 });
 

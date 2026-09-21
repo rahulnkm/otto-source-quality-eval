@@ -1,6 +1,6 @@
 {
  "market": "fitness",
- "scoredAt": "2026-09-18T22:42:15.955Z",
+ "scoredAt": "2026-09-20T21:15:33.594Z",
  "arms": [
   {
    "arm": "base",
@@ -22,11 +22,13 @@
    },
    "quotes": {
     "total": 41,
-    "onPage": 29,
-    "wordForWord": 23,
-    "notOnPage": 3,
-    "unverifiable": 9,
-    "notInRecord": 23
+    "onPage": 33,
+    "wordForWord": 29,
+    "notOnPage": 0,
+    "unverifiable": 8,
+    "notInRecord": 23,
+    "elided": 4,
+    "partial": 0
    },
    "detail": [
     {
@@ -221,7 +223,7 @@
       "src:5"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "it's been a nudge to get me to downgrade to the free version",
@@ -229,23 +231,7 @@
       "src:5"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing//paged/3/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "I've only found the subscription of value when I've traveled to unknown places & used their heat maps.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://forum.slowtwitch.com/t/strava-subscription/827636",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "Both of the sets of features I just do not need currently...And Strava premium is only useful if you care about the segments.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Mrs Dubs did one of these, people logged on Strava and she manually transferred into a spreadsheet giving Kudos when she'd logged it.",
@@ -253,7 +239,7 @@
       "src:10"
      ],
      "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Yes - just trying to find something less manual. But that methodology seems as sound as anything",
@@ -261,7 +247,7 @@
       "src:10"
      ],
      "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Strava's waiver system does not collect emergency contacts.",
@@ -269,7 +255,7 @@
       "src:18"
      ],
      "url": "https://the5krunner.com/2026/07/29/ride-with-gps-waivers-vs-strava-per-event-waivers-and-emergency-contacts/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Strava's waiver system does not collect emergency contacts.",
@@ -277,15 +263,7 @@
       "src:18"
      ],
      "url": "https://the5krunner.com/2026/07/29/ride-with-gps-waivers-vs-strava-per-event-waivers-and-emergency-contacts/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "Strava premium nearly killed my love of cycling...I found myself chasing segments and stuff that I could never beat.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "I doubt it, used to have the same with an iPhone which is why I bought a Garmin",
@@ -293,7 +271,7 @@
       "src:14"
      ],
      "url": "https://singletrackworld.com/forum/off-topic/strava-accuracy-via-gps-any-way-of-making-it-better/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Another issue is a lot of segments on Strava are poorly set up",
@@ -301,15 +279,7 @@
       "src:14"
      ],
      "url": "https://singletrackworld.com/forum/off-topic/strava-accuracy-via-gps-any-way-of-making-it-better/",
-     "why": "page could not be read"
-    },
-    {
-     "quote": "I contacted Strava Support and logged several cases...but they haven't responded for weeks.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://www.trustpilot.com/review/strava.com?page=2",
-     "why": "review listing paginates and reorders; the quote is not on the page today"
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -472,7 +442,9 @@
     "wordForWord": 19,
     "notOnPage": 0,
     "unverifiable": 16,
-    "notInRecord": 0
+    "notInRecord": 0,
+    "elided": 0,
+    "partial": 0
    },
    "detail": [
     {
@@ -604,7 +576,7 @@
       "src:7"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/my-strava-is-being-a-dkhelp/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "I've set a calendar reminder to check 30 days before renewal and cancel if necessary.",
@@ -612,7 +584,7 @@
       "src:6"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/have-you-checked-your-strava-pricing/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "On many of my local rides that include Templeton woods in Dundee I have been flagged for 'bad GPS data'.",
@@ -620,7 +592,7 @@
       "src:2"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Tried that a week ago with no result or acknowledgment. Is it normally a slow process?",
@@ -628,7 +600,7 @@
       "src:2"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Strava support can be glacially slow, I think my last ticket with them took over a month.",
@@ -636,7 +608,7 @@
       "src:2"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "However, I found today that some dude just took the KOM. He posted his bike's photo on Strava and it's a eBike.",
@@ -644,7 +616,7 @@
       "src:4"
      ],
      "url": "https://www.mtbr.com/threads/should-i-report-to-strava-that-the-new-kom-is-probably-taken-by-an-ebiker.1044773/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Report it and then message strava the need for an ebike category.",
@@ -652,7 +624,7 @@
       "src:4"
      ],
      "url": "https://www.mtbr.com/threads/should-i-report-to-strava-that-the-new-kom-is-probably-taken-by-an-ebiker.1044773/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Tried that a week ago with no result or acknowledgment. Is it normally a slow process?",
@@ -660,7 +632,7 @@
       "src:2"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Strava support can be glacially slow, I think my last ticket with them took over a month.",
@@ -668,7 +640,7 @@
       "src:2"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/malicious-flagging-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Strava is a great way to build some momentum. But it only tracks group activity in time, and not distance.",
@@ -676,7 +648,7 @@
       "src:8"
      ],
      "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "anyone know of a better way for 70+ people to log their weekly mileage??",
@@ -684,7 +656,7 @@
       "src:8"
      ],
      "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "people logged on Strava and she manually transferred into a spreadsheet giving Kudos when she'd logged it.",
@@ -692,7 +664,7 @@
       "src:8"
      ],
      "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Does anyone else get requests from people they've never heard of to follow you on Strava? I've had 3 or 4, and so has Mr Pea. I don't get why anyone would do th",
@@ -700,7 +672,7 @@
       "src:10"
      ],
      "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "The really odd requests come from random Australians or Americans. Either way if I don't know them I ignore them.",
@@ -708,7 +680,7 @@
       "src:10"
      ],
      "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Yup, one had only logged a single ride. Bit strange, but I did wonder about that.",
@@ -716,7 +688,7 @@
       "src:10"
      ],
      "url": "https://singletrackworld.com/forum/off-topic/requests-from-strangers-to-follow-you-on-strava/",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     },
     {
      "quote": "Don't forget to set your privacy settings for your start and finish (home or elsewhere) otherwise you may lose your bikes.",
@@ -724,7 +696,7 @@
       "src:8"
      ],
      "url": "https://singletrackworld.com/forum/topic/club-mileage-tracker",
-     "why": "page could not be read"
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -790,20 +762,6 @@
      "host": "singletrackworld.com",
      "speaker": "practitioner",
      "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:11",
-     "url": "https://road.cc/content/news/strava-apologises-price-hike-controversy-298843",
-     "host": "road.cc",
-     "speaker": "press",
-     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.dcrainmaker.com/2023/01/strava-raises-prices-doubling.html",
-     "host": "dcrainmaker.com",
-     "speaker": "press",
-     "reason": "talks about this market (running, cycling, training) with no sales call to action"
     }
    ]
   }

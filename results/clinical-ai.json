@@ -1,6 +1,6 @@
 {
  "market": "clinical-ai",
- "scoredAt": "2026-09-18T22:44:45.001Z",
+ "scoredAt": "2026-09-20T21:18:14.600Z",
  "arms": [
   {
    "arm": "base",
@@ -22,11 +22,13 @@
    },
    "quotes": {
     "total": 50,
-    "onPage": 46,
-    "wordForWord": 33,
-    "notOnPage": 4,
+    "onPage": 49,
+    "wordForWord": 45,
+    "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 39
+    "notInRecord": 39,
+    "elided": 4,
+    "partial": 1
    },
    "detail": [
     {
@@ -153,36 +155,12 @@
    ],
    "badQuotes": [
     {
-     "quote": "The AI-generated text is also superfluous, leading to bulky notes...Errors tend to be minor but are frequent.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "It feels as though [we] are frequently forced to double chart and/or check two places for information...exhausted with very little to show for it...",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://klasresearch.com/archcollaborative/report/reducing-nursing-documentation-burden-2025/706",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "Most of my visits are physical exams as a pediatrician and do not work well...I basically use to make sure I don't forget anything.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
-     "why": "words are not on the cited page"
-    },
-    {
      "quote": "[Vendor] does a very poor job of summarizing...often boiling down a 90-120 minute visit to just a few sentences",
      "cites": [
       "src:2"
      ],
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     }
    ],
    "gray": [
@@ -287,9 +265,11 @@
     "total": 30,
     "onPage": 28,
     "wordForWord": 28,
-    "notOnPage": 2,
+    "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 0
+    "notInRecord": 0,
+    "elided": 0,
+    "partial": 2
    },
    "detail": [
     {
@@ -456,7 +436,7 @@
       "src:2"
      ],
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12844589/",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     },
     {
      "quote": "It takes you 5 minutes to read through what happened in the last consultation, when it normally take[s] me in 20 seconds",
@@ -464,7 +444,7 @@
       "src:6"
      ],
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13220976/",
-     "why": "words are not on the cited page"
+     "why": "part of the quote is on the page, part is not"
     }
    ],
    "gray": [
@@ -544,13 +524,6 @@
      "host": "kevinmd.com",
      "speaker": "practitioner",
      "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:16",
-     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12492056/",
-     "host": "pmc.ncbi.nlm.nih.gov",
-     "speaker": "analyst",
-     "reason": "talks about this market (documentation) with no sales call to action"
     }
    ]
   }
