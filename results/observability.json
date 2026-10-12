@@ -1,6 +1,6 @@
 {
  "market": "observability",
- "scoredAt": "2026-09-20T16:54:15.928Z",
+ "scoredAt": "2026-10-12T15:12:29.745Z",
  "arms": [
   {
    "arm": "base",
@@ -47,153 +47,153 @@
      "url": "https://news.ycombinator.com/item?id=20783096",
      "host": "news.ycombinator.com",
      "speaker": "customer",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:3",
      "url": "https://news.ycombinator.com/item?id=35865745",
      "host": "news.ycombinator.com",
      "speaker": "customer",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:4",
      "url": "https://news.ycombinator.com/item?id=46631061",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:5",
      "url": "https://news.ycombinator.com/item?id=38093281",
      "host": "news.ycombinator.com",
      "speaker": "customer",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:6",
      "url": "https://news.ycombinator.com/item?id=45438010",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:7",
      "url": "https://news.ycombinator.com/item?id=25434387",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:8",
      "url": "https://news.ycombinator.com/item?id=41654011",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:9",
      "url": "https://news.ycombinator.com/item?id=32165415",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:10",
      "url": "https://news.ycombinator.com/item?id=48091591",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:11",
      "url": "https://news.ycombinator.com/item?id=48120391",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:12",
      "url": "https://news.ycombinator.com/item?id=48090579",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:13",
      "url": "https://news.ycombinator.com/item?id=48121224",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:14",
      "url": "https://news.ycombinator.com/item?id=40683695",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:15",
      "url": "https://news.ycombinator.com/item?id=44346010",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:16",
      "url": "https://news.ycombinator.com/item?id=42255013",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:17",
      "url": "https://news.ycombinator.com/item?id=37828173",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:18",
      "url": "https://news.ycombinator.com/item?id=49214950",
      "host": "news.ycombinator.com",
      "speaker": "founder",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:19",
@@ -212,31 +212,172 @@
      "url": "https://news.ycombinator.com/item?id=46895383",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:21",
      "url": "https://news.ycombinator.com/item?id=48120258",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:22",
      "url": "https://news.ycombinator.com/item?id=43835949",
      "host": "news.ycombinator.com",
      "speaker": "founder",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     }
    ],
    "badQuotes": [],
-   "gray": []
+   "gray": [
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=20783096",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:3",
+     "url": "https://news.ycombinator.com/item?id=35865745",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=46631061",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=38093281",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=45438010",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=25434387",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=41654011",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=32165415",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=48091591",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=48120391",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=48090579",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=48121224",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=40683695",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=44346010",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=42255013",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=37828173",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:18",
+     "url": "https://news.ycombinator.com/item?id=49214950",
+     "host": "news.ycombinator.com",
+     "speaker": "founder",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:20",
+     "url": "https://news.ycombinator.com/item?id=46895383",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:21",
+     "url": "https://news.ycombinator.com/item?id=48120258",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:22",
+     "url": "https://news.ycombinator.com/item?id=43835949",
+     "host": "news.ycombinator.com",
+     "speaker": "founder",
+     "reason": "talks about this market (incident) with no sales call to action"
+    }
+   ]
   },
   {
    "arm": "otto",
@@ -249,10 +390,10 @@
    "domains": 7,
    "cited": 21,
    "unverifiable": 0,
-   "faultySources": 5,
+   "faultySources": 4,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 5,
+    "record_verbatim_not_on_page": 4,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
@@ -272,7 +413,7 @@
      "url": "https://news.ycombinator.com/item?id=38093281",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
      "status": 200
     },
@@ -281,7 +422,7 @@
      "url": "https://news.ycombinator.com/item?id=45438010",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
      "status": 200
     },
@@ -291,9 +432,7 @@
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -301,43 +440,43 @@
      "url": "https://news.ycombinator.com/item?id=45529822",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:5",
      "url": "https://news.ycombinator.com/item?id=35073050",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:6",
      "url": "https://news.ycombinator.com/item?id=32174459",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:7",
      "url": "https://news.ycombinator.com/item?id=32175621",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:8",
      "url": "https://news.ycombinator.com/item?id=41654011",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
      "status": 200
     },
@@ -346,20 +485,20 @@
      "url": "https://news.ycombinator.com/item?id=40937269",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:10",
      "url": "https://news.ycombinator.com/item?id=36495756",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [
       "record_verbatim_not_on_page"
      ],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:11",
@@ -377,16 +516,16 @@
      "url": "https://news.ycombinator.com/item?id=44326664",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:13",
      "url": "https://news.ycombinator.com/item?id=30183011",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
      "status": 200
     },
@@ -395,29 +534,29 @@
      "url": "https://news.ycombinator.com/item?id=12372423",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [
       "record_verbatim_not_on_page"
      ],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:15",
      "url": "https://news.ycombinator.com/item?id=24128852",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:16",
      "url": "https://news.ycombinator.com/item?id=36923243",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:17",
@@ -462,46 +601,109 @@
      "url": "https://news.ycombinator.com/item?id=45963212",
      "host": "news.ycombinator.com",
      "speaker": "seller",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:22",
      "url": "https://news.ycombinator.com/item?id=45937214",
      "host": "news.ycombinator.com",
      "speaker": "vendor",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:23",
      "url": "https://news.ycombinator.com/item?id=41207181",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:24",
      "url": "https://news.ycombinator.com/item?id=39914918",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "independent",
+     "verdict": "unknown",
      "faults": [],
-     "status": 429
+     "status": 200
     }
    ],
    "badQuotes": [],
    "gray": [
     {
+     "id": "src:1",
+     "url": "https://news.ycombinator.com/item?id=38093281",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:2",
+     "url": "https://news.ycombinator.com/item?id=45438010",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
      "id": "src:3",
      "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-ba2nz3vsyg46a?page=41",
      "host": "aws.amazon.com",
      "speaker": "buyer",
-     "reason": "talks about this market (observability, logs) with no sales call to action"
+     "reason": "talks about this market (logs) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=45529822",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=35073050",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=32174459",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=32175621",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=41654011",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=40937269",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=36495756",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:11",
@@ -511,11 +713,53 @@
      "reason": "talks about this market (observability, monitoring, kubernetes) with no sales call to action"
     },
     {
-     "id": "src:17",
-     "url": "https://www.networkworld.com/article/4067370/tool-sprawl-hampers-enterprise-observability-efforts.html",
-     "host": "networkworld.com",
-     "speaker": "press",
-     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=44326664",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=30183011",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:14",
+     "url": "https://news.ycombinator.com/item?id=12372423",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:15",
+     "url": "https://news.ycombinator.com/item?id=24128852",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=36923243",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:23",
+     "url": "https://news.ycombinator.com/item?id=41207181",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
+    },
+    {
+     "id": "src:24",
+     "url": "https://news.ycombinator.com/item?id=39914918",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (incident) with no sales call to action"
     }
    ]
   }
@@ -528,13 +772,13 @@
   },
   {
    "host": "news.ycombinator.com",
-   "verdict": "independent",
-   "why": "front page sells nothing into this market"
+   "verdict": "unknown",
+   "why": "talks about this market (incident) with no sales call to action"
   },
   {
    "host": "aws.amazon.com",
    "verdict": "unknown",
-   "why": "talks about this market (observability, logs) with no sales call to action"
+   "why": "talks about this market (logs) with no sales call to action"
   },
   {
    "host": "henrikgerdes.me",
@@ -544,7 +788,7 @@
   {
    "host": "networkworld.com",
    "verdict": "unknown",
-   "why": "talks about this market (observability, monitoring, logs) with no sales call to action"
+   "why": "talks about this market (monitoring, logs) with no sales call to action"
   },
   {
    "host": "apmdigest.com",

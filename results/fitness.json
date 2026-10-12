@@ -1,6 +1,6 @@
 {
  "market": "fitness",
- "scoredAt": "2026-09-20T21:15:33.594Z",
+ "scoredAt": "2026-10-12T15:02:05.516Z",
  "arms": [
   {
    "arm": "base",
@@ -22,10 +22,10 @@
    },
    "quotes": {
     "total": 41,
-    "onPage": 33,
-    "wordForWord": 29,
+    "onPage": 32,
+    "wordForWord": 28,
     "notOnPage": 0,
-    "unverifiable": 8,
+    "unverifiable": 9,
     "notInRecord": 23,
     "elided": 4,
     "partial": 0
@@ -110,7 +110,7 @@
      "url": "https://living360.uk/strava-run-tiktok-overtraining-burnout/",
      "host": "living360.uk",
      "speaker": "buyer",
-     "verdict": "unknown",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
@@ -175,7 +175,7 @@
      "speaker": "analyst",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 403
     },
     {
      "id": "src:17",
@@ -266,6 +266,14 @@
      "why": "the page could not be read"
     },
     {
+     "quote": "The last few times that I have used it, it has either stopped before I have finished my walk, or recorded the wrong time.",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.trustpilot.com/review/strava.com",
+     "why": "the page could not be read"
+    },
+    {
      "quote": "I doubt it, used to have the same with an iPhone which is why I bought a Garmin",
      "cites": [
       "src:14"
@@ -309,7 +317,7 @@
      "url": "https://bikehub.co.za/topic/198322-strava-premium-or-garmin-connect/",
      "host": "bikehub.co.za",
      "speaker": "buyer",
-     "reason": "talks about this market (running, cycling, training) with no sales call to action"
+     "reason": "talks about this market (cycling, training, gps) with no sales call to action"
     },
     {
      "id": "src:5",
@@ -323,7 +331,7 @@
      "url": "https://road.cc/content/news/strava-year-sport-now-only-subscribers-317425",
      "host": "road.cc",
      "speaker": "customer",
-     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
+     "reason": "talks about this market (running, cycling, athlete) with no sales call to action"
     },
     {
      "id": "src:7",
@@ -338,13 +346,6 @@
      "host": "dcrainmaker.com",
      "speaker": "practitioner",
      "reason": "talks about this market (running, cycling, training) with no sales call to action"
-    },
-    {
-     "id": "src:9",
-     "url": "https://living360.uk/strava-run-tiktok-overtraining-burnout/",
-     "host": "living360.uk",
-     "speaker": "buyer",
-     "reason": "talks about this market (workout) with no sales call to action"
     },
     {
      "id": "src:10",
@@ -372,7 +373,7 @@
      "url": "https://road.cc/content/news/strava-koms-are-being-hijacked-112mph-motorbikers-296049",
      "host": "road.cc",
      "speaker": "buyer",
-     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
+     "reason": "talks about this market (running, cycling, athlete) with no sales call to action"
     },
     {
      "id": "src:14",
@@ -386,14 +387,14 @@
      "url": "https://road.cc/content/news/230829-strava-makes-activity-feed-non-chronological-and-launches-blog-posts-all-users",
      "host": "road.cc",
      "speaker": "buyer",
-     "reason": "talks about this market (cycling, athlete, training) with no sales call to action"
+     "reason": "talks about this market (running, cycling, athlete) with no sales call to action"
     },
     {
      "id": "src:16",
      "url": "https://news.ncsu.edu/2023/06/fitness-app-privacy-loophole/",
      "host": "news.ncsu.edu",
      "speaker": "analyst",
-     "reason": "talks about this market (training) with no sales call to action"
+     "reason": "front page unreadable (403)"
     },
     {
      "id": "src:17",
@@ -438,10 +439,10 @@
    },
    "quotes": {
     "total": 35,
-    "onPage": 19,
-    "wordForWord": 19,
+    "onPage": 15,
+    "wordForWord": 15,
     "notOnPage": 0,
-    "unverifiable": 16,
+    "unverifiable": 20,
     "notInRecord": 0,
     "elided": 0,
     "partial": 0
@@ -571,11 +572,35 @@
    ],
    "badQuotes": [
     {
+     "quote": "The last few times that I have used it, it has either stopped before I have finished my walk, or recorded the wrong time.",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.trustpilot.com/review/strava.com",
+     "why": "the page could not be read"
+    },
+    {
      "quote": "getting really annoyed now as my strava wont record my rides properly",
      "cites": [
       "src:7"
      ],
      "url": "https://singletrackworld.com/forum/bike-forum/my-strava-is-being-a-dkhelp/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "But for what I use it for, I am not paying.",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.trustpilot.com/review/strava.com",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "The main problem as a paying subscriber is that I have genuinely no idea anymore what I'm paying for.",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.trustpilot.com/review/strava.com",
      "why": "the page could not be read"
     },
     {
@@ -624,6 +649,14 @@
       "src:4"
      ],
      "url": "https://www.mtbr.com/threads/should-i-report-to-strava-that-the-new-kom-is-probably-taken-by-an-ebiker.1044773/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Support tickets get answered after a month, and the answer is routinely \"do you still have the same problem? Please let us know. Sorry it's taking so long\".",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.trustpilot.com/review/strava.com",
      "why": "the page could not be read"
     },
     {
@@ -780,7 +813,7 @@
   {
    "host": "bikehub.co.za",
    "verdict": "unknown",
-   "why": "talks about this market (running, cycling, training) with no sales call to action"
+   "why": "talks about this market (cycling, training, gps) with no sales call to action"
   },
   {
    "host": "singletrackworld.com",
@@ -790,7 +823,7 @@
   {
    "host": "road.cc",
    "verdict": "unknown",
-   "why": "talks about this market (cycling, athlete, training) with no sales call to action"
+   "why": "talks about this market (running, cycling, athlete) with no sales call to action"
   },
   {
    "host": "the5krunner.com",
@@ -804,8 +837,8 @@
   },
   {
    "host": "living360.uk",
-   "verdict": "unknown",
-   "why": "talks about this market (workout) with no sales call to action"
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
   },
   {
    "host": "github.com",
@@ -815,7 +848,7 @@
   {
    "host": "news.ncsu.edu",
    "verdict": "unknown",
-   "why": "talks about this market (training) with no sales call to action"
+   "why": "front page unreadable (403)"
   },
   {
    "host": "mikecldi.substack.com",

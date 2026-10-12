@@ -120,11 +120,40 @@ export function classifyQuote(quote: string, views: string[]): Verdict {
  * ones today, so a quote missing from one is a quote nobody can check rather than one somebody
  * invented. The rule applies to both arms alike.
  */
-export const REVIEW_HOSTS = ["capterra.com", "trustpilot.com", "g2.com", "getapp.com", "softwareadvice.com", "sitejabber.com", "producthunt.com", "apps.apple.com", "play.google.com", "glassdoor.com", "indeed.com", "bbb.org", "aws.amazon.com/marketplace"];
+export const REVIEW_HOSTS = ["capterra.com", "trustpilot.com", "g2.com", "getapp.com", "softwareadvice.com", "sitejabber.com", "producthunt.com", "apps.apple.com", "play.google.com", "glassdoor.com", "indeed.com", "bbb.org", "aws.amazon.com/marketplace", "chromewebstore.google.com", "chrome.google.com/webstore"];
 
 /** Is every page behind this quote a listing that reshuffles? Then absence proves nothing. */
 export function allReviewListings(urls: string[]): boolean {
   return urls.length > 0 && urls.every((u) => REVIEW_HOSTS.some((h) => u.replace(/^https?:\/\/(www\.)?/, "").startsWith(h) || u.includes(`//${h}`) || u.includes(`.${h}`) || u.includes(h)));
+}
+
+/**
+ * The separate excerpts in a stored record. Records join reviews with `|` or ` / ` and prefix each
+ * with who wrote it (`Name (Sep 06, 2026, industry): the words`); only the words are on the page.
+ */
+export function excerptsOf(record: string): string[] {
+  return record
+    .split(/\s*\|\s*|\s+\/\s+/)
+    .map((part) => part.replace(/^[^:]{0,80}:\s+/, "").trim())
+    .filter((part) => part.split(/\s+/).length >= 4);
+}
+
+/**
+ * Has this listing kept the reviews it showed when they were recorded? Only then can a quote missing
+ * from it convict: every other excerpt stored for the source is still there, so the page did not
+ * reshuffle, and the one sentence it lacks is a sentence it never had. Needs at least two other
+ * excerpts: one review still showing is what a page shifted by a few places looks like too.
+ */
+export function listingStillHolds(quote: string, records: string[], views: string[]): boolean {
+  const q = words(quote);
+  const others = records.flatMap(excerptsOf).filter((e) => {
+    const w = words(e);
+    return !q.includes(w) && !w.includes(q);
+  });
+  return others.length >= 2 && others.every((e) => {
+    const v = classifyQuote(e, views);
+    return v === "verbatim" || v === "elided";
+  });
 }
 
 /**

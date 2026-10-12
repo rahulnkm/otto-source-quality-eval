@@ -1,6 +1,6 @@
 {
  "market": "gtm-data",
- "scoredAt": "2026-09-20T16:45:14.812Z",
+ "scoredAt": "2026-10-12T15:09:55.454Z",
  "arms": [
   {
    "arm": "base",
@@ -309,14 +309,14 @@
      "url": "https://revnu.partners/blog/clay-story",
      "host": "revnu.partners",
      "speaker": "analyst",
-     "reason": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
+     "reason": "talks about this market (outbound, crm, leads) with no sales call to action"
     },
     {
      "id": "src:8",
      "url": "https://gtmdaily.com/news/clay-2026-pricing-change-a-deep-dive-voice-of-the-customer-analysis/",
      "host": "gtmdaily.com",
      "speaker": "press",
-     "reason": "talks about this market (gtm, data) with no sales call to action"
+     "reason": "talks about this market (gtm) with no sales call to action"
     },
     {
      "id": "src:10",
@@ -372,7 +372,7 @@
      "url": "https://www.sloane-staffing.com/insights/gtm-engineer-salary-guide-2026/",
      "host": "sloane-staffing.com",
      "speaker": "analyst",
-     "reason": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
+     "reason": "talks about this market (gtm, outbound, data) with no sales call to action"
     },
     {
      "id": "src:18",
@@ -403,13 +403,13 @@
    },
    "quotes": {
     "total": 35,
-    "onPage": 34,
-    "wordForWord": 34,
+    "onPage": 24,
+    "wordForWord": 24,
     "notOnPage": 0,
-    "unverifiable": 0,
+    "unverifiable": 11,
     "notInRecord": 0,
     "elided": 0,
-    "partial": 1
+    "partial": 0
    },
    "detail": [
     {
@@ -757,12 +757,92 @@
    ],
    "badQuotes": [
     {
+     "quote": "over 50% of the data is out of date",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.trustpilot.com/review/cognism.com",
+     "why": "the page could not be read"
+    },
+    {
      "quote": "weaker coverage outside Europe, searching APAC turns up far fewer",
      "cites": [
       "src:9"
      ],
      "url": "https://www.trustpilot.com/review/cognism.com",
-     "why": "part of the quote is on the page, part is not"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "their own email go into spam and the worst part is their warm up tool",
+     "cites": [
+      "src:30"
+     ],
+     "url": "https://www.trustpilot.com/review/instantly.ai",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Highest inaccuracy and bounce rates out of all providers I've used (cognism, apollo, clay, hunter.io) around 17-40% bounces or risky emails.",
+     "cites": [
+      "src:15"
+     ],
+     "url": "https://www.trustpilot.com/review/lusha.com",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "hence we are in the market for a new provider",
+     "cites": [
+      "src:16"
+     ],
+     "url": "https://www.trustpilot.com/review/lusha.com",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "It is difficult to decipher the units provided by the literature and unclear what 40,000 means. You read unlimited and then are faced with 40,000.",
+     "cites": [
+      "src:28"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "charges credits when it is not necessary. It's called nickel and diming",
+     "cites": [
+      "src:29"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Watch the auto-renew clause. We have a paper trail that it was removed",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.trustpilot.com/review/cognism.com",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I've tried to cancel for months in a row now and I keep getting charged",
+     "cites": [
+      "src:31"
+     ],
+     "url": "https://www.trustpilot.com/review/instantly.ai",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "non-existent support - you are sent to read tons of docs whenever you have a simple question.",
+     "cites": [
+      "src:27"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "useless search and AI assistant",
+     "cites": [
+      "src:27"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -1033,7 +1113,7 @@
   {
    "host": "revnu.partners",
    "verdict": "unknown",
-   "why": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
+   "why": "talks about this market (outbound, crm, leads) with no sales call to action"
   },
   {
    "host": "university.clay.com",
@@ -1043,7 +1123,7 @@
   {
    "host": "gtmdaily.com",
    "verdict": "unknown",
-   "why": "talks about this market (gtm, data) with no sales call to action"
+   "why": "talks about this market (gtm) with no sales call to action"
   },
   {
    "host": "gtmepulse.com",
@@ -1053,7 +1133,7 @@
   {
    "host": "sloane-staffing.com",
    "verdict": "unknown",
-   "why": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
+   "why": "talks about this market (gtm, outbound, data) with no sales call to action"
   },
   {
    "host": "trustpilot.com",

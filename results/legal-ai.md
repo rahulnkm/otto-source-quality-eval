@@ -1,6 +1,6 @@
 # legal-ai
 
-Scored 2026-09-20. Domain verdicts are in `legal-ai.json`, each with the reason it was made.
+Scored 2026-10-12. Domain verdicts are in `legal-ai.json`, each with the reason it was made.
 
 Quotes: every quoted sentence, checked against the page it cites.
 

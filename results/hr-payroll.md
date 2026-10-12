@@ -1,13 +1,13 @@
 # hr-payroll
 
-Scored 2026-09-20. Domain verdicts are in `hr-payroll.json`, each with the reason it was made.
+Scored 2026-10-12. Domain verdicts are in `hr-payroll.json`, each with the reason it was made.
 
 Quotes: every quoted sentence, checked against the page it cites.
 
 | arm | quotes | word for word | elided or bracketed | part on the page | not on the page | page unreadable | not in the stored record |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| base | 60 | 47 | 7 | 2 | 2 | 2 | 1 (2%) |
-| otto | 55 | 0 | 0 | 0 | 55 | 0 | 0 (0%) |
+| base | 60 | 29 | 4 | 0 | 0 | 27 | 1 (2%) |
+| otto | 55 | 0 | 0 | 0 | 0 | 55 | 0 (0%) |
 
 Sources: who the evidence came from.
 

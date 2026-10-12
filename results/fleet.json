@@ -1,6 +1,6 @@
 {
  "market": "fleet",
- "scoredAt": "2026-09-20T16:42:32.050Z",
+ "scoredAt": "2026-10-12T15:01:28.601Z",
  "arms": [
   {
    "arm": "base",
@@ -22,10 +22,10 @@
    },
    "quotes": {
     "total": 60,
-    "onPage": 48,
-    "wordForWord": 46,
+    "onPage": 34,
+    "wordForWord": 32,
     "notOnPage": 0,
-    "unverifiable": 12,
+    "unverifiable": 26,
     "notInRecord": 49,
     "elided": 2,
     "partial": 0
@@ -177,6 +177,14 @@
    ],
    "badQuotes": [
     {
+     "quote": "The only issue I have observed with our Samsara program is that it is sometimes too sensitive.",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
      "quote": "Every now and then a rolled stop will be miss called.",
      "cites": [
       "src:5"
@@ -185,11 +193,67 @@
      "why": "the page could not be read"
     },
     {
+     "quote": "I least like the self-coaching feature. The safety department I am in is small, and we review footage daily, but do not have the time to coach each driver",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Time limits on downloadable video caused us to reevaluate our safety review process",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I have noticed inconsistencies with the real-time alerts. Recently, one of my drivers was involved in a car accident, but I did not receive an accident alert",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "The driving habits of my employees have improved because they know I am watching.",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=36",
+     "why": "the page could not be read"
+    },
+    {
      "quote": "The footage goes black sometimes. Sometimes loses connection when a driver is out of town.",
      "cites": [
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "The video retrieval process could be a little easier to navigate and it would be nice to have a live view feature",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Samsara is a premium price - it gets expensive for small fleets - but the biggest issue is that they continue to come out with features and want to nickel and d",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "accurate fuel and repair cost tracking. Generating reports through excel worksheets. Logging information can be tricky for non techy users",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
      "why": "the page could not be read"
     },
     {
@@ -225,11 +289,27 @@
      "why": "the page could not be read"
     },
     {
+     "quote": "one program for all needs. Original product, i had to login to 2 different sights",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
      "quote": "I think that exporting on a schedule is still a bit confusing.",
      "cites": [
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "At times the system can feel a bit overwhelming because there are so many features, and it takes some time to fully learn everything",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
      "why": "the page could not be read"
     },
     {
@@ -246,6 +326,30 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "The company continues to take away features that were once standard and turn them into packages that you must pay extra for",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "customer support will send you videos to fix an issue sometimes not related to your experience. You will have to be very specific on your issues and sometime yo",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "When we started, a phone call to support would be picked up instantly. The last time we did that, well...",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.softwareadvice.com/fleet-management/samsara-profile/reviews/",
      "why": "the page could not be read"
     },
     {
@@ -270,6 +374,14 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "What I don't like about this software is that it has more use in large-scale operations than if you plan to use it in a small and short-term project",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=36",
      "why": "the page could not be read"
     }
    ],
@@ -373,10 +485,10 @@
    },
    "quotes": {
     "total": 37,
-    "onPage": 15,
-    "wordForWord": 15,
-    "notOnPage": 22,
-    "unverifiable": 0,
+    "onPage": 13,
+    "wordForWord": 13,
+    "notOnPage": 0,
+    "unverifiable": 24,
     "notInRecord": 0,
     "elided": 0,
     "partial": 0
@@ -484,7 +596,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "At times, many coaching alerts are generated that are barely actionable. If my team does not have logins or apps, scheduling behavior counseling is time-consumi",
@@ -492,7 +604,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "AI driver alerts can feel overly sensitive. Hardware troubleshooting can take extra time",
@@ -500,7 +612,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "I dont like that the driver cant be given a warning when they are following too close or when they are speeding BEFORE they get hit with the infraction.",
@@ -508,7 +620,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Recently, one of my drivers was involved in a car accident, but I did not receive an accident alert. Instead, the only notification I received was a harsh brake",
@@ -516,7 +628,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Cameras time out after sitting for a duration of time. System loses trucks",
@@ -524,7 +636,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "lapses in the availability of video data from key events",
@@ -532,7 +644,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The footage goes black sometimes. Sometimes loses connection when a driver is out of town or when the vehicle is parked for a long time.",
@@ -540,7 +652,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Terrible customer service; they renew contracts without notifying me.",
@@ -548,7 +660,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Dealing with renewals and billing - there are no phone numbers to call for renewals and it is always a problem e-mailing back and forth.",
@@ -556,7 +668,15 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I have 6 truck with them and I'm getting ready to cancel them. They never do what they say.",
+     "cites": [
+      "src:9"
+     ],
+     "url": "https://www.trustpilot.com/review/verizonconnect.com",
+     "why": "the page could not be read"
     },
     {
      "quote": "when needing to talk to someone or get help with something, it's damn near impossible",
@@ -564,7 +684,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=6",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "My account manager was reassigned or left without notice. There were changes to my account that I was not notified about.",
@@ -572,7 +692,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Customer service is very slow at dealing with issues.",
@@ -580,7 +700,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "in the past, I would be left wondering who I had. It would change and notice wasn't given",
@@ -588,7 +708,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "they renew contracts without notifying me. They refused to review my account when I mentioned, 'I think I am being overcharged.' I keep getting the runaround.",
@@ -596,7 +716,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=10",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "pricing structure is on the higher end of the market, and the long-term contract commitments",
@@ -604,7 +724,15 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Cancellation policy is bullshit and they don't cancel when they tell them to cancel. We refused the contract yet still held us as if we had a contract.",
+     "cites": [
+      "src:9"
+     ],
+     "url": "https://www.trustpilot.com/review/verizonconnect.com",
+     "why": "the page could not be read"
     },
     {
      "quote": "I was told by billing that they could not add the one unit to our annual invoice. Now my company credit card is billed monthly for 1 unit. It would seem to be a",
@@ -612,7 +740,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "not knowing what all samsara has to offer in what we do. i would love to have one on one training with someone. I feel it is very expensive, but i know it does ",
@@ -620,7 +748,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=6",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The company continues to take away features that were once standard and turn them into packages that you must pay extra for.",
@@ -628,7 +756,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "While adding features is easy, there is no a la carte option, it's a complete package upgrade when you only want to use 1 or 2 features.",
@@ -636,7 +764,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "administrative side is not very user-friendly and has a steep learning curve",
@@ -644,7 +772,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The cost can be high, especially for smaller companies, and some features take a little time to learn at first.",
@@ -652,7 +780,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/167543/Samsara-for-Fleets-0-00-6-23/reviews/?page=6",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     }
    ],
    "gray": [

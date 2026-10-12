@@ -1,6 +1,6 @@
 {
  "market": "crm",
- "scoredAt": "2026-09-20T16:44:21.201Z",
+ "scoredAt": "2026-10-12T15:08:09.728Z",
  "arms": [
   {
    "arm": "base",
@@ -13,22 +13,22 @@
    "domains": 13,
    "cited": 20,
    "unverifiable": 1,
-   "faultySources": 6,
+   "faultySources": 5,
    "faults": {
     "dead": 1,
-    "record_verbatim_not_on_page": 1,
+    "record_verbatim_not_on_page": 0,
     "sells_as_buyer": 4,
     "speaker_mislabel": 2
    },
    "quotes": {
     "total": 47,
-    "onPage": 24,
-    "wordForWord": 23,
-    "notOnPage": 16,
-    "unverifiable": 6,
+    "onPage": 23,
+    "wordForWord": 22,
+    "notOnPage": 0,
+    "unverifiable": 24,
     "notInRecord": 30,
     "elided": 1,
-    "partial": 1
+    "partial": 0
    },
    "detail": [
     {
@@ -151,7 +151,7 @@
      "speaker": "founder",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:14",
@@ -160,7 +160,7 @@
      "speaker": "founder",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:15",
@@ -201,7 +201,7 @@
      "url": "https://blog.send.win/manage-multiple-hubspot-accounts-multi-account-management-guide-2026/",
      "host": "blog.send.win",
      "speaker": "practitioner",
-     "verdict": "unknown",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
@@ -220,9 +220,7 @@
      "host": "aws.amazon.com",
      "speaker": "customer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     }
    ],
@@ -249,7 +247,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/?page=5",
-     "why": "part of the quote is on the page, part is not"
+     "why": "the page could not be read"
     },
     {
      "quote": "it can become expensive fairly quickly as you add more contacts",
@@ -257,7 +255,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The price has gone up a lot lately for a small business it might be too expensive.",
@@ -265,7 +263,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "my sales team flat-out refuses to use it",
@@ -273,7 +271,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Extremely confusing interface",
@@ -289,7 +287,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "names switching, phone numbers/files/titles getting corrupted",
@@ -297,7 +295,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "HubSpot creates new properties if I don't set everything correctly",
@@ -305,7 +303,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "the information is outdated or inaccurate",
@@ -313,7 +311,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "You've got hundreds (maybe thousands) of outdated contacts, duplicates, half-built workflows, unused properties, and reports that don't actually tell you anythi",
@@ -329,7 +327,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/214215/HubSpot-SalesHub/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Dashboards can be setup...but is limited in how it can be customized",
@@ -337,7 +335,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Some of the reporting is lackluster, especially if your billing setup is non-standard",
@@ -345,7 +343,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/?page=13",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The HubSpot Marketing Hub is not the most comprehensive in terms of reporting features.",
@@ -353,7 +351,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "reporting can feel limited unless you upgrade",
@@ -361,7 +359,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Restricted Customization on Lower Tiers: The reporting and template customization options feel unnecessarily locked down",
@@ -377,7 +375,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "HubSpot is expensive and can sometimes take a while to see clear ROIs.",
@@ -385,7 +383,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=11",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "we were left with an incomplete system, ongoing costs, and a substantial investment of time",
@@ -393,7 +391,15 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Pay $25,000 for your subscription received no services and a bill for $7000 for on boarding.",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://www.trustpilot.com/review/www.hubspot.com?page=2",
+     "why": "the page could not be read"
     },
     {
      "quote": "the setup took longer than the time I allowed for it to take",
@@ -401,7 +407,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/152373/HubSpot-CRM/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "On signing the contract, the sales team had changed us from month-to-month to annual contract",
@@ -491,13 +497,6 @@
      "reason": "talks about this market (crm, marketing, sales) with no sales call to action"
     },
     {
-     "id": "src:18",
-     "url": "https://blog.send.win/manage-multiple-hubspot-accounts-multi-account-management-guide-2026/",
-     "host": "blog.send.win",
-     "speaker": "practitioner",
-     "reason": "sells something, but not obviously into this market"
-    },
-    {
      "id": "src:19",
      "url": "https://www.lyntonweb.com/library/why-companies-leaving-hubspot-2026",
      "host": "lyntonweb.com",
@@ -524,21 +523,21 @@
    "domains": 6,
    "cited": 57,
    "unverifiable": 0,
-   "faultySources": 9,
+   "faultySources": 2,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 9,
+    "record_verbatim_not_on_page": 2,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 52,
-    "onPage": 19,
-    "wordForWord": 18,
-    "notOnPage": 33,
-    "unverifiable": 0,
+    "onPage": 16,
+    "wordForWord": 16,
+    "notOnPage": 0,
+    "unverifiable": 36,
     "notInRecord": 0,
-    "elided": 1,
+    "elided": 0,
     "partial": 0
    },
    "detail": [
@@ -998,9 +997,7 @@
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -1009,9 +1006,7 @@
      "host": "aws.amazon.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -1020,9 +1015,7 @@
      "host": "aws.amazon.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -1031,9 +1024,7 @@
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -1042,9 +1033,7 @@
      "host": "aws.amazon.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -1053,9 +1042,7 @@
      "host": "aws.amazon.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -1064,9 +1051,7 @@
      "host": "aws.amazon.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -1099,7 +1084,7 @@
       "src:22"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "HubSpot in general nickle and dimes you on a lot of their services.",
@@ -1107,7 +1092,7 @@
       "src:23"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Pricing can become a challenge as you grow",
@@ -1115,7 +1100,7 @@
       "src:21"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Once you begin the addition of more contacts into the list, then the bill quickly skyrockets",
@@ -1123,7 +1108,7 @@
       "src:1"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "cost jumps drastically as your contact database grows",
@@ -1131,7 +1116,7 @@
       "src:2"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Marketing contacts pricing structure can be confusing and some things are additional costs",
@@ -1139,7 +1124,7 @@
       "src:26"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "HubSpot Marketing Hub costs can increase quickly as you scale contacts or unlock advanced features",
@@ -1147,7 +1132,7 @@
       "src:16"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "AI workflows, custom reports, and A/B testing are locked behind Professional tiers",
@@ -1155,7 +1140,7 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Most of the important features other than the basic CRM and messaging are in the pro package which can be expensive.",
@@ -1163,7 +1148,7 @@
       "src:24"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The price is astronomical for what it is.",
@@ -1171,7 +1156,7 @@
       "src:29"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The price is just getting out of control. All the best features continue to get pay walled behind subscriptions",
@@ -1179,7 +1164,7 @@
       "src:12"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "many of the more powerful tools are locked behind paywalls",
@@ -1187,7 +1172,7 @@
       "src:4"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "That many of the core features are locked behind higher plans that are not cost effective",
@@ -1195,7 +1180,7 @@
       "src:52"
      ],
      "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The main downside is that some useful automation and advanced sales features are limited to higher-tier",
@@ -1203,7 +1188,23 @@
       "src:54"
      ],
      "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "paid nearly £2k in subscription that has ultimately never been used",
+     "cites": [
+      "src:44"
+     ],
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "the service we've had has been appalling most notably in terms of mis-selling.",
+     "cites": [
+      "src:34"
+     ],
+     "url": "https://www.trustpilot.com/review/hubspot.com",
+     "why": "the page could not be read"
     },
     {
      "quote": "Customer support and account managers were useless",
@@ -1211,7 +1212,7 @@
       "src:8"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "the customer service usually only directs you to some generic articles",
@@ -1219,7 +1220,7 @@
       "src:11"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "I had no idea how to use it. I found it difficult to navigate as a beginner and I couldn't find any help resources that worked for me.",
@@ -1227,7 +1228,7 @@
       "src:25"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=5",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The support isn't always the most helpful. There have been times when we haven't been notified of significant changes to thinks like API tokens and integrations",
@@ -1235,7 +1236,7 @@
       "src:28"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "In terms of reporting options, the HubSpot Marketing Hub falls short of being the most complete. For instance, it is unable to give in-depth client segmentation",
@@ -1243,7 +1244,7 @@
       "src:27"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=30",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Reporting customization could also be more flexible",
@@ -1251,7 +1252,7 @@
       "src:5"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "limitations when it came to data and analysis",
@@ -1259,7 +1260,7 @@
       "src:20"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Some settings and reports take a little digging to find",
@@ -1267,7 +1268,7 @@
       "src:7"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Tools like A/B testing or advanced reporting are only available on higher tier plans",
@@ -1275,7 +1276,7 @@
       "src:18"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "AI workflows, custom reports, and A/B testing are locked behind Professional tiers",
@@ -1283,7 +1284,15 @@
       "src:3"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "HubSpot has a lot of features, but it feels too complicated. There are so many menus and settings that it's hard to use, especially if you just want something s",
+     "cites": [
+      "src:43"
+     ],
+     "url": "https://www.trustpilot.com/review/hubspot.com?page=3",
+     "why": "the page could not be read"
     },
     {
      "quote": "It can be difficult to find older tickets unless I know the exact title, which often means cross-referencing emails.",
@@ -1291,7 +1300,7 @@
       "src:58"
      ],
      "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-j45uk4re22wem?page=1",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "It's a bit complicated to navigate. There's a lot of different pages with sub pages",
@@ -1299,7 +1308,7 @@
       "src:53"
      ],
      "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-yrtsi4nyncug6?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "I spent more time watching tutorial videos than actually using it",
@@ -1307,7 +1316,7 @@
       "src:15"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "The UX design and navigation is not very clear. Hard to navigate when you are new the the software",
@@ -1315,7 +1324,7 @@
       "src:14"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "To much going on and can seem like you get lost with the options",
@@ -1323,7 +1332,7 @@
       "src:19"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "integration limit with our LMS, requires manual upload from the NetSuite",
@@ -1331,7 +1340,7 @@
       "src:17"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=4",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "I have had to deal with CSV formatting problems",
@@ -1339,7 +1348,7 @@
       "src:6"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=2",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Limited integrations in comparison to Salesforce",
@@ -1347,7 +1356,7 @@
       "src:56"
      ],
      "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-lcxo57hplelqw?page=1",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Wish it was easier to integrate with other platforms.",
@@ -1355,7 +1364,7 @@
       "src:13"
      ],
      "url": "https://www.capterra.com/p/171840/HubSpot-Marketing/reviews/?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -1785,7 +1794,7 @@
   {
    "host": "meticulosity.com",
    "verdict": "sells",
-   "why": "front page has a sales call to action and this market's words (marketing, sales, deals)"
+   "why": "front page has a sales call to action and this market's words (marketing, sales, contacts)"
   },
   {
    "host": "revefied.com",
@@ -1814,8 +1823,8 @@
   },
   {
    "host": "blog.send.win",
-   "verdict": "unknown",
-   "why": "sells something, but not obviously into this market"
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
   },
   {
    "host": "lyntonweb.com",

@@ -2,7 +2,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 
 import { join } from "node:path";
 import { EVAL, MARKETS } from "./prompts";
 import { Browser } from "./browser";
-import { classifyQuote, buyerVoiceIds, allReviewListings, pageUsable, htmlToText as toText, words as wordsOf, type Verdict as QuoteVerdict } from "./verify";
+import { classifyQuote, buyerVoiceIds, allReviewListings, listingStillHolds, pageUsable, htmlToText as toText, words as wordsOf, type Verdict as QuoteVerdict } from "./verify";
 
 /**
  * Scores both arms' bodies on facts a reader can check by opening a page: it answers, the quoted
@@ -19,12 +19,6 @@ const SELLS = /\b(book a demo|request a demo|get a demo|schedule a demo|see it i
 const BUYER_CLASS = new Set(["buyer", "practitioner", "customer", "prospect"]);
 /** What a bot wall says instead of the article. A page showing this was not read, either way. */
 const BOT_WALL = /just a moment|performing security verification|enable javascript and cookies|verify you are (a )?human|access denied|attention required/i;
-/**
- * Review listings paginate and reorder: the page that carried a review yesterday carries different
- * ones today. A quote missing from one of these pages is a quote we cannot check, never a quote
- * someone invented, and the rule applies to both arms alike.
- */
-const REVIEW_HOSTS = ["capterra.com", "trustpilot.com", "g2.com", "getapp.com", "softwareadvice.com", "sitejabber.com", "producthunt.com", "apps.apple.com", "play.google.com", "glassdoor.com", "indeed.com", "bbb.org"];
 
 type Fault = "dead" | "record_verbatim_not_on_page" | "sells_as_buyer" | "speaker_mislabel";
 
@@ -216,19 +210,21 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
           ids.forEach((id) => stitched.add(id));
         }
         const fetched = await Promise.all(ids.map((id) => pageOf(byId.get(id)!.url)));
-        const views = fetched.flatMap((pg) => [pg.text, pg.rendered, pg.alt]);
+        let views = fetched.flatMap((pg) => [pg.text, pg.rendered, pg.alt]);
         let verdict = classifyQuote(q.verbatim, views);
         // Never accuse on one reading: a page that was rate-limited or half-loaded gets fetched again.
         if (verdict === "not_found" || verdict === "partial") {
           await Bun.sleep(1500);
-          const second = await Promise.all(ids.map((id) => fetchPage(byId.get(id)!.url)));
-          const again = classifyQuote(q.verbatim, second.flatMap((pg) => [pg.text, pg.rendered, pg.alt]));
+          const second = (await Promise.all(ids.map((id) => fetchPage(byId.get(id)!.url)))).flatMap((pg) => [pg.text, pg.rendered, pg.alt]);
+          const again = classifyQuote(q.verbatim, second);
           // The kinder reading wins: the point is to be sure before calling a quote invented.
           const rank: Record<QuoteVerdict, number> = { verbatim: 0, elided: 1, partial: 2, unverifiable: 3, not_found: 4 };
           if (rank[again] < rank[verdict]) verdict = again;
+          views = views.concat(second);
         }
-        // A listing that reshuffles cannot convict: downgrade the accusation to "cannot be checked".
-        if ((verdict === "not_found" || verdict === "partial") && allReviewListings(ids.map((id) => byId.get(id)!.url))) verdict = "unverifiable";
+        // A listing that reshuffles cannot convict, unless it still shows every other review recorded from it.
+        if ((verdict === "not_found" || verdict === "partial") && allReviewListings(ids.map((id) => byId.get(id)!.url))
+          && !listingStillHolds(q.verbatim, ids.map((id) => byId.get(id)!.verbatim ?? ""), views)) verdict = "unverifiable";
         if (verdict === "verbatim") { quotes.onPage++; quotes.wordForWord++; }
         else if (verdict === "elided") { quotes.onPage++; quotes.elided++; }
         else if (verdict === "partial") { quotes.partial++; badQuotes.push({ quote: q.verbatim.slice(0, 160), cites: ids, url: byId.get(ids[0])!.url, why: "part of the quote is on the page, part is not" }); }
@@ -254,7 +250,7 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
     // stripped before asking whether the words are there.
     const excerpts = (s.verbatim ?? "").split(/\s*\|\s*/).map((part) => part.replace(/^[^.!?:]{0,120}(?:,| at )[^.!?:]{0,120}:\s*/, "").trim()).filter(Boolean);
     const sentences = excerpts.flatMap(sentencesOf);
-    const reviewSite = REVIEW_HOSTS.some((h) => under(host, h));
+    const reviewSite = allReviewListings([s.url]);
     if (reachable && !reviewSite && sentences.length && sentences.some((sent) => !holds(page, sent))) f.push("record_verbatim_not_on_page");
     if (call.verdict === "sells" && BUYER_CLASS.has(s.speaker)) f.push("speaker_mislabel");
     if (call.verdict === "sells" && buyerVoice.has(s.id)) f.push("sells_as_buyer");

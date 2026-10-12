@@ -1,6 +1,6 @@
 {
  "market": "legal-ai",
- "scoredAt": "2026-09-20T16:37:32.242Z",
+ "scoredAt": "2026-10-12T15:09:43.412Z",
  "arms": [
   {
    "arm": "base",
@@ -135,7 +135,7 @@
      "url": "https://www.fulkersonadvisors.com/research/ai-in-outside-counsel-guidelines",
      "host": "fulkersonadvisors.com",
      "speaker": "analyst",
-     "reason": "talks about this market (legal, law firm, counsel) with no sales call to action"
+     "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
     },
     {
      "id": "src:6",
@@ -389,13 +389,6 @@
      "reason": "talks about this market (legal, law firm, lawyer) with no sales call to action"
     },
     {
-     "id": "src:9",
-     "url": "https://abovethelaw.com/2026/08/new-survey-says-lawyers-are-just-as-miserable-as-everyone-else/",
-     "host": "abovethelaw.com",
-     "speaker": "press",
-     "reason": "page carries a sponsorship marker somewhere; check whether this article is the sponsored one"
-    },
-    {
      "id": "src:10",
      "url": "https://abovethelaw.com/2026/04/elite-biglaw-firm-learns-the-real-cost-of-ai-hallucinations-the-firms-reputation/",
      "host": "abovethelaw.com",
@@ -407,14 +400,14 @@
      "url": "https://inhouseconnect.org/resource-center/news/what-slows-down-contracting-usually-has-nothing-to-do-with-contract-review-2/",
      "host": "inhouseconnect.org",
      "speaker": "practitioner",
-     "reason": "talks about this market (legal, contract, counsel) with no sales call to action"
+     "reason": "talks about this market (legal, counsel) with no sales call to action"
     },
     {
      "id": "src:12",
      "url": "https://inhouseconnect.org/resource-center/news/legal-teams-keep-buying-tools-before-they-understand-the-process-they-are-fixing/",
      "host": "inhouseconnect.org",
      "speaker": "practitioner",
-     "reason": "talks about this market (legal, contract, counsel) with no sales call to action"
+     "reason": "talks about this market (legal, counsel) with no sales call to action"
     },
     {
      "id": "src:13",
@@ -435,7 +428,7 @@
      "url": "https://inhouseconnect.org/resource-center/news/legal-departments-dont-have-a-workload-problem-they-have-a-design-problem-2/",
      "host": "inhouseconnect.org",
      "speaker": "practitioner",
-     "reason": "talks about this market (legal, contract, counsel) with no sales call to action"
+     "reason": "talks about this market (legal, counsel) with no sales call to action"
     }
    ]
   }
@@ -464,7 +457,7 @@
   {
    "host": "fulkersonadvisors.com",
    "verdict": "unknown",
-   "why": "talks about this market (legal, law firm, counsel) with no sales call to action"
+   "why": "talks about this market (legal, law firm, lawyer) with no sales call to action"
   },
   {
    "host": "abovethelaw.com",
@@ -499,7 +492,7 @@
   {
    "host": "inhouseconnect.org",
    "verdict": "unknown",
-   "why": "talks about this market (legal, contract, counsel) with no sales call to action"
+   "why": "talks about this market (legal, counsel) with no sales call to action"
   }
  ]
 }

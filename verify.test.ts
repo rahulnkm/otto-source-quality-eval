@@ -1,5 +1,5 @@
 import { expect, test, describe } from "bun:test";
-import { classifyQuote, allReviewListings, fragments, normalizeQuote, htmlToText, pageUsable, buyerVoiceIds, BOT_WALL } from "./verify";
+import { classifyQuote, allReviewListings, excerptsOf, listingStillHolds, fragments, normalizeQuote, htmlToText, pageUsable, buyerVoiceIds, BOT_WALL } from "./verify";
 
 /**
  * Every case here is a quote this eval once called fake and a human found on the page. They are kept
@@ -91,11 +91,45 @@ describe("a listing that reshuffles cannot convict", () => {
   test("review sites are recognised, including a marketplace path", () => {
     expect(allReviewListings(["https://www.capterra.com/p/1/X/reviews/?page=5"])).toBe(true);
     expect(allReviewListings(["https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-x"])).toBe(true);
+    expect(allReviewListings(["https://chromewebstore.google.com/detail/x/abc/reviews"])).toBe(true);
     expect(allReviewListings(["https://news.ycombinator.com/item?id=1"])).toBe(false);
   });
 
   test("one ordinary page among them means the quote is still checkable", () => {
     expect(allReviewListings(["https://www.trustpilot.com/review/x", "https://example.org/post"])).toBe(false);
+  });
+});
+
+describe("a listing that kept its reviews can convict", () => {
+  // The compliance case: otto recorded several real reviews from one marketplace page and wrote one nobody posted.
+  const record = "Georgina C. (Sep 14, 2026, Hospital & Health Care): Maybe the controls could be improved since it's a bit confusing. / Bipul K. (Sep 06, 2026, food supply chain): We waste hours manually uploading their physical food safety certificates. / Compliance manager (Sep 01, 2026): The UI feels cumbersome, and auditing is a pain.";
+  const invented = "We waste hours manually uploading their physical food safety certificates.";
+
+  test("excerpts lose their speaker and date", () => {
+    expect(excerptsOf(record)).toEqual([
+      "Maybe the controls could be improved since it's a bit confusing.",
+      "We waste hours manually uploading their physical food safety certificates.",
+      "The UI feels cumbersome, and auditing is a pain.",
+    ]);
+  });
+
+  test("every other recorded review is still on the page", () => {
+    const views = page("Maybe the controls could be improved since it's a bit confusing. The UI feels cumbersome, and auditing is a pain.");
+    expect(listingStillHolds(invented, [record], views)).toBe(true);
+  });
+
+  test("the page has moved on, so the missing quote proves nothing", () => {
+    const views = page("Maybe the controls could be improved since it's a bit confusing. Brand new review from October.");
+    expect(listingStillHolds(invented, [record], views)).toBe(false);
+  });
+
+  test("one other review still showing is not enough: a page shifted by a few places keeps one too", () => {
+    const short = "Georgina C. (Sep 14, 2026): Maybe the controls could be improved since it's a bit confusing. / Bipul K. (Sep 06, 2026): We waste hours manually uploading their physical food safety certificates.";
+    expect(listingStillHolds(invented, [short], page("Maybe the controls could be improved since it's a bit confusing."))).toBe(false);
+  });
+
+  test("a record holding only the quote cannot show the page kept still", () => {
+    expect(listingStillHolds(invented, ["Bipul K. (Sep 06, 2026): We waste hours manually uploading their physical food safety certificates."], page("anything at all"))).toBe(false);
   });
 });
 

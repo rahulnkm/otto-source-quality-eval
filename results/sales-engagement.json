@@ -1,6 +1,6 @@
 {
  "market": "sales-engagement",
- "scoredAt": "2026-09-20T16:49:26.261Z",
+ "scoredAt": "2026-10-12T15:06:36.096Z",
  "arms": [
   {
    "arm": "base",
@@ -22,12 +22,12 @@
    },
    "quotes": {
     "total": 45,
-    "onPage": 35,
-    "wordForWord": 32,
-    "notOnPage": 10,
-    "unverifiable": 0,
+    "onPage": 11,
+    "wordForWord": 10,
+    "notOnPage": 0,
+    "unverifiable": 34,
     "notInRecord": 0,
-    "elided": 3,
+    "elided": 1,
     "partial": 0
    },
    "detail": [
@@ -200,7 +200,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:20",
@@ -209,7 +209,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:21",
@@ -218,7 +218,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:22",
@@ -227,7 +227,7 @@
      "speaker": "buyer",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:23",
@@ -236,7 +236,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:24",
@@ -254,7 +254,7 @@
      "speaker": "practitioner",
      "verdict": "independent",
      "faults": [],
-     "status": 429
+     "status": 200
     },
     {
      "id": "src:26",
@@ -352,7 +352,7 @@
       "src:14"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "some emails can bounce or be missing",
@@ -360,7 +360,7 @@
       "src:14"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "contact data wasn't always accurate or up to date",
@@ -368,7 +368,23 @@
       "src:13"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "we do not have 100% of the required information, especially email addresses and phone numbers. This has hindered progress with several companies",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Extremely expensive and most of the data is terrible and invalid",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
     },
     {
      "quote": "Some contact information is outdated and credit can runs out quickly with heavy",
@@ -376,7 +392,15 @@
       "src:16"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Just a money grab on old outdated and junk data",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
     },
     {
      "quote": "Some contact information is outdated and credit can runs out quickly with heavy",
@@ -384,7 +408,7 @@
       "src:16"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "have to stay organized with your credits to maximize value",
@@ -392,7 +416,7 @@
       "src:15"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "Unclear pricing, forced waterfall verification, slow email access",
@@ -400,7 +424,71 @@
       "src:18"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Charges you credits for any action you take inside which makes no sense because you've already paid an arm and a leg for the subscription",
+     "cites": [
+      "src:6"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Throttling and limits on their free plan makes it unusable and their paid plan is ridiculously expensive. Even their paid basic plan is heavily throttled and re",
+     "cites": [
+      "src:7"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "The main drawback we've experienced is the low response rate to email campaigns, which can make it difficult to determine how effective the outreach is, despite",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "It's utterly impossible to send emails... The damn thing adds all 700 at once and sends them, and then won't let me deactivate... then takes the 25 I wanted to ",
+     "cites": [
+      "src:11"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "This ai system is supposed to send emails for you... However, it failed over and over and over again... It's buggy. It does NOT work.",
+     "cites": [
+      "src:12"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "It's buggy. It does NOT work.",
+     "cites": [
+      "src:12"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "There is nothing intuitive in the set up and I have worked in technology for years. Onboarding process needs better training/instruction.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Load of toggles and buttons with no clear purpose make it impossible to figure out is your warmup all set or you need to keep on reading instructions.",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
     },
     {
      "quote": "UI can feel slightly cluttered, and initial setup takes some time",
@@ -408,7 +496,31 @@
       "src:34"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I went through several support agents all who told me that engineering would have to get involved.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "non-existent support - you are sent to read tons of docs whenever you have a simple question",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Data is fine.. but UX is very bad.. heavy loading pages to many windows with slow loading, too many clicks to reach data many navigation buttons seems to be not",
+     "cites": [
+      "src:9"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
     },
     {
      "quote": "ui and experience is overwhelming",
@@ -416,7 +528,7 @@
       "src:17"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "interface can feel a bit overwhelming at first",
@@ -424,7 +536,87 @@
       "src:35"
      ],
      "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Occasionally the user session closes unexpectedly",
+     "cites": [
+      "src:10"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Same bloatware as Salesforce and Hubspot, useless search and AI assistant",
+     "cites": [
+      "src:5"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Steals and sells your data without consent. You get bombarded with junk email. They claim to remove your details but don't at all. Sham of an organisation!",
+     "cites": [
+      "src:29"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I've spent hours going in circles with this thing. No way to share feedback directly, so I'm venting here. Buyer beware.",
+     "cites": [
+      "src:1"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Permanently locked out of my account and no way of getting back in with the value of credits on the account being very substancial.",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I see value in the product but it's completely useless when you get locked out of your account... stay clear.",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "the process was rigid, opaque, and deeply dismissive of a business user's legitimate concerns.",
+     "cites": [
+      "src:32"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "the structure of how you are supposed to use it (massmail and outreaches, generic AI slop, etc.) is very tailored to the North American Consumer market whereas ",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "So if you have mainly U.S. clients you should definitely consider using Apollo, if you are elsewhere there might be better options available for you.",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "there might be better options available for you",
+     "cites": [
+      "src:4"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -602,19 +794,19 @@
    "domains": 4,
    "cited": 9,
    "unverifiable": 0,
-   "faultySources": 2,
+   "faultySources": 0,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 2,
+    "record_verbatim_not_on_page": 0,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 22,
-    "onPage": 15,
-    "wordForWord": 15,
-    "notOnPage": 7,
-    "unverifiable": 0,
+    "onPage": 7,
+    "wordForWord": 7,
+    "notOnPage": 0,
+    "unverifiable": 15,
     "notInRecord": 0,
     "elided": 0,
     "partial": 0
@@ -635,9 +827,7 @@
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -691,9 +881,7 @@
      "host": "chromewebstore.google.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
@@ -722,7 +910,15 @@
       "src:4"
      ],
      "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "we do not have 100% of the required information, especially email addresses and phone numbers",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
     },
     {
      "quote": "your total list reduces by like 20%",
@@ -730,7 +926,23 @@
       "src:4"
      ],
      "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Apollo charges credits when it is not necessary. It's called nickel and diming.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "unclear what 40,000 means",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
     },
     {
      "quote": "after your credits are gone is brick tool, you can't use it.",
@@ -738,7 +950,7 @@
       "src:4"
      ],
      "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "to lock businesses into unfavourable terms with no regard for the actual experience or outcome",
@@ -746,7 +958,31 @@
       "src:5"
      ],
      "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Integration to CRM/marketing automation is a major weak spot for me.",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Contact database is my biggest concern because it doesn't seem to accurately exclude CRM integrated fields",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Activity tracking is frustrating because key call, email, and cadence-completion data can be missing or split across systems",
+     "cites": [
+      "src:2"
+     ],
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
+     "why": "the page could not be read"
     },
     {
      "quote": "it required constant maintenance, which doesn't seem to be getting done",
@@ -754,7 +990,23 @@
       "src:5"
      ],
      "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "I've spent hours going in circles with this thing.",
+     "cites": [
+      "src:3"
+     ],
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "why": "the page could not be read"
+    },
+    {
+     "quote": "Apollo has made prospecting much faster and easier for me.",
+     "cites": [
+      "src:8"
+     ],
+     "url": "https://chromewebstore.google.com/detail/apollo-free-b2b-phone-num/alhgpfoeiimagjlnfekdhkjlkiomcapa/reviews",
+     "why": "the page could not be read"
     },
     {
      "quote": "The drawbacks I did not enjoy was the limited daily email caps that throttle outreach",
@@ -762,7 +1014,7 @@
       "src:9"
      ],
      "url": "https://www.getapp.com/sales-software/a/salesloft/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     },
     {
      "quote": "It doesn't really support heavy outbound usage at scale.",
@@ -770,7 +1022,7 @@
       "src:4"
      ],
      "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "words are not on the cited page"
+     "why": "the page could not be read"
     }
    ],
    "gray": [
@@ -876,7 +1128,7 @@
   {
    "host": "octavehq.com",
    "verdict": "sells",
-   "why": "front page has a sales call to action and this market's words (sales, email, data)"
+   "why": "front page has a sales call to action and this market's words (sales, outbound, email)"
   },
   {
    "host": "aws.amazon.com",
