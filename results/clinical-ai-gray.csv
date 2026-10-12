@@ -1,23 +1,19 @@
 arm,source,host,speaker,why_unclear,url
-base,src:2,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC12371510
-base,src:3,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC11933996/
-base,src:4,kevinmd.com,practitioner,"front page unreadable (403)",https://kevinmd.com/2026/04/severe-note-bloat-is-fueling-dangerous-physician-burnout.html
-base,src:5,kevinmd.com,practitioner,"front page unreadable (403)",https://kevinmd.com/2026/03/the-hidden-risks-and-rewards-of-ai-scribes-in-medicine.html
-base,src:6,kevinmd.com,practitioner,"front page unreadable (403)",https://kevinmd.com/2026/08/why-ambient-ai-scribe-notes-fail-the-2026-cms-audit.html
-base,src:7,kevinmd.com,practitioner,"front page unreadable (403)",https://kevinmd.com/2026/07/your-ambient-ai-scribe-consent-checkbox-is-not-consent.html
-base,src:8,aihc-assn.org,practitioner,"talks about this market (note) with no sales call to action",https://aihc-assn.org/coding-under-pressure/
-base,src:9,klasresearch.com,practitioner,"talks about this market (clinician, physician, nurse) with no sales call to action",https://klasresearch.com/archcollaborative/report/reducing-nursing-documentation-burden-2025/706
-base,src:10,phti.org,analyst,"talks about this market (patient, health system) with no sales call to action",https://phti.org/announcement/ai-scribes-reduce-clinician-burnout/
-base,src:11,advisory.com,analyst,"page carries a sponsorship marker somewhere; check whether this article is the sponsored one",https://www.advisory.com/daily-briefing/2026/04/13/ai-scribes-oi-ec
-base,src:12,cio.com,buyer,"front page unreadable (403)",https://www.cio.com/article/4149245/healthcare-cios-rethink-ai-rollout.html
-otto,src:1,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC11933996/
-otto,src:2,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC12844589/
-otto,src:3,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC13325621/
-otto,src:4,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC13120879/
-otto,src:5,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC13140808/
-otto,src:6,pmc.ncbi.nlm.nih.gov,practitioner,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC13220976/
-otto,src:7,pmc.ncbi.nlm.nih.gov,analyst,"talks about this market (documentation) with no sales call to action",https://pmc.ncbi.nlm.nih.gov/articles/PMC12105566/
-otto,src:8,pubmed.ncbi.nlm.nih.gov,analyst,"talks about this market (note) with no sales call to action",https://pubmed.ncbi.nlm.nih.gov/42127286/
-otto,src:13,kevinmd.com,practitioner,"front page unreadable (403)",https://kevinmd.com/2026/03/the-hidden-risks-and-rewards-of-ai-scribes-in-medicine.html
-otto,src:14,techysurgeon.substack.com,practitioner,"talks about this market (clinician) with no sales call to action",https://techysurgeon.substack.com/p/youre-using-your-clinics-ambient
-otto,src:15,kevinmd.com,practitioner,"front page unreadable (403)",https://kevinmd.com/2026/08/why-ambient-ai-scribe-notes-fail-the-2026-cms-audit.html
+base,src:1,reddit.sentinel-team.org,practitioner,"talks about this market (note, health system) with no sales call to action",https://reddit.sentinel-team.org/posts/1ps4ym4/snapshots/2025-12-24T10%3A10%3A08.93851Z
+base,src:2,hcinnovationgroup.com,buyer,"talks about this market (clinician, physician, ehr) with no sales call to action",https://www.hcinnovationgroup.com/analytics-ai/generative-ai/article/55338462/how-are-cmios-assessing-roi-of-ai-projects
+base,src:5,inquirer.com,practitioner,"talks about this market (health system) with no sales call to action",https://www.inquirer.com/health/expert-opinions/artificial-intelligence-physician-notes-20251024.html
+base,src:6,aafp.org,practitioner,"talks about this market (clinician, physician, documentation) with no sales call to action",https://www.aafp.org/pubs/fpm/issues/2025/0500/inbox-clinician.html
+base,src:7,medcitynews.com,vendor,"talks about this market (patient, health system) with no sales call to action",http://medcitynews.com/2025/01/the-most-overlooked-feature-with-ai-scribes-coding-awareness/
+base,src:8,hitconsultant.net,buyer,"talks about this market (clinician, documentation, ehr) with no sales call to action",https://hitconsultant.net/2025/09/29/klas-report-epics-native-ambient-speech-tool-reshapes-customer-ai-strategies/
+base,src:10,hitconsultant.net,customer,"talks about this market (clinician, documentation, ehr) with no sales call to action",https://hitconsultant.net/2026/04/02/klas-report-abridge-ambient-ai-nursing-flowsheets-ehr/
+base,src:11,healthmanagement.org,analyst,"talks about this market (nurse, patient) with no sales call to action",https://healthmanagement.org/c/artificial-intelligence/news/ai-scribes-and-roi-phti-analysis
+base,src:12,medicaleconomics.com,practitioner,"talks about this market (physician, nurse, documentation) with no sales call to action",https://www.medicaleconomics.com/view/are-ai-scribes-the-first-tech-physicians-actually-like-
+base,src:13,techysurgeon.substack.com,practitioner,"talks about this market (clinician) with no sales call to action",https://techysurgeon.substack.com/p/youre-using-your-clinics-ambient
+otto,src:1,reddit.sentinel-team.org,practitioner,"talks about this market (note, health system) with no sales call to action",https://reddit.sentinel-team.org/posts/1ps4ym4/snapshots/2025-12-24T10%3A10%3A08.93851Z
+otto,src:2,reddit.sentinel-team.org,practitioner,"talks about this market (note, health system) with no sales call to action",https://reddit.sentinel-team.org/posts/1pe1r92/snapshots/2025-12-06T00%3A50%3A54.76739Z
+otto,src:3,reddit.sentinel-team.org,practitioner,"talks about this market (note, health system) with no sales call to action",https://reddit.sentinel-team.org/posts/1sl4w6f/snapshots/2026-04-17T20%3A10%3A05.44504Z
+otto,src:4,forums.studentdoctor.net,practitioner,"front page unreadable (403)",https://forums.studentdoctor.net/threads/ai-scribes-are-amazing.1521239/
+otto,src:5,forums.studentdoctor.net,practitioner,"front page unreadable (403)",https://forums.studentdoctor.net/threads/ai-scribe.1486959/
+otto,src:6,kevinmd.com,practitioner,"front page unreadable (403)",https://www.kevinmd.com/2025/02/why-ai-scribes-are-changing-medicine-and-the-hidden-risks-you-must-know.html
+otto,src:7,kevinmd.com,practitioner,"front page unreadable (403)",https://www.kevinmd.com/2015/03/pay-doctors-nurses-time-spend-charting.html
+otto,src:8,klasresearch.com,buyer,"talks about this market (clinician, physician, nurse) with no sales call to action",https://klasresearch.com/comments/nuance-a-microsoft-company-dax-copilot/341447

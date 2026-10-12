@@ -1,8 +1,16 @@
 arm,source,host,speaker,why_unclear,url
-otto,src:34,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/reviews/6a26a9dd8b9c73c6b92bfde7
-otto,src:35,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/reviews/6a01e2d3fbb831c7111cb5aa
-otto,src:36,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/reviews/6aa306ce3b8a636e2d1861f5
-otto,src:37,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/reviews/6a2d4d8269dbd50c2e8c8c5b
-otto,src:38,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/reviews/6a27224c659d6c49e0e14412
-otto,src:39,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/reviews/6a2fdd1c2fc65faddba45304
-otto,src:40,trustpilot.com,buyer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so
+base,src:2,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so
+base,src:3,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so
+base,src:4,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so
+base,src:5,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so?page=5
+base,src:6,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so?page=5
+base,src:7,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so?page=5
+base,src:8,producthunt.com,practitioner,"talks about this market (notes, workspace, team) with no sales call to action",https://www.producthunt.com/@kunflow
+base,src:9,onlinejobs.ph,buyer,"talks about this market (projects, database, team) with no sales call to action",https://www.onlinejobs.ph/jobseekers/job/1497252
+base,src:27,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so
+base,src:28,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so
+base,src:29,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so?page=5
+base,src:30,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so?page=5
+base,src:31,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so?page=5
+base,src:32,trustpilot.com,customer,"front page unreadable (403)",https://www.trustpilot.com/review/notion.so
+otto,src:4,lethain.com,buyer,"talks about this market (notes, docs, knowledge base) with no sales call to action",https://lethain.com/refactoring-internal-docs-notion/

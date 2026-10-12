@@ -1,5 +1,5 @@
 import { expect, test, describe } from "bun:test";
-import { classifyQuote, allReviewListings, excerptsOf, listingStillHolds, fragments, normalizeQuote, htmlToText, pageUsable, buyerVoiceIds, BOT_WALL } from "./verify";
+import { classifyQuote, allReviewListings, discourseJsonUrl, excerptsOf, listingStillHolds, fragments, normalizeQuote, htmlToText, pageUsable, buyerVoiceIds, BOT_WALL } from "./verify";
 
 /**
  * Every case here is a quote this eval once called fake and a human found on the page. They are kept
@@ -149,5 +149,17 @@ describe("buyer voice is what the skill says it is", () => {
 
   test("a market trigger or a statistic is not a claim about what a buyer said", () => {
     expect(buyerVoiceIds(body).has("src:vendor-report")).toBe(false);
+  });
+});
+
+describe("a forum thread is read page by page", () => {
+  test("the page a URL names is the page read", () => {
+    expect(discourseJsonUrl("https://www.trainerroad.com/forum/t/strava-raises-prices/79851?page=7")).toBe("https://www.trainerroad.com/forum/t/strava-raises-prices/79851.json?page=7");
+    expect(discourseJsonUrl("https://forum.example/t/a-thread/16189/45")).toBe("https://forum.example/t/a-thread/16189.json");
+    expect(discourseJsonUrl("https://forum.example/t/a-thread/16189")).toBe("https://forum.example/t/a-thread/16189.json");
+  });
+
+  test("anything else is not a thread", () => {
+    expect(discourseJsonUrl("https://news.ycombinator.com/item?id=1")).toBeNull();
   });
 });

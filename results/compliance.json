@@ -1,39 +1,39 @@
 {
  "market": "compliance",
- "scoredAt": "2026-10-12T15:19:37.247Z",
+ "scoredAt": "2026-10-12T17:31:10.014Z",
  "arms": [
   {
    "arm": "base",
-   "file": "base-2026-09-18T03-19-25-886Z.json",
+   "file": "base-2026-10-12T16-33-51-388Z.json",
    "accepted": true,
-   "costUsd": 2.9995945,
+   "costUsd": 2.021643,
    "rounds": 1,
-   "pains": 11,
-   "sources": 43,
-   "domains": 3,
-   "cited": 43,
+   "pains": 9,
+   "sources": 30,
+   "domains": 4,
+   "cited": 30,
    "unverifiable": 0,
-   "faultySources": 4,
+   "faultySources": 2,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 4,
-    "sells_as_buyer": 0,
-    "speaker_mislabel": 0
+    "record_verbatim_not_on_page": 0,
+    "sells_as_buyer": 2,
+    "speaker_mislabel": 1
    },
    "quotes": {
-    "total": 44,
-    "onPage": 42,
-    "wordForWord": 40,
+    "total": 34,
+    "onPage": 34,
+    "wordForWord": 34,
     "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 0,
-    "elided": 2,
-    "partial": 2
+    "notInRecord": 14,
+    "elided": 0,
+    "partial": 0
    },
    "detail": [
     {
      "id": "src:1",
-     "url": "https://news.ycombinator.com/item?id=25808608",
+     "url": "https://news.ycombinator.com/item?id=48145524",
      "host": "news.ycombinator.com",
      "speaker": "founder",
      "verdict": "unknown",
@@ -42,88 +42,43 @@
     },
     {
      "id": "src:2",
-     "url": "https://news.ycombinator.com/item?id=25808608",
+     "url": "https://news.ycombinator.com/item?id=41006725",
      "host": "news.ycombinator.com",
-     "speaker": "founder",
+     "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:3",
-     "url": "https://news.ycombinator.com/item?id=48145797",
+     "url": "https://news.ycombinator.com/item?id=29103457",
      "host": "news.ycombinator.com",
-     "speaker": "founder",
+     "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:4",
-     "url": "https://operatinginhealthtech.substack.com/p/delves-soc-2-fraud",
-     "host": "operatinginhealthtech.substack.com",
-     "speaker": "operator",
-     "verdict": "independent",
+     "url": "https://news.ycombinator.com/item?id=49452245",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:5",
-     "url": "https://operatinginhealthtech.substack.com/p/delves-soc-2-fraud",
-     "host": "operatinginhealthtech.substack.com",
-     "speaker": "operator",
-     "verdict": "independent",
+     "url": "https://news.ycombinator.com/item?id=48150833",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:6",
-     "url": "https://operatinginhealthtech.substack.com/p/delves-soc-2-fraud",
-     "host": "operatinginhealthtech.substack.com",
-     "speaker": "operator",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:7",
-     "url": "https://operatinginhealthtech.substack.com/p/delves-soc-2-fraud",
-     "host": "operatinginhealthtech.substack.com",
-     "speaker": "operator",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:8",
-     "url": "https://operatinginhealthtech.substack.com/p/delves-soc-2-fraud",
-     "host": "operatinginhealthtech.substack.com",
-     "speaker": "operator",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=25809370",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=25810851",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:11",
-     "url": "https://news.ycombinator.com/item?id=25795029",
+     "url": "https://news.ycombinator.com/item?id=42673560",
      "host": "news.ycombinator.com",
      "speaker": "founder",
      "verdict": "unknown",
@@ -131,7 +86,25 @@
      "status": 200
     },
     {
-     "id": "src:12",
+     "id": "src:7",
+     "url": "https://thehub.io/jobs/6a981e4d2b32ec67725aeb18",
+     "host": "thehub.io",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=49241155",
+     "host": "news.ycombinator.com",
+     "speaker": "operator",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:9",
      "url": "https://news.ycombinator.com/item?id=49172683",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
@@ -140,8 +113,38 @@
      "status": 200
     },
     {
+     "id": "src:10",
+     "url": "https://fly.io/blog/soc2-the-screenshots-will-continue-until-security-improves/",
+     "host": "fly.io",
+     "speaker": "practitioner",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=48145797",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=48270797",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
      "id": "src:13",
-     "url": "https://news.ycombinator.com/item?id=48492685",
+     "url": "https://news.ycombinator.com/item?id=49175008",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -150,18 +153,16 @@
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=48153448",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=48694908",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -170,18 +171,16 @@
     },
     {
      "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=47462896",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "customer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:17",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=36655435",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -190,16 +189,16 @@
     },
     {
      "id": "src:18",
-     "url": "https://news.ycombinator.com/item?id=48150981",
+     "url": "https://news.ycombinator.com/item?id=32425980",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:19",
-     "url": "https://news.ycombinator.com/item?id=48150981",
+     "url": "https://news.ycombinator.com/item?id=32022121",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -208,25 +207,25 @@
     },
     {
      "id": "src:20",
-     "url": "https://news.ycombinator.com/item?id=47461687",
+     "url": "https://news.ycombinator.com/item?id=41399910",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:21",
-     "url": "https://news.ycombinator.com/item?id=43353299",
+     "url": "https://news.ycombinator.com/item?id=39515210",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:22",
-     "url": "https://news.ycombinator.com/item?id=47612964",
+     "url": "https://news.ycombinator.com/item?id=39519584",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -235,7 +234,7 @@
     },
     {
      "id": "src:23",
-     "url": "https://news.ycombinator.com/item?id=47460217",
+     "url": "https://news.ycombinator.com/item?id=48151419",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -244,35 +243,37 @@
     },
     {
      "id": "src:24",
-     "url": "https://news.ycombinator.com/item?id=46729951",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
+     "url": "https://www.vanta.com/resources/time-consuming-security-functions-to-automate",
+     "host": "vanta.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
      "status": 200
     },
     {
      "id": "src:25",
-     "url": "https://news.ycombinator.com/item?id=46706083",
+     "url": "https://news.ycombinator.com/item?id=43353299",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:26",
-     "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
-     "host": "grcpod.substack.com",
-     "speaker": "practitioner",
+     "url": "https://news.ycombinator.com/item?id=32023737",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:27",
-     "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
-     "host": "grcpod.substack.com",
+     "url": "https://news.ycombinator.com/item?id=49599843",
+     "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
@@ -280,8 +281,8 @@
     },
     {
      "id": "src:28",
-     "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
-     "host": "grcpod.substack.com",
+     "url": "https://news.ycombinator.com/item?id=48268509",
+     "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
@@ -289,128 +290,7 @@
     },
     {
      "id": "src:29",
-     "url": "https://news.ycombinator.com/item?id=48145524",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:30",
-     "url": "https://news.ycombinator.com/item?id=48145524",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:31",
-     "url": "https://news.ycombinator.com/item?id=44362665",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:32",
-     "url": "https://news.ycombinator.com/item?id=49155789",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:33",
-     "url": "https://news.ycombinator.com/item?id=25811616",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:34",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:35",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:36",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:37",
-     "url": "https://news.ycombinator.com/item?id=42673560",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:38",
-     "url": "https://news.ycombinator.com/item?id=42787454",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:39",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:40",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:41",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:42",
-     "url": "https://news.ycombinator.com/item?id=25793230",
+     "url": "https://news.ycombinator.com/item?id=44056677",
      "host": "news.ycombinator.com",
      "speaker": "founder",
      "verdict": "unknown",
@@ -418,8 +298,8 @@
      "status": 200
     },
     {
-     "id": "src:43",
-     "url": "https://news.ycombinator.com/item?id=25810614",
+     "id": "src:30",
+     "url": "https://news.ycombinator.com/item?id=38249172",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -427,287 +307,200 @@
      "status": 200
     }
    ],
-   "badQuotes": [
-    {
-     "quote": "something goes from being done in 2 hours to taking 3+ days.",
-     "cites": [
-      "src:14"
-     ],
-     "url": "https://news.ycombinator.com/item?id=32018066",
-     "why": "part of the quote is on the page, part is not"
-    },
-    {
-     "quote": "They run anywhere from $250-$4500 each. The main problem is that there has become a race to longer questionnaires",
-     "cites": [
-      "src:34"
-     ],
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "why": "part of the quote is on the page, part is not"
-    }
-   ],
+   "badQuotes": [],
    "gray": [
     {
      "id": "src:1",
-     "url": "https://news.ycombinator.com/item?id=25808608",
+     "url": "https://news.ycombinator.com/item?id=48145524",
      "host": "news.ycombinator.com",
      "speaker": "founder",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:2",
-     "url": "https://news.ycombinator.com/item?id=25808608",
+     "url": "https://news.ycombinator.com/item?id=41006725",
      "host": "news.ycombinator.com",
-     "speaker": "founder",
+     "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:3",
-     "url": "https://news.ycombinator.com/item?id=48145797",
+     "url": "https://news.ycombinator.com/item?id=29103457",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:4",
+     "url": "https://news.ycombinator.com/item?id=49452245",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=48150833",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=42673560",
      "host": "news.ycombinator.com",
      "speaker": "founder",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:7",
+     "url": "https://thehub.io/jobs/6a981e4d2b32ec67725aeb18",
+     "host": "thehub.io",
+     "speaker": "buyer",
+     "reason": "talks about this market (compliance, audit) with no sales call to action"
+    },
+    {
+     "id": "src:8",
+     "url": "https://news.ycombinator.com/item?id=49241155",
+     "host": "news.ycombinator.com",
+     "speaker": "operator",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=25809370",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=25810851",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:11",
-     "url": "https://news.ycombinator.com/item?id=25795029",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:12",
      "url": "https://news.ycombinator.com/item?id=49172683",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=48145797",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=48270797",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
      "id": "src:13",
-     "url": "https://news.ycombinator.com/item?id=48492685",
+     "url": "https://news.ycombinator.com/item?id=49175008",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=48153448",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=48694908",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=47462896",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "customer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:17",
-     "url": "https://news.ycombinator.com/item?id=32018066",
+     "url": "https://news.ycombinator.com/item?id=36655435",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:18",
-     "url": "https://news.ycombinator.com/item?id=48150981",
+     "url": "https://news.ycombinator.com/item?id=32425980",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "customer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:19",
-     "url": "https://news.ycombinator.com/item?id=48150981",
+     "url": "https://news.ycombinator.com/item?id=32022121",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:20",
-     "url": "https://news.ycombinator.com/item?id=47461687",
+     "url": "https://news.ycombinator.com/item?id=41399910",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:21",
-     "url": "https://news.ycombinator.com/item?id=43353299",
+     "url": "https://news.ycombinator.com/item?id=39515210",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:22",
-     "url": "https://news.ycombinator.com/item?id=47612964",
+     "url": "https://news.ycombinator.com/item?id=39519584",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:23",
-     "url": "https://news.ycombinator.com/item?id=47460217",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:24",
-     "url": "https://news.ycombinator.com/item?id=46729951",
+     "url": "https://news.ycombinator.com/item?id=48151419",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:25",
-     "url": "https://news.ycombinator.com/item?id=46706083",
+     "url": "https://news.ycombinator.com/item?id=43353299",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:26",
-     "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
-     "host": "grcpod.substack.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (audit, grc) with no sales call to action"
+     "url": "https://news.ycombinator.com/item?id=32023737",
+     "host": "news.ycombinator.com",
+     "speaker": "customer",
+     "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:27",
-     "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
-     "host": "grcpod.substack.com",
+     "url": "https://news.ycombinator.com/item?id=49599843",
+     "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (audit, grc) with no sales call to action"
+     "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:28",
-     "url": "https://grcpod.substack.com/p/the-commoditization-of-compliance",
-     "host": "grcpod.substack.com",
+     "url": "https://news.ycombinator.com/item?id=48268509",
+     "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (audit, grc) with no sales call to action"
+     "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:29",
-     "url": "https://news.ycombinator.com/item?id=48145524",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:30",
-     "url": "https://news.ycombinator.com/item?id=48145524",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:31",
-     "url": "https://news.ycombinator.com/item?id=44362665",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:32",
-     "url": "https://news.ycombinator.com/item?id=49155789",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:33",
-     "url": "https://news.ycombinator.com/item?id=25811616",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:34",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:35",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:36",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:37",
-     "url": "https://news.ycombinator.com/item?id=42673560",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:38",
-     "url": "https://news.ycombinator.com/item?id=42787454",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:39",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:40",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:41",
-     "url": "https://news.ycombinator.com/item?id=25793230",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:42",
-     "url": "https://news.ycombinator.com/item?id=25793230",
+     "url": "https://news.ycombinator.com/item?id=44056677",
      "host": "news.ycombinator.com",
      "speaker": "founder",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
-     "id": "src:43",
-     "url": "https://news.ycombinator.com/item?id=25810614",
+     "id": "src:30",
+     "url": "https://news.ycombinator.com/item?id=38249172",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
@@ -716,28 +509,28 @@
   },
   {
    "arm": "otto",
-   "file": "otto-2026-09-18T03-22-35-851Z.json",
+   "file": "otto-2026-10-12T16-26-00-320Z.json",
    "accepted": true,
-   "costUsd": 3.1890685,
+   "costUsd": 4.0892673,
    "rounds": 1,
-   "pains": 6,
-   "sources": 20,
+   "pains": 8,
+   "sources": 22,
    "domains": 3,
-   "cited": 17,
-   "unverifiable": 1,
-   "faultySources": 9,
+   "cited": 19,
+   "unverifiable": 0,
+   "faultySources": 0,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 9,
+    "record_verbatim_not_on_page": 0,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
     "total": 31,
-    "onPage": 21,
-    "wordForWord": 21,
+    "onPage": 31,
+    "wordForWord": 31,
     "notOnPage": 0,
-    "unverifiable": 10,
+    "unverifiable": 0,
     "notInRecord": 0,
     "elided": 0,
     "partial": 0
@@ -745,7 +538,7 @@
    "detail": [
     {
      "id": "src:1",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44?page=47",
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -754,7 +547,7 @@
     },
     {
      "id": "src:2",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-3xw4sjqv2pb22",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/B09ZK1BZZP?page=5",
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -763,16 +556,43 @@
     },
     {
      "id": "src:3",
-     "url": "https://capterra.com/p/211459/Vanta/reviews/",
-     "host": "capterra.com",
+     "url": "https://news.ycombinator.com/item?id=48145524",
+     "host": "news.ycombinator.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 403
+     "status": 200
     },
     {
      "id": "src:4",
-     "url": "https://news.ycombinator.com/item?id=48145524",
+     "url": "https://news.ycombinator.com/item?id=48151965",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:5",
+     "url": "https://news.ycombinator.com/item?id=47465915",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:6",
+     "url": "https://news.ycombinator.com/item?id=47472168",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:7",
+     "url": "https://news.ycombinator.com/item?id=47468287",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -780,39 +600,8 @@
      "status": 200
     },
     {
-     "id": "src:5",
-     "url": "https://news.ycombinator.com/item?id=48165463",
-     "host": "news.ycombinator.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:6",
-     "url": "https://news.ycombinator.com/item?id=48155797",
-     "host": "news.ycombinator.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:7",
-     "url": "https://news.ycombinator.com/item?id=48189119",
-     "host": "news.ycombinator.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
      "id": "src:8",
-     "url": "https://news.ycombinator.com/item?id=48168713",
+     "url": "https://news.ycombinator.com/item?id=47458422",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -821,7 +610,7 @@
     },
     {
      "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=48152518",
+     "url": "https://news.ycombinator.com/item?id=47462212",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -830,16 +619,7 @@
     },
     {
      "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=48152692",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:11",
-     "url": "https://news.ycombinator.com/item?id=48153191",
+     "url": "https://news.ycombinator.com/item?id=47474244",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -847,30 +627,35 @@
      "status": 200
     },
     {
-     "id": "src:12",
-     "url": "https://news.ycombinator.com/item?id=48151764",
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=47019378",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=47019347",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:13",
-     "url": "https://news.ycombinator.com/item?id=48152160",
+     "url": "https://news.ycombinator.com/item?id=49172683",
      "host": "news.ycombinator.com",
-     "speaker": "vendor",
+     "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=48151168",
+     "url": "https://news.ycombinator.com/item?id=48492685",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -879,7 +664,16 @@
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=48152101",
+     "url": "https://news.ycombinator.com/item?id=42727299",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=29042479",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -887,266 +681,212 @@
      "status": 200
     },
     {
-     "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=49665739",
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=43761126",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:17",
-     "url": "https://news.ycombinator.com/item?id=8140695",
-     "host": "news.ycombinator.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:18",
-     "url": "https://news.ycombinator.com/item?id=31393594",
+     "url": "https://news.ycombinator.com/item?id=47459972",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:19",
-     "url": "https://news.ycombinator.com/item?id=10199589",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "url": "https://jobs.techstars.com/companies/datarobot/jobs/79042367-grc-analyst",
+     "host": "jobs.techstars.com",
+     "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:20",
-     "url": "https://news.ycombinator.com/item?id=29597483",
+     "url": "https://news.ycombinator.com/item?id=24493490",
      "host": "news.ycombinator.com",
-     "speaker": "vendor",
+     "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:21",
+     "url": "https://news.ycombinator.com/item?id=25811811",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:24",
+     "url": "https://news.ycombinator.com/item?id=47458531",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
      "status": 200
     }
    ],
-   "badQuotes": [
-    {
-     "quote": "Questionnaire automation needs work. It does not provide good answers.",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "We waste hours manually uploading their physical food safety certificates into the system just to clear the annoying red dashboard errors.",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The automated dashboard constantly yells at me about missing documents until I manually upload a scanned copy.",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Filling in the risk register by hand is slow with five dropdowns per scenario.",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "team constantly has to jump on video calls just to hold their hands through uploading",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "limited flexibility can create false positives",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "giving users more control over notifications and tweaking integrations",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://capterra.com/p/211459/Vanta/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "users being flagged as improperly offboarded when a valid special case applies",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Vanta often lacks simple options for handling exceptions",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Risk management can be more flexible",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://capterra.com/p/211459/Vanta/reviews/",
-     "why": "the page could not be read"
-    }
-   ],
+   "badQuotes": [],
    "gray": [
     {
      "id": "src:1",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-5ophamrbfxt44?page=47",
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "reason": "talks about this market (compliance, security) with no sales call to action"
     },
     {
      "id": "src:2",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-3xw4sjqv2pb22",
+     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/B09ZK1BZZP?page=5",
      "host": "aws.amazon.com",
      "speaker": "buyer",
      "reason": "talks about this market (compliance, security) with no sales call to action"
     },
     {
      "id": "src:3",
-     "url": "https://capterra.com/p/211459/Vanta/reviews/",
-     "host": "capterra.com",
+     "url": "https://news.ycombinator.com/item?id=48145524",
+     "host": "news.ycombinator.com",
      "speaker": "buyer",
-     "reason": "front page unreadable (403)"
+     "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:4",
-     "url": "https://news.ycombinator.com/item?id=48145524",
+     "url": "https://news.ycombinator.com/item?id=48151965",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:5",
-     "url": "https://news.ycombinator.com/item?id=48165463",
+     "url": "https://news.ycombinator.com/item?id=47465915",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:6",
-     "url": "https://news.ycombinator.com/item?id=48155797",
+     "url": "https://news.ycombinator.com/item?id=47472168",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:7",
-     "url": "https://news.ycombinator.com/item?id=48189119",
+     "url": "https://news.ycombinator.com/item?id=47468287",
      "host": "news.ycombinator.com",
-     "speaker": "buyer",
+     "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:8",
-     "url": "https://news.ycombinator.com/item?id=48168713",
+     "url": "https://news.ycombinator.com/item?id=47458422",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=48152518",
+     "url": "https://news.ycombinator.com/item?id=47462212",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=48152692",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:11",
-     "url": "https://news.ycombinator.com/item?id=48153191",
+     "url": "https://news.ycombinator.com/item?id=47474244",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=47019378",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
      "id": "src:12",
-     "url": "https://news.ycombinator.com/item?id=48151764",
+     "url": "https://news.ycombinator.com/item?id=47019347",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=49172683",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=48151168",
+     "url": "https://news.ycombinator.com/item?id=48492685",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=48152101",
-     "host": "news.ycombinator.com",
-     "speaker": "buyer",
-     "reason": "talks about this market (security) with no sales call to action"
-    },
-    {
-     "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=49665739",
+     "url": "https://news.ycombinator.com/item?id=42727299",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
-     "id": "src:17",
-     "url": "https://news.ycombinator.com/item?id=8140695",
+     "id": "src:16",
+     "url": "https://news.ycombinator.com/item?id=29042479",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=43761126",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
      "id": "src:18",
-     "url": "https://news.ycombinator.com/item?id=31393594",
+     "url": "https://news.ycombinator.com/item?id=47459972",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
     },
     {
      "id": "src:19",
-     "url": "https://news.ycombinator.com/item?id=10199589",
+     "url": "https://jobs.techstars.com/companies/datarobot/jobs/79042367-grc-analyst",
+     "host": "jobs.techstars.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (compliance, security, risk) with no sales call to action"
+    },
+    {
+     "id": "src:20",
+     "url": "https://news.ycombinator.com/item?id=24493490",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:21",
+     "url": "https://news.ycombinator.com/item?id=25811811",
+     "host": "news.ycombinator.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (security) with no sales call to action"
+    },
+    {
+     "id": "src:24",
+     "url": "https://news.ycombinator.com/item?id=47458531",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (security) with no sales call to action"
@@ -1161,14 +901,19 @@
    "why": "talks about this market (security) with no sales call to action"
   },
   {
-   "host": "operatinginhealthtech.substack.com",
-   "verdict": "independent",
-   "why": "front page sells nothing into this market"
+   "host": "thehub.io",
+   "verdict": "unknown",
+   "why": "talks about this market (compliance, audit) with no sales call to action"
   },
   {
-   "host": "grcpod.substack.com",
-   "verdict": "unknown",
-   "why": "talks about this market (audit, grc) with no sales call to action"
+   "host": "fly.io",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (security, risk)"
+  },
+  {
+   "host": "vanta.com",
+   "verdict": "sells",
+   "why": "the company being researched"
   },
   {
    "host": "aws.amazon.com",
@@ -1176,9 +921,9 @@
    "why": "talks about this market (compliance, security) with no sales call to action"
   },
   {
-   "host": "capterra.com",
+   "host": "jobs.techstars.com",
    "verdict": "unknown",
-   "why": "front page unreadable (403)"
+   "why": "talks about this market (compliance, security, risk) with no sales call to action"
   }
  ]
 }

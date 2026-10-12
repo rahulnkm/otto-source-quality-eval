@@ -174,3 +174,15 @@ export function buyerVoiceIds(body: unknown): Set<string> {
   }
   return ids;
 }
+
+/**
+ * Where a Discourse thread hands over the posts a URL points at, as JSON: the same path with `.json`, keeping the
+ * `?page=N` that names which twenty posts. Dropping the page read the first twenty for every page and called the
+ * quotes on page seven invented. Null for a URL that is not a thread.
+ */
+export function discourseJsonUrl(url: string): string | null {
+  const m = url.match(/^(https?:\/\/[^?#]*\/t\/[^/?#]+\/\d+)(?:\/\d+)?\/?(?:\?([^#]*))?/);
+  if (!m) return null;
+  const page = new URLSearchParams(m[2] ?? "").get("page");
+  return `${m[1]}.json${page && /^\d+$/.test(page) ? `?page=${page}` : ""}`;
+}

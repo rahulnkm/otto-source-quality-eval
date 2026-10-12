@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { validateBrainBody } from "../../src/brain/validate";
+import { liveSourceProblems } from "../../src/brain/live-sources";
 import { validateSchema, type Schema } from "../../src/brain/schema";
 import { readFileSync } from "node:fs";
 import { loadMarket, ottoPrompt, basePrompt, refusalPrompt, extractBody, EVAL, OTTO } from "./prompts";
@@ -71,6 +72,13 @@ function schemaProblems(bodyText: string): string[] {
   return validateSchema(schema, data).map((e) => `${e.path || "(root)"}: ${e.message}`).slice(0, 40);
 }
 
+/** What artifacts.propose refuses: the skill's checks, then, on a body that passes them, the stored words against the live pages. */
+async function ottoProblems(body: string, inputs: Map<string, unknown>): Promise<string[]> {
+  const problems = validateBrainBody("brain/pains", body, inputs);
+  if (problems.length) return problems;
+  try { return await liveSourceProblems(JSON.parse(body), fetch); } catch { return problems; }
+}
+
 async function main() {
   const args = new Map<string, string>();
   for (let i = 2; i < Bun.argv.length; i += 2) args.set(Bun.argv[i].replace(/^--/, ""), Bun.argv[i + 1]);
@@ -91,7 +99,7 @@ async function main() {
     resume = res.sessionId;
     body = extractBody(res.result);
     // The otto arm is checked the way a think step is checked; the base arm only on the shape of the JSON.
-    const problems = arm === "otto" ? validateBrainBody("brain/pains", body, inputs) : schemaProblems(body);
+    const problems = arm === "otto" ? await ottoProblems(body, inputs) : schemaProblems(body);
     rounds.push({ problems, costUsd: res.costUsd, durationMs: res.durationMs, turns: res.turns, ok: res.ok, error: res.error });
     process.stderr.write(`[${slug}/${arm}] round ${round}: ${res.ok ? "ok" : `FAILED ${res.error?.slice(0, 200)}`}, ${problems.length} problems, $${res.costUsd.toFixed(2)}, ${Math.round(res.durationMs / 1000)}s\n`);
     if (!res.ok || !problems.length || !resume) break;

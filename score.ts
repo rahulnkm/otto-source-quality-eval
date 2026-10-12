@@ -2,7 +2,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 
 import { join } from "node:path";
 import { EVAL, MARKETS } from "./prompts";
 import { Browser } from "./browser";
-import { classifyQuote, buyerVoiceIds, allReviewListings, listingStillHolds, pageUsable, htmlToText as toText, words as wordsOf, type Verdict as QuoteVerdict } from "./verify";
+import { classifyQuote, buyerVoiceIds, allReviewListings, listingStillHolds, discourseJsonUrl, pageUsable, htmlToText as toText, words as wordsOf, type Verdict as QuoteVerdict } from "./verify";
 
 /**
  * Scores both arms' bodies on facts a reader can check by opening a page: it answers, the quoted
@@ -70,11 +70,12 @@ async function fetchPage(url: string, attempt = 0): Promise<Page> {
   }
   const rendered = await browser.text(url);
   // A forum thread shows about twenty posts and loads the rest as you scroll a container no window
-  // scroll can reach. Discourse hands the whole thread over as JSON at the same path.
+  // scroll can reach. Discourse hands each page of the thread over as JSON at the same path.
   let alt = "";
-  if (/\/t\/[^/]+\/\d+/.test(url)) {
+  const json = discourseJsonUrl(url);
+  if (json) {
     try {
-      const res = await fetch(`${url.replace(/[?#].*$/, "").replace(/\/$/, "")}.json`, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+      const res = await fetch(json, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
       if (res.ok) alt = htmlToText(await res.text());
     } catch { /* the thread simply is not Discourse */ }
   }
@@ -248,7 +249,8 @@ async function scoreRun(file: string, meta: Meta, overrides: Overrides, cache: M
     // A stored record can be several excerpts joined with "|", each prefixed with who said it
     // ("Name, Title at Company: ..."). The page only ever holds the excerpts, so the annotation is
     // stripped before asking whether the words are there.
-    const excerpts = (s.verbatim ?? "").split(/\s*\|\s*/).map((part) => part.replace(/^[^.!?:]{0,120}(?:,| at )[^.!?:]{0,120}:\s*/, "").trim()).filter(Boolean);
+    // An excerpt that marks a cut with "...", "…" or "[…]" is held to each piece on its own, as a quote is.
+    const excerpts = (s.verbatim ?? "").split(/\s*\|\s*|\s*\[(?:\.\.\.|…)\]\s*|\s*(?:\.\.\.|…)\s*/).map((part) => part.replace(/^[^.!?:]{0,120}(?:,| at )[^.!?:]{0,120}:\s*/, "").trim()).filter(Boolean);
     const sentences = excerpts.flatMap(sentencesOf);
     const reviewSite = allReviewListings([s.url]);
     if (reachable && !reviewSite && sentences.length && sentences.some((sent) => !holds(page, sent))) f.push("record_verbatim_not_on_page");

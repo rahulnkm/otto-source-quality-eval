@@ -69,47 +69,53 @@ each with the reason it was overridden.
 
 Legal AI (Legora), restaurant point of sale (Toast), observability (Grafana), payroll (Gusto), CRM
 (HubSpot), compliance (Vanta), notes (Notion), fitness (Strava), clinical AI (Abridge), fleet
-(Samsara), GTM data (Clay) and sales engagement (Apollo). Runs September 2026; every market scored
-on 2026-10-12 in one pass with one version of the checker. Per-market table in `results/summary.md`,
-every call with its reason in `results/<slug>.json`.
+(Samsara), GTM data (Clay) and sales engagement (Apollo). Both arms run on 2026-10-12, the otto arm
+with the live page check below, and scored the same day with one version of the checker. Per-market
+table in `results/summary.md`, every call with its reason in `results/<slug>.json`.
 
 | | base | otto |
 | --- | --- | --- |
-| pains written | 131 | 83 |
-| sources cited | 294 (2.2 per pain) | 316 (3.8 per pain) |
-| quotes | 567 | 422 |
-| **quotes not traceable to the stored record** | **247 (44%)** | **0** |
-| quotes on a page that could be read | 380 | 206 |
-| of those, word for word or honestly elided | 372 (97.9%) | 204 (99.0%) |
-| part on the page | 5 | 2 |
-| **not on the page at all** | **3** | **0** |
-| seller or vendor page cited as buyer voice | 16 | 0 |
-| cost | $45.62 | $53.59 |
+| pains written | 111 | 60 |
+| sources cited | 300 (2.7 per pain) | 175 (2.9 per pain) |
+| quotes | 339 | 252 |
+| **quotes not traceable to the stored record** | **113 (33%)** | **0** |
+| quotes on a page that could be read | 339 | 252 |
+| of those, word for word or honestly elided | 339 (100%) | 251 (99.6%) |
+| part on the page | 0 | 1 |
+| not on the page at all | 0 | 0 |
+| **seller or vendor page cited as buyer voice** | **44** | **3** |
+| sources whose stored text is not on the page | 3 | 11 |
+| cost | $35.41 | $38.57 |
 
 Read it this way:
 
 - **Provenance.** Every quote otto keeps sits inside the text it stored for that source, so a reader
-  can check it without going back out to the web. 44% of base's cannot be checked that way: it
-  stored one sentence and quoted others from the same article. This number needs no page fetch, so
-  no change to the checker moves it.
-- **Quoting.** Where a page can be read, both arms quote accurately. base's three misses are one
-  LinkedIn post, checked by hand: it turned the author's list of numbers into first-person sentences
-  and added a line the post does not have. otto's two partials are interview quotes from academic papers
-  with a word changed or added.
-- **Who gets quoted.** base cited a seller's or a vendor's own page as buyer voice 16 times, in most
-  markets. otto: never.
-- **Blocked evidence.** 187 of base's quotes and 216 of otto's cannot be checked. Capterra,
-  Trustpilot, Software Advice and GetApp answer a robot with 403, and review listings reorder as new
-  reviews arrive, so a quote missing from one weeks later proves nothing. This eval does not get
-  past a bot wall. In the payroll and restaurant markets that covers every otto quote.
+  can check it without going back out to the web. A third of base's cannot be checked that way: it
+  stored one sentence and quoted others from the same page. This number needs no page fetch.
+- **Who gets quoted.** base cited a seller's or a vendor's own page as buyer voice 44 times, in all
+  twelve markets. otto did it 3 times, each a customer post on a vendor-hosted community forum
+  (Square's and Strava's), which the rule counts as the vendor's domain for both arms alike.
+- **Quoting.** Both arms quote what the page says. Every page cited in this run could be read, and
+  no quote from either arm is missing from its page. otto's one partial is a Reddit comment with a
+  sentence cut short.
+- **Read against otto.** It writes about half as many pains (60 against 111) for 9% more cost. And
+  11 of its stored records join two parts of a comment without marking the cut: Hacker News
+  "surprising bills If I were more cynical" drops the clause between. The words are the
+  commenter's; the join is otto's.
 
-Read against otto: it writes fewer pains (83 against 131), costs more ($53.59 against $45.62), and it
-invented at least one review. In the compliance market it quoted a "food safety certificates" review
-to an AWS Marketplace page that, when checked by hand in September, showed every other review otto
-had recorded from it but not that one. otto's validator checks quotes against otto's own stored
-text, which the invented review was part of. By October the listing had moved on, so the scorer now
-counts that quote as unreadable. A missing quote on a review listing counts as not on the page only
-when at least two other reviews recorded from the same listing are still there.
+### The live page check
+
+The September runs of this eval (kept in `runs/`) found one review otto invented: in the compliance
+market it quoted a "food safety certificates" review to an AWS Marketplace page that showed every
+other review otto recorded from it, but not that one. otto's validator checked quotes only against
+otto's own stored text, which the invented review was part of.
+
+otto now fetches every cited page when a research step proposes its body, and refuses a stored
+excerpt the page lacks when the fetch provably read the real page: the page carries another excerpt
+stored for that source, or the title recorded for it. A page that blocks the fetch or renders with
+JavaScript proves nothing and passes. Its tests hold a copy of that marketplace page as otto
+recorded it: the invented review is refused, the real ones pass. The live page has since moved on,
+so the check cannot be replayed against it. In this run it refused nothing.
 
 ## Running it
 

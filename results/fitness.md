@@ -6,12 +6,12 @@ Quotes: every quoted sentence, checked against the page it cites.
 
 | arm | quotes | word for word | elided or bracketed | part on the page | not on the page | page unreadable | not in the stored record |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| base | 41 | 28 | 4 | 0 | 0 | 9 | 23 (56%) |
-| otto | 35 | 15 | 0 | 0 | 0 | 20 | 0 (0%) |
+| base | 34 | 34 | 0 | 0 | 0 | 0 | 19 (56%) |
+| otto | 17 | 17 | 0 | 0 | 0 | 0 | 0 (0%) |
 
 Sources: who the evidence came from.
 
 | arm | pains | sources | distinct domains | sources with a fault | stored quote not on its page | seller cited as buyer voice | speaker mislabel | dead | unverifiable | cost | rounds |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| base | 11 | 20 | 13 | 2 (10%) | 1 | 1 | 0 | 0 | 4 | $4.17 | 1 |
-| otto | 7 | 13 | 8 | 2 (15%) | 2 | 0 | 0 | 0 | 6 | $3.66 | 1 |
+| base | 10 | 19 | 14 | 2 (11%) | 0 | 2 | 0 | 0 | 1 | $1.97 | 1 |
+| otto | 5 | 8 | 5 | 1 (13%) | 0 | 1 | 1 | 0 | 0 | $1.35 | 1 |

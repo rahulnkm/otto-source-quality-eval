@@ -1,1261 +1,541 @@
 {
  "market": "hr-payroll",
- "scoredAt": "2026-10-12T15:16:41.375Z",
+ "scoredAt": "2026-10-12T17:28:31.765Z",
  "arms": [
   {
    "arm": "base",
-   "file": "base-2026-09-18T03-22-15-241Z.json",
+   "file": "base-2026-10-12T16-51-36-373Z.json",
    "accepted": true,
-   "costUsd": 3.5943069999999997,
+   "costUsd": 2.2739276000000004,
    "rounds": 1,
-   "pains": 11,
-   "sources": 61,
-   "domains": 5,
-   "cited": 58,
-   "unverifiable": 3,
-   "faultySources": 5,
-   "faults": {
-    "dead": 0,
-    "record_verbatim_not_on_page": 5,
-    "sells_as_buyer": 0,
-    "speaker_mislabel": 0
-   },
-   "quotes": {
-    "total": 60,
-    "onPage": 33,
-    "wordForWord": 29,
-    "notOnPage": 0,
-    "unverifiable": 27,
-    "notInRecord": 1,
-    "elided": 4,
-    "partial": 0
-   },
-   "detail": [
-    {
-     "id": "src:1",
-     "url": "https://gusto.com",
-     "host": "gusto.com",
-     "speaker": "seller",
-     "verdict": "sells",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 403
-    },
-    {
-     "id": "src:2",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:3",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:4",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:5",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:6",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:7",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:8",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:9",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:10",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:11",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:13",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:14",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:15",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:16",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:17",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:18",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:19",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:20",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:21",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:22",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:23",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:24",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:25",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:26",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:27",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:28",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:29",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:30",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=state",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:31",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=state",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:32",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=state",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:33",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=clients",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:34",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=clients",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:35",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=clients",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:36",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:37",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:38",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:39",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:40",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:41",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:42",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=time+tracking",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:43",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:44",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:45",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:46",
-     "url": "https://news.ycombinator.com/item?id=28730050",
-     "host": "news.ycombinator.com",
-     "speaker": "operator",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:47",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:48",
-     "url": "https://news.ycombinator.com/item?id=19902542",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:49",
-     "url": "https://news.ycombinator.com/item?id=20104094",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:50",
-     "url": "https://news.ycombinator.com/item?id=929842",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:51",
-     "url": "https://news.ycombinator.com/item?id=9745540",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:52",
-     "url": "https://news.ycombinator.com/item?id=17804993",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:53",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:54",
-     "url": "https://news.ycombinator.com/item?id=8080442",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:55",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=50",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:56",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:57",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=3",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:58",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=3",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:59",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:60",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:61",
-     "url": "https://www.healthsystemtracker.org/brief/how-much-and-why-premiums-are-going-up-for-small-businesses-in-2027/",
-     "host": "healthsystemtracker.org",
-     "speaker": "analyst",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    }
-   ],
-   "badQuotes": [
-    {
-     "quote": "I have almost no confidence that Gusto is filing the taxes properly because I get emails warning of errors, for example, that our L&I risk class codes are incor",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The upshot is I have been having to file L&I taxes myself, which kind of makes me pissed about paying every month for gusto to NOT do their job.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It took over $1000 in CPA fees before Gusto admitted this costly error... pay the extra fee now with ADP or Paychex or pay later...in the thousands.",
-     "cites": [
-      "src:36"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "their Philippines-based support team gave me incorrect information that could have gotten me in BIG trouble with the IRS if my accountant hadn't fixed it.",
-     "cites": [
-      "src:41"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "As an employee I have to say Gusto is the worst payroll service ever. Payday is today. In every single job I've had since direct deposit was born, you wake up a",
-     "cites": [
-      "src:28"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Every single pay period I spend half a day with AI chatbots, horrible UX, and roundabout solves just to pay one employee.",
-     "cites": [
-      "src:12"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I had to figure out paychecks for 76 people, write out checks, fedex checks to 3 states and make loans to staff who could not get checks in bank. I never would ",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Try getting someone knowledgeable on the phone. Good luck. And when you finally reach someone, communication can be extremely difficult, and instead of getting ",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "we cannot get a real response out of them...going on 3 weeks. I still have no answers.",
-     "cites": [
-      "src:20"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I left Paychex because I thought their service was terrible. Gusto somehow managed to make me appreciate Paychex. I didn't think that was possible.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Spoke with 5 customer service agents over the course of 1.5 hours and no one was able to help me understand my account balance (many numbers were incorrectly gi",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "At one point I had to compile my own complete case timeline myself and send it to Gusto's own 'support staff', because nobody there had reviewed the case before",
-     "cites": [
-      "src:8"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "customer support is only during weekday hours. There is no weekend availability",
-     "cites": [
-      "src:56"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I have had three clients on the system and ran into a glitch with one. I dealt with customer service on two occasions and gave them a second chance when a payro",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "My daughter pediatric bill has still not been paid. Considering moving our company benefits to someone else.",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The benefits management portion of Gusto dropped the ball in a pretty significant way.",
-     "cites": [
-      "src:58"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I never had an issue with Gusto until my employees W-2 came back incorrect and they handled so unprofessionally. I consulted an IRS agent as well as a tax profe",
-     "cites": [
-      "src:27"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "They do not acknowledge ANY of your own company forms to save to employee files. They force you to use their forms even though those forms dont work for your st",
-     "cites": [
-      "src:11"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The employee was given the 2014 version of the state W4 form (it's 2026)",
-     "cites": [
-      "src:19"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "new hires enter their own information",
-     "cites": [
-      "src:56"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "A bit glitchy when importing hours sometimes Doesn't automatically payout Ca meal break violations",
-     "cites": [
-      "src:55"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=50",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Gusto has a broken PTO system that cannot be fixed. Updating a paid time off policy automatically cancels the unpaid time off policy.",
-     "cites": [
-      "src:42"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?search=time+tracking",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "They have messed up our payroll on more than one occasion, removed pay after submission of numbers, wiped out our PTO...",
-     "cites": [
-      "src:29"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "approximately three months later, I discovered that money was still being withdrawn from my bank account for the 401(k) service. I was then informed that the 40",
-     "cites": [
-      "src:7"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "THEY KEEP BILLING YOU $260/MONTH...charged me over $500!!!",
-     "cites": [
-      "src:23"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "make sure you understand every separate service connected to their Gusto account, who actually provides that service, how much it costs, and exactly what must b",
-     "cites": [
-      "src:7"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "when I cancelled after not being able to process the payroll on July 31st and had to switch to another payroll provider, they charged me for a full month of ser",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "why": "the page could not be read"
-    }
-   ],
-   "gray": [
-    {
-     "id": "src:2",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:3",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:4",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:5",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:6",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:7",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:8",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:9",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:10",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:11",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:13",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:14",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:15",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:16",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:17",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=2",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:18",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:19",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:20",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:21",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:22",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:23",
-     "url": "https://www.trustpilot.com/review/gusto.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:24",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:25",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:26",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=4",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:27",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:28",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "host": "trustpilot.com",
-     "speaker": "customer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:29",
-     "url": "https://www.trustpilot.com/review/gusto.com?page=6",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:30",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=state",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:31",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=state",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:32",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=state",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:33",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=clients",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:34",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=clients",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:35",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=clients",
-     "host": "trustpilot.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:36",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:37",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:38",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:39",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:40",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:41",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=accountant",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:42",
-     "url": "https://www.trustpilot.com/review/gusto.com?search=time+tracking",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:43",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:44",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:45",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:46",
-     "url": "https://news.ycombinator.com/item?id=28730050",
-     "host": "news.ycombinator.com",
-     "speaker": "operator",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:47",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:48",
-     "url": "https://news.ycombinator.com/item?id=19902542",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:49",
-     "url": "https://news.ycombinator.com/item?id=20104094",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:50",
-     "url": "https://news.ycombinator.com/item?id=929842",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:51",
-     "url": "https://news.ycombinator.com/item?id=9745540",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:52",
-     "url": "https://news.ycombinator.com/item?id=17804993",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:53",
-     "url": "https://news.ycombinator.com/item?id=28729562",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:54",
-     "url": "https://news.ycombinator.com/item?id=8080442",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (hr) with no sales call to action"
-    },
-    {
-     "id": "src:55",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=50",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:56",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:57",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=3",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:58",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=3",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:59",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:60",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:61",
-     "url": "https://www.healthsystemtracker.org/brief/how-much-and-why-premiums-are-going-up-for-small-businesses-in-2027/",
-     "host": "healthsystemtracker.org",
-     "speaker": "analyst",
-     "reason": "talks about this market (hr, small business) with no sales call to action"
-    }
-   ]
-  },
-  {
-   "arm": "otto",
-   "file": "otto-2026-09-18T03-23-15-985Z.json",
-   "accepted": true,
-   "costUsd": 3.717510499999999,
-   "rounds": 1,
-   "pains": 7,
-   "sources": 18,
-   "domains": 7,
-   "cited": 14,
+   "pains": 8,
+   "sources": 30,
+   "domains": 4,
+   "cited": 30,
    "unverifiable": 0,
    "faultySources": 1,
    "faults": {
     "dead": 0,
     "record_verbatim_not_on_page": 1,
+    "sells_as_buyer": 1,
+    "speaker_mislabel": 0
+   },
+   "quotes": {
+    "total": 42,
+    "onPage": 42,
+    "wordForWord": 42,
+    "notOnPage": 0,
+    "unverifiable": 0,
+    "notInRecord": 15,
+    "elided": 0,
+    "partial": 0
+   },
+   "detail": [
+    {
+     "id": "src:1",
+     "url": "https://www.trustpilot.com/reviews/6aa16d1e4ab1f1915b2347f8",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.trustpilot.com/reviews/6ab2c81a1c0bd11484ff0767",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.trustpilot.com/reviews/6a566c90e8ae0ffdb3f50789",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:4",
+     "url": "https://www.trustpilot.com/reviews/6a292e43c3d4e1d9eb768859",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.trustpilot.com/reviews/6a1f1585d1aeb0438fd6b20e",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:6",
+     "url": "https://www.trustpilot.com/reviews/6a17c0c91a8a5b37406e184f",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:7",
+     "url": "https://www.trustpilot.com/reviews/6a9b5ebc1710f7626940f904",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.trustpilot.com/reviews/6a94309364972d82403a6c24",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:9",
+     "url": "https://www.trustpilot.com/reviews/6a7f323ac281fed3bdb1488b",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:10",
+     "url": "https://www.trustpilot.com/reviews/6aac55fa4578d2e4fb4a7c3a",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.trustpilot.com/reviews/6a594f2e4f887634bed34b5e",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.trustpilot.com/reviews/6a39dade4e6d21ea7a662f6d",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.trustpilot.com/reviews/6a84ddb9f2089f740b507f7a",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:14",
+     "url": "https://www.trustpilot.com/reviews/6a42995467cd99f60a2ef15e",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:15",
+     "url": "https://www.trustpilot.com/reviews/6ac52b933c720972ce0cd309",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:16",
+     "url": "https://www.trustpilot.com/reviews/6a452700d0bc75dd54e479b0",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.trustpilot.com/reviews/6aac66fa436ef64c261dc875",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:18",
+     "url": "https://www.trustpilot.com/reviews/6a434a1485f4ff896664c038",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.trustpilot.com/reviews/6a3e61272ff9a10a0944cb94",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:20",
+     "url": "https://www.trustpilot.com/reviews/6a9802e24494695d24fabdc7",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:21",
+     "url": "https://www.trustpilot.com/reviews/6abdb01cf3a0918ca9b7eeb7",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.trustpilot.com/reviews/6a2ac0aa644c0bfb97b13020",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:23",
+     "url": "https://www.trustpilot.com/reviews/6a235e353e5f4b0073843472",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:24",
+     "url": "https://www.trustpilot.com/reviews/6acabd5a61f8d90841fc4ce4",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:25",
+     "url": "https://www.peerspot.com/questions/what-needs-improvement-with-gusto",
+     "host": "peerspot.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:26",
+     "url": "https://softwarefinder.com/hr/gusto/reviews?page=61",
+     "host": "softwarefinder.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:27",
+     "url": "https://www.trinet.com/about-us/news-press/press-releases/81-of-small-business-owners-handle-hr-matters-internally-spending-people-hours-and-making-errors",
+     "host": "trinet.com",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [
+      "record_verbatim_not_on_page",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:28",
+     "url": "https://www.trustpilot.com/reviews/6a18aa376f95f5a9d7ef2a3c",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:29",
+     "url": "https://www.trustpilot.com/reviews/6ab5a8259b9b10653c58c0f4",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:30",
+     "url": "https://www.trustpilot.com/reviews/6a5648c8aa0e29a79949f944",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    }
+   ],
+   "badQuotes": [],
+   "gray": [
+    {
+     "id": "src:1",
+     "url": "https://www.trustpilot.com/reviews/6aa16d1e4ab1f1915b2347f8",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:2",
+     "url": "https://www.trustpilot.com/reviews/6ab2c81a1c0bd11484ff0767",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.trustpilot.com/reviews/6a566c90e8ae0ffdb3f50789",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:4",
+     "url": "https://www.trustpilot.com/reviews/6a292e43c3d4e1d9eb768859",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:5",
+     "url": "https://www.trustpilot.com/reviews/6a1f1585d1aeb0438fd6b20e",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:6",
+     "url": "https://www.trustpilot.com/reviews/6a17c0c91a8a5b37406e184f",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:7",
+     "url": "https://www.trustpilot.com/reviews/6a9b5ebc1710f7626940f904",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:8",
+     "url": "https://www.trustpilot.com/reviews/6a94309364972d82403a6c24",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:9",
+     "url": "https://www.trustpilot.com/reviews/6a7f323ac281fed3bdb1488b",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:10",
+     "url": "https://www.trustpilot.com/reviews/6aac55fa4578d2e4fb4a7c3a",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.trustpilot.com/reviews/6a594f2e4f887634bed34b5e",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.trustpilot.com/reviews/6a39dade4e6d21ea7a662f6d",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.trustpilot.com/reviews/6a84ddb9f2089f740b507f7a",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:14",
+     "url": "https://www.trustpilot.com/reviews/6a42995467cd99f60a2ef15e",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:15",
+     "url": "https://www.trustpilot.com/reviews/6ac52b933c720972ce0cd309",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:16",
+     "url": "https://www.trustpilot.com/reviews/6a452700d0bc75dd54e479b0",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.trustpilot.com/reviews/6aac66fa436ef64c261dc875",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:18",
+     "url": "https://www.trustpilot.com/reviews/6a434a1485f4ff896664c038",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.trustpilot.com/reviews/6a3e61272ff9a10a0944cb94",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:20",
+     "url": "https://www.trustpilot.com/reviews/6a9802e24494695d24fabdc7",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:21",
+     "url": "https://www.trustpilot.com/reviews/6abdb01cf3a0918ca9b7eeb7",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.trustpilot.com/reviews/6a2ac0aa644c0bfb97b13020",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:23",
+     "url": "https://www.trustpilot.com/reviews/6a235e353e5f4b0073843472",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:24",
+     "url": "https://www.trustpilot.com/reviews/6acabd5a61f8d90841fc4ce4",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:25",
+     "url": "https://www.peerspot.com/questions/what-needs-improvement-with-gusto",
+     "host": "peerspot.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (hr, employees, compliance) with no sales call to action"
+    },
+    {
+     "id": "src:26",
+     "url": "https://softwarefinder.com/hr/gusto/reviews?page=61",
+     "host": "softwarefinder.com",
+     "speaker": "customer",
+     "reason": "talks about this market (payroll, hr, small business) with no sales call to action"
+    },
+    {
+     "id": "src:28",
+     "url": "https://www.trustpilot.com/reviews/6a18aa376f95f5a9d7ef2a3c",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:29",
+     "url": "https://www.trustpilot.com/reviews/6ab5a8259b9b10653c58c0f4",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:30",
+     "url": "https://www.trustpilot.com/reviews/6a5648c8aa0e29a79949f944",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    }
+   ]
+  },
+  {
+   "arm": "otto",
+   "file": "otto-2026-10-12T16-43-12-876Z.json",
+   "accepted": true,
+   "costUsd": 1.9372521000000005,
+   "rounds": 1,
+   "pains": 5,
+   "sources": 13,
+   "domains": 2,
+   "cited": 13,
+   "unverifiable": 0,
+   "faultySources": 2,
+   "faults": {
+    "dead": 0,
+    "record_verbatim_not_on_page": 2,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
-    "total": 55,
-    "onPage": 0,
-    "wordForWord": 0,
+    "total": 23,
+    "onPage": 23,
+    "wordForWord": 23,
     "notOnPage": 0,
-    "unverifiable": 55,
+    "unverifiable": 0,
     "notInRecord": 0,
     "elided": 0,
     "partial": 0
@@ -1263,8 +543,8 @@
    "detail": [
     {
      "id": "src:1",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?stars=1&stars=2",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
@@ -1272,17 +552,17 @@
     },
     {
      "id": "src:2",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "host": "capterra.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/gusto.com?page=2&stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:3",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=state%20registration",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
@@ -1290,17 +570,17 @@
     },
     {
      "id": "src:4",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=33",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=bookkeeper",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:5",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=direct%20deposit",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
@@ -1308,8 +588,8 @@
     },
     {
      "id": "src:6",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=price",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
@@ -1317,8 +597,8 @@
     },
     {
      "id": "src:7",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=peace%20of%20mind&stars=5",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
@@ -1326,54 +606,9 @@
     },
     {
      "id": "src:8",
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "host": "capterra.com",
+     "url": "https://news.ycombinator.com/item?id=28730050",
+     "host": "news.ycombinator.com",
      "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:9",
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:10",
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:11",
-     "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=40",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:13",
-     "url": "https://hn.algolia.com/api/v1/search?query=payroll%20provider%20small%20business&tags=comment&hitsPerPage=50",
-     "host": "hn.algolia.com",
-     "speaker": "practitioner",
      "verdict": "independent",
      "faults": [
       "record_verbatim_not_on_page"
@@ -1381,575 +616,101 @@
      "status": 200
     },
     {
-     "id": "src:14",
-     "url": "https://www.nsbaadvocate.org/surveys",
-     "host": "nsbaadvocate.org",
-     "speaker": "analyst",
-     "verdict": "unknown",
+     "id": "src:9",
+     "url": "https://news.ycombinator.com/item?id=49327200",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "independent",
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:10",
+     "url": "https://news.ycombinator.com/item?id=48861543",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
     {
-     "id": "src:15",
-     "url": "https://duttonlegalgroup.com/payroll-tax-problems/",
-     "host": "duttonlegalgroup.com",
-     "speaker": "press",
-     "verdict": "unknown",
+     "id": "src:11",
+     "url": "https://news.ycombinator.com/item?id=20517242",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
     {
-     "id": "src:16",
-     "url": "https://gloucestercitynews.net/2026/05/how-serious-are-payroll-tax-penalties/",
-     "host": "gloucestercitynews.net",
-     "speaker": "press",
-     "verdict": "unknown",
+     "id": "src:12",
+     "url": "https://news.ycombinator.com/item?id=23158346",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
     {
-     "id": "src:17",
-     "url": "https://paycor.com/resource-center/why-do-small-businesses-incur-so-many-payroll-tax-penalties",
-     "host": "paycor.com",
-     "speaker": "vendor",
-     "verdict": "sells",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:18",
-     "url": "https://www.surepayroll.com/resources/terminology/payroll-penalties",
-     "host": "surepayroll.com",
-     "speaker": "vendor",
-     "verdict": "unknown",
+     "id": "src:13",
+     "url": "https://news.ycombinator.com/item?id=13608911",
+     "host": "news.ycombinator.com",
+     "speaker": "buyer",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     }
    ],
-   "badQuotes": [
-    {
-     "quote": "They weren't even planning on paying 1 out of the 3 of my state tax obligations",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "They lie about forms and tax filing",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Each year Paychex would re-enroll us and I would have to contact the state",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "They consistently make mistakes which takes them months to correct",
-     "cites": [
-      "src:8"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Paychex just started withholding the max portion from the employee without ever saying a word to us.",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Prior tax issues when they file them, they don't get it handled promptly",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "had some tax issues that they were unhelpful at resolving",
-     "cites": [
-      "src:8"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "cannot get employees paid they have my money",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Never a person to assist. AI sends you to tabs that don't exist",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I have a hard time reaching an actual person",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Gusto missed one of our paydays",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It's not worth the hassle",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "can be difficult to speak with anyone live when you need assistance",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Wait times can be too long when contacting support",
-     "cites": [
-      "src:12"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=40",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Customer support is inconcistent and poor.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "They never fully finished helping us get our platform set up.",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "can be cost prohibitive and somewhat challenging to get support",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "They are closed on the weekends when it comes to customer support.",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "You are kind of left in the dark to figure it out yourself",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Can't get hold of the account rep and customer service rep. No one would answer or return our calls.",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "When issues arise, it can take days to get a response",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I don't like that the person we have currently doesn't return calls promptly",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It's hard to get someone on the phone to answer questions, sometimes there is a revolving door",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "not having a dedicated contact",
-     "cites": [
-      "src:11"
-     ],
-     "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Contact person kept changing",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "We had 3 account managers with Paychex Flex, the first 2 had challenges following thru on items",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "While we do have dedicated support on the account admin side these staff seem to change",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "This assigned person switches frequently and sometimes are unresponsive",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "They switched our assigned payroll specialist so many times that I don't even know who it is now",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Every time I get a payroll account manager who is knowledgeable, they always get promoted",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The prices have gone up recently which I am not thrilled about.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The price. Running payroll for a single employee costs too much",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It costs too much for what it does",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=33",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "At times they increase costs without notification",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "In the end my annual budget tripled for 1 year. At times I would pay up to $153.00 per month",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The expense of adding employees adds up quickly",
-     "cites": [
-      "src:8"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "they charged the full months fee anyway",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "can get a bit pricey as your business grows",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "can be cost prohibitive and somewhat challenging to get support",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Wish they would handle the state registrations.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "cannot handle multiple local jurisdictions",
-     "cites": [
-      "src:11"
-     ],
-     "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Creating customized reports are nearly impossible.",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I have not found their reports to be as numerous and varied as some other payroll companies.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Their reporting is definitely a very important feature that in Paychex Flex is not intuitive",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I wouldn't really recommend it.",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Reporting was sometimes difficult to pull the information we wanted",
-     "cites": [
-      "src:7"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "not as much customizability with reports, special deductions/earning codes",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The reporting is also not intuitive, the wording used for templated report names is vague",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It's hard to create and review reports.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "reports are hard for me to find",
-     "cites": [
-      "src:11"
-     ],
-     "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "requires it to be typed in even when it is your regularly scheduled hours",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I wish a 'normal' day could be saved rather than having to type",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=33",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "employees have to be reentered manually",
-     "cites": [
-      "src:11"
-     ],
-     "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Integrations with time and attendance, but the systems do not easily share",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It was tricky to get Gusto fully integrated with our preferred timekeeping system",
-     "cites": [
-      "src:7"
-     ],
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "why": "the page could not be read"
-    }
-   ],
+   "badQuotes": [],
    "gray": [
     {
      "id": "src:1",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?sort=most_recent&rating=1",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?stars=1&stars=2",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:2",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=47",
-     "host": "capterra.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/gusto.com?page=2&stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:3",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=12",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=state%20registration",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:4",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=33",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=bookkeeper",
+     "host": "trustpilot.com",
+     "speaker": "practitioner",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:5",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=5",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=direct%20deposit",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:6",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=60",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=price",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:7",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=2",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:8",
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=27",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:9",
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=3",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:10",
-     "url": "https://www.capterra.com/p/119841/Paychex-Flex/reviews/?page=10",
-     "host": "capterra.com",
-     "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:11",
-     "url": "https://www.capterra.com/p/185859/RUN/reviews/",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.capterra.com/p/131882/Gusto/reviews/?page=40",
-     "host": "capterra.com",
+     "url": "https://www.trustpilot.com/review/gusto.com?search=peace%20of%20mind&stars=5",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     }
@@ -1958,59 +719,29 @@
  ],
  "domains": [
   {
-   "host": "gusto.com",
-   "verdict": "sells",
-   "why": "the company being researched"
-  },
-  {
    "host": "trustpilot.com",
    "verdict": "unknown",
    "why": "front page unreadable (403)"
   },
   {
-   "host": "news.ycombinator.com",
+   "host": "peerspot.com",
    "verdict": "unknown",
-   "why": "talks about this market (hr) with no sales call to action"
+   "why": "talks about this market (hr, employees, compliance) with no sales call to action"
   },
   {
-   "host": "capterra.com",
+   "host": "softwarefinder.com",
    "verdict": "unknown",
-   "why": "front page unreadable (403)"
+   "why": "talks about this market (payroll, hr, small business) with no sales call to action"
   },
   {
-   "host": "healthsystemtracker.org",
-   "verdict": "unknown",
-   "why": "talks about this market (hr, small business) with no sales call to action"
-  },
-  {
-   "host": "hn.algolia.com",
-   "verdict": "independent",
-   "why": "front page sells nothing into this market"
-  },
-  {
-   "host": "nsbaadvocate.org",
-   "verdict": "unknown",
-   "why": "talks about this market (hr, small business) with no sales call to action"
-  },
-  {
-   "host": "duttonlegalgroup.com",
-   "verdict": "unknown",
-   "why": "talks about this market (hr, small business) with no sales call to action"
-  },
-  {
-   "host": "gloucestercitynews.net",
-   "verdict": "unknown",
-   "why": "talks about this market (hr, benefits) with no sales call to action"
-  },
-  {
-   "host": "paycor.com",
+   "host": "trinet.com",
    "verdict": "sells",
    "why": "front page has a sales call to action and this market's words (payroll, hr, benefits)"
   },
   {
-   "host": "surepayroll.com",
-   "verdict": "unknown",
-   "why": "talks about this market (payroll, hr, benefits) with no sales call to action"
+   "host": "news.ycombinator.com",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
   }
  ]
 }

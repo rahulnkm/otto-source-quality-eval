@@ -1,33 +1,33 @@
 {
  "market": "observability",
- "scoredAt": "2026-10-12T15:12:29.745Z",
+ "scoredAt": "2026-10-12T17:28:27.234Z",
  "arms": [
   {
    "arm": "base",
-   "file": "base-2026-09-18T02-23-36-751Z.json",
+   "file": "base-2026-10-12T16-42-47-626Z.json",
    "accepted": true,
-   "costUsd": 3.495922000000001,
+   "costUsd": 1.8212966,
    "rounds": 1,
-   "pains": 10,
-   "sources": 22,
-   "domains": 2,
-   "cited": 21,
+   "pains": 8,
+   "sources": 17,
+   "domains": 8,
+   "cited": 16,
    "unverifiable": 0,
-   "faultySources": 2,
+   "faultySources": 4,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 2,
-    "sells_as_buyer": 1,
-    "speaker_mislabel": 0
+    "record_verbatim_not_on_page": 0,
+    "sells_as_buyer": 4,
+    "speaker_mislabel": 1
    },
    "quotes": {
-    "total": 30,
-    "onPage": 30,
-    "wordForWord": 27,
+    "total": 19,
+    "onPage": 19,
+    "wordForWord": 19,
     "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 5,
-    "elided": 3,
+    "notInRecord": 6,
+    "elided": 0,
     "partial": 0
    },
    "detail": [
@@ -37,59 +37,61 @@
      "host": "grafana.com",
      "speaker": "seller",
      "verdict": "sells",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:2",
-     "url": "https://news.ycombinator.com/item?id=20783096",
-     "host": "news.ycombinator.com",
-     "speaker": "customer",
+     "url": "https://reddit.sentinel-team.org/posts/1so73te/snapshots/2026-04-19T10%3A11%3A31.33645Z",
+     "host": "reddit.sentinel-team.org",
+     "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:3",
-     "url": "https://news.ycombinator.com/item?id=35865745",
-     "host": "news.ycombinator.com",
-     "speaker": "customer",
-     "verdict": "unknown",
-     "faults": [],
+     "url": "https://grafana.com/observability-survey/2025/",
+     "host": "grafana.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
      "status": 200
     },
     {
      "id": "src:4",
-     "url": "https://news.ycombinator.com/item?id=46631061",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
+     "url": "https://grafana.com/observability-survey/2026/",
+     "host": "grafana.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
      "status": 200
     },
     {
      "id": "src:5",
-     "url": "https://news.ycombinator.com/item?id=38093281",
+     "url": "https://news.ycombinator.com/item?id=47096927",
      "host": "news.ycombinator.com",
-     "speaker": "customer",
+     "speaker": "founder",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:6",
-     "url": "https://news.ycombinator.com/item?id=45438010",
+     "url": "https://news.ycombinator.com/item?id=44336649",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "founder",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:7",
-     "url": "https://news.ycombinator.com/item?id=25434387",
+     "url": "https://news.ycombinator.com/item?id=35865745",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -98,7 +100,7 @@
     },
     {
      "id": "src:8",
-     "url": "https://news.ycombinator.com/item?id=41654011",
+     "url": "https://news.ycombinator.com/item?id=46271977",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -107,7 +109,7 @@
     },
     {
      "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=32165415",
+     "url": "https://news.ycombinator.com/item?id=43790837",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -116,7 +118,7 @@
     },
     {
      "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=48091591",
+     "url": "https://news.ycombinator.com/item?id=46348131",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -125,17 +127,17 @@
     },
     {
      "id": "src:11",
-     "url": "https://news.ycombinator.com/item?id=48120391",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
+     "url": "https://github.com/tuist/tuist/issues/11420",
+     "host": "github.com",
+     "speaker": "customer",
+     "verdict": "independent",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:12",
-     "url": "https://news.ycombinator.com/item?id=48090579",
-     "host": "news.ycombinator.com",
+     "url": "https://reddit.sentinel-team.org/posts/1szysrm/snapshots/2026-05-01T01%3A46%3A36.84154Z",
+     "host": "reddit.sentinel-team.org",
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
@@ -143,17 +145,20 @@
     },
     {
      "id": "src:13",
-     "url": "https://news.ycombinator.com/item?id=48121224",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
+     "url": "https://community.grafana.com/t/best-way-to-utilize-grafana-cloud-with-an-already-preexisting-architecture-on-aws-eks/124057",
+     "host": "community.grafana.com",
+     "speaker": "customer",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
      "status": 200
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=40683695",
-     "host": "news.ycombinator.com",
+     "url": "https://henrikgerdes.me/blog/2025-11-grafana-mess/",
+     "host": "henrikgerdes.me",
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
@@ -161,75 +166,29 @@
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=44346010",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "url": "https://job-boards.greenhouse.io/figma/jobs/5807963004",
+     "host": "job-boards.greenhouse.io",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=42255013",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:17",
-     "url": "https://news.ycombinator.com/item?id=37828173",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:18",
-     "url": "https://news.ycombinator.com/item?id=49214950",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:19",
-     "url": "https://grafana.com/press/2026/03/18/grafana-labs-4th-annual-observability-survey-reveals-a-field-at-a-crossroads-ai-economics-complexity-and-the-enduring-power-of-open-source/",
-     "host": "grafana.com",
-     "speaker": "vendor",
+     "url": "https://www.catchpoint.com/press-releases/the-sre-report-2025-highlighting-critical-trends-in-site-reliability-engineering",
+     "host": "catchpoint.com",
+     "speaker": "analyst",
      "verdict": "sells",
      "faults": [
-      "record_verbatim_not_on_page",
       "sells_as_buyer"
      ],
      "status": 200
     },
     {
-     "id": "src:20",
-     "url": "https://news.ycombinator.com/item?id=46895383",
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=44429992",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:21",
-     "url": "https://news.ycombinator.com/item?id=48120258",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:22",
-     "url": "https://news.ycombinator.com/item?id=43835949",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
      "verdict": "unknown",
      "faults": [],
      "status": 200
@@ -239,168 +198,105 @@
    "gray": [
     {
      "id": "src:2",
-     "url": "https://news.ycombinator.com/item?id=20783096",
-     "host": "news.ycombinator.com",
-     "speaker": "customer",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:3",
-     "url": "https://news.ycombinator.com/item?id=35865745",
-     "host": "news.ycombinator.com",
-     "speaker": "customer",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:4",
-     "url": "https://news.ycombinator.com/item?id=46631061",
-     "host": "news.ycombinator.com",
+     "url": "https://reddit.sentinel-team.org/posts/1so73te/snapshots/2026-04-19T10%3A11%3A31.33645Z",
+     "host": "reddit.sentinel-team.org",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:5",
-     "url": "https://news.ycombinator.com/item?id=38093281",
+     "url": "https://news.ycombinator.com/item?id=47096927",
      "host": "news.ycombinator.com",
-     "speaker": "customer",
+     "speaker": "founder",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:6",
-     "url": "https://news.ycombinator.com/item?id=45438010",
+     "url": "https://news.ycombinator.com/item?id=44336649",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "founder",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:7",
-     "url": "https://news.ycombinator.com/item?id=25434387",
+     "url": "https://news.ycombinator.com/item?id=35865745",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:8",
-     "url": "https://news.ycombinator.com/item?id=41654011",
+     "url": "https://news.ycombinator.com/item?id=46271977",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=32165415",
+     "url": "https://news.ycombinator.com/item?id=43790837",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=48091591",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:11",
-     "url": "https://news.ycombinator.com/item?id=48120391",
+     "url": "https://news.ycombinator.com/item?id=46348131",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:12",
-     "url": "https://news.ycombinator.com/item?id=48090579",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:13",
-     "url": "https://news.ycombinator.com/item?id=48121224",
-     "host": "news.ycombinator.com",
+     "url": "https://reddit.sentinel-team.org/posts/1szysrm/snapshots/2026-05-01T01%3A46%3A36.84154Z",
+     "host": "reddit.sentinel-team.org",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=40683695",
-     "host": "news.ycombinator.com",
+     "url": "https://henrikgerdes.me/blog/2025-11-grafana-mess/",
+     "host": "henrikgerdes.me",
      "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
+     "reason": "talks about this market (observability, monitoring, kubernetes) with no sales call to action"
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=44346010",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=42255013",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
+     "url": "https://job-boards.greenhouse.io/figma/jobs/5807963004",
+     "host": "job-boards.greenhouse.io",
+     "speaker": "buyer",
+     "reason": "sells something, but not obviously into this market"
     },
     {
      "id": "src:17",
-     "url": "https://news.ycombinator.com/item?id=37828173",
+     "url": "https://news.ycombinator.com/item?id=44429992",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:18",
-     "url": "https://news.ycombinator.com/item?id=49214950",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:20",
-     "url": "https://news.ycombinator.com/item?id=46895383",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:21",
-     "url": "https://news.ycombinator.com/item?id=48120258",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:22",
-     "url": "https://news.ycombinator.com/item?id=43835949",
-     "host": "news.ycombinator.com",
-     "speaker": "founder",
      "reason": "talks about this market (incident) with no sales call to action"
     }
    ]
   },
   {
    "arm": "otto",
-   "file": "otto-2026-09-18T02-32-15-189Z.json",
+   "file": "otto-2026-10-12T16-36-24-393Z.json",
    "accepted": true,
-   "costUsd": 4.815160499999999,
-   "rounds": 2,
-   "pains": 5,
-   "sources": 24,
-   "domains": 7,
-   "cited": 21,
+   "costUsd": 1.9938354999999999,
+   "rounds": 1,
+   "pains": 4,
+   "sources": 16,
+   "domains": 1,
+   "cited": 15,
    "unverifiable": 0,
-   "faultySources": 4,
+   "faultySources": 5,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 4,
+    "record_verbatim_not_on_page": 5,
     "sells_as_buyer": 0,
     "speaker_mislabel": 0
    },
    "quotes": {
-    "total": 28,
-    "onPage": 28,
-    "wordForWord": 28,
+    "total": 15,
+    "onPage": 15,
+    "wordForWord": 15,
     "notOnPage": 0,
     "unverifiable": 0,
     "notInRecord": 0,
@@ -410,11 +306,13 @@
    "detail": [
     {
      "id": "src:1",
-     "url": "https://news.ycombinator.com/item?id=38093281",
+     "url": "https://news.ycombinator.com/item?id=44433840",
      "host": "news.ycombinator.com",
-     "speaker": "buyer",
+     "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [],
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
      "status": 200
     },
     {
@@ -428,16 +326,7 @@
     },
     {
      "id": "src:3",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-ba2nz3vsyg46a?page=41",
-     "host": "aws.amazon.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:4",
-     "url": "https://news.ycombinator.com/item?id=45529822",
+     "url": "https://news.ycombinator.com/item?id=46558282",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -446,25 +335,27 @@
     },
     {
      "id": "src:5",
-     "url": "https://news.ycombinator.com/item?id=35073050",
+     "url": "https://news.ycombinator.com/item?id=44427323",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:6",
-     "url": "https://news.ycombinator.com/item?id=32174459",
+     "url": "https://news.ycombinator.com/item?id=44429123",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [],
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
      "status": 200
     },
     {
      "id": "src:7",
-     "url": "https://news.ycombinator.com/item?id=32175621",
+     "url": "https://news.ycombinator.com/item?id=44428684",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -473,16 +364,18 @@
     },
     {
      "id": "src:8",
-     "url": "https://news.ycombinator.com/item?id=41654011",
+     "url": "https://news.ycombinator.com/item?id=44435174",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "verdict": "unknown",
-     "faults": [],
+     "faults": [
+      "record_verbatim_not_on_page"
+     ],
      "status": 200
     },
     {
      "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=40937269",
+     "url": "https://news.ycombinator.com/item?id=49401661",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -491,7 +384,7 @@
     },
     {
      "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=36495756",
+     "url": "https://news.ycombinator.com/item?id=47482692",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -502,8 +395,8 @@
     },
     {
      "id": "src:11",
-     "url": "https://henrikgerdes.me/blog/2025-11-grafana-mess/",
-     "host": "henrikgerdes.me",
+     "url": "https://news.ycombinator.com/item?id=49401802",
+     "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [
@@ -513,7 +406,7 @@
     },
     {
      "id": "src:12",
-     "url": "https://news.ycombinator.com/item?id=44326664",
+     "url": "https://news.ycombinator.com/item?id=49404850",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -522,7 +415,7 @@
     },
     {
      "id": "src:13",
-     "url": "https://news.ycombinator.com/item?id=30183011",
+     "url": "https://news.ycombinator.com/item?id=49396130",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -531,18 +424,16 @@
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=12372423",
+     "url": "https://news.ycombinator.com/item?id=32038044",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=24128852",
+     "url": "https://news.ycombinator.com/item?id=32038198",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -551,7 +442,7 @@
     },
     {
      "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=36923243",
+     "url": "https://news.ycombinator.com/item?id=32038754",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -560,72 +451,7 @@
     },
     {
      "id": "src:17",
-     "url": "https://www.networkworld.com/article/4067370/tool-sprawl-hampers-enterprise-observability-efforts.html",
-     "host": "networkworld.com",
-     "speaker": "press",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:18",
-     "url": "https://grafana.com/observability-survey/2025/",
-     "host": "grafana.com",
-     "speaker": "seller",
-     "verdict": "sells",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:19",
-     "url": "https://www.apmdigest.com/observability-costs-rising-faster-value",
-     "host": "apmdigest.com",
-     "speaker": "press",
-     "verdict": "sells",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:20",
-     "url": "https://logz.io/blog/optimize-observability-spending-recap/",
-     "host": "logz.io",
-     "speaker": "vendor",
-     "verdict": "sells",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:21",
-     "url": "https://news.ycombinator.com/item?id=45963212",
-     "host": "news.ycombinator.com",
-     "speaker": "seller",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:22",
-     "url": "https://news.ycombinator.com/item?id=45937214",
-     "host": "news.ycombinator.com",
-     "speaker": "vendor",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:23",
-     "url": "https://news.ycombinator.com/item?id=41207181",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:24",
-     "url": "https://news.ycombinator.com/item?id=39914918",
+     "url": "https://news.ycombinator.com/item?id=49192345",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "verdict": "unknown",
@@ -637,9 +463,9 @@
    "gray": [
     {
      "id": "src:1",
-     "url": "https://news.ycombinator.com/item?id=38093281",
+     "url": "https://news.ycombinator.com/item?id=44433840",
      "host": "news.ycombinator.com",
-     "speaker": "buyer",
+     "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
@@ -651,112 +477,98 @@
     },
     {
      "id": "src:3",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-ba2nz3vsyg46a?page=41",
-     "host": "aws.amazon.com",
-     "speaker": "buyer",
-     "reason": "talks about this market (logs) with no sales call to action"
-    },
-    {
-     "id": "src:4",
-     "url": "https://news.ycombinator.com/item?id=45529822",
+     "url": "https://news.ycombinator.com/item?id=46558282",
      "host": "news.ycombinator.com",
      "speaker": "buyer",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:5",
-     "url": "https://news.ycombinator.com/item?id=35073050",
+     "url": "https://news.ycombinator.com/item?id=44427323",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:6",
-     "url": "https://news.ycombinator.com/item?id=32174459",
+     "url": "https://news.ycombinator.com/item?id=44429123",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:7",
-     "url": "https://news.ycombinator.com/item?id=32175621",
+     "url": "https://news.ycombinator.com/item?id=44428684",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:8",
-     "url": "https://news.ycombinator.com/item?id=41654011",
+     "url": "https://news.ycombinator.com/item?id=44435174",
      "host": "news.ycombinator.com",
-     "speaker": "practitioner",
+     "speaker": "buyer",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:9",
-     "url": "https://news.ycombinator.com/item?id=40937269",
+     "url": "https://news.ycombinator.com/item?id=49401661",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:10",
-     "url": "https://news.ycombinator.com/item?id=36495756",
+     "url": "https://news.ycombinator.com/item?id=47482692",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:11",
-     "url": "https://henrikgerdes.me/blog/2025-11-grafana-mess/",
-     "host": "henrikgerdes.me",
+     "url": "https://news.ycombinator.com/item?id=49401802",
+     "host": "news.ycombinator.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (observability, monitoring, kubernetes) with no sales call to action"
+     "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:12",
-     "url": "https://news.ycombinator.com/item?id=44326664",
+     "url": "https://news.ycombinator.com/item?id=49404850",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:13",
-     "url": "https://news.ycombinator.com/item?id=30183011",
+     "url": "https://news.ycombinator.com/item?id=49396130",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:14",
-     "url": "https://news.ycombinator.com/item?id=12372423",
+     "url": "https://news.ycombinator.com/item?id=32038044",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:15",
-     "url": "https://news.ycombinator.com/item?id=24128852",
+     "url": "https://news.ycombinator.com/item?id=32038198",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
      "id": "src:16",
-     "url": "https://news.ycombinator.com/item?id=36923243",
+     "url": "https://news.ycombinator.com/item?id=32038754",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
     },
     {
-     "id": "src:23",
-     "url": "https://news.ycombinator.com/item?id=41207181",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (incident) with no sales call to action"
-    },
-    {
-     "id": "src:24",
-     "url": "https://news.ycombinator.com/item?id=39914918",
+     "id": "src:17",
+     "url": "https://news.ycombinator.com/item?id=49192345",
      "host": "news.ycombinator.com",
      "speaker": "practitioner",
      "reason": "talks about this market (incident) with no sales call to action"
@@ -771,14 +583,24 @@
    "why": "the company being researched"
   },
   {
+   "host": "reddit.sentinel-team.org",
+   "verdict": "unknown",
+   "why": "talks about this market (incident) with no sales call to action"
+  },
+  {
    "host": "news.ycombinator.com",
    "verdict": "unknown",
    "why": "talks about this market (incident) with no sales call to action"
   },
   {
-   "host": "aws.amazon.com",
-   "verdict": "unknown",
-   "why": "talks about this market (logs) with no sales call to action"
+   "host": "github.com",
+   "verdict": "independent",
+   "why": "front page sells nothing into this market"
+  },
+  {
+   "host": "community.grafana.com",
+   "verdict": "sells",
+   "why": "the company being researched"
   },
   {
    "host": "henrikgerdes.me",
@@ -786,19 +608,14 @@
    "why": "talks about this market (observability, monitoring, kubernetes) with no sales call to action"
   },
   {
-   "host": "networkworld.com",
+   "host": "job-boards.greenhouse.io",
    "verdict": "unknown",
-   "why": "talks about this market (monitoring, logs) with no sales call to action"
+   "why": "sells something, but not obviously into this market"
   },
   {
-   "host": "apmdigest.com",
+   "host": "catchpoint.com",
    "verdict": "sells",
-   "why": "front page has a sales call to action and this market's words (observability, monitoring, logs)"
-  },
-  {
-   "host": "logz.io",
-   "verdict": "sells",
-   "why": "front page has a sales call to action and this market's words (observability, monitoring, metrics)"
+   "why": "front page has a sales call to action and this market's words (observability, monitoring, dashboards)"
   }
  ]
 }

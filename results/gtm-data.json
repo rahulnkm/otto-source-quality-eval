@@ -1,398 +1,342 @@
 {
  "market": "gtm-data",
- "scoredAt": "2026-10-12T15:09:55.454Z",
+ "scoredAt": "2026-10-12T17:26:36.653Z",
  "arms": [
   {
    "arm": "base",
-   "file": "base-2026-09-18T14-07-22-911Z.json",
+   "file": "base-2026-10-12T16-30-10-477Z.json",
    "accepted": true,
-   "costUsd": 4.216845000000002,
+   "costUsd": 4.344223499999999,
    "rounds": 1,
-   "pains": 11,
-   "sources": 18,
-   "domains": 8,
-   "cited": 17,
+   "pains": 10,
+   "sources": 21,
+   "domains": 15,
+   "cited": 21,
    "unverifiable": 0,
-   "faultySources": 18,
+   "faultySources": 10,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 18,
-    "sells_as_buyer": 2,
-    "speaker_mislabel": 1
+    "record_verbatim_not_on_page": 0,
+    "sells_as_buyer": 10,
+    "speaker_mislabel": 5
    },
    "quotes": {
-    "total": 38,
-    "onPage": 33,
-    "wordForWord": 32,
-    "notOnPage": 3,
+    "total": 26,
+    "onPage": 26,
+    "wordForWord": 26,
+    "notOnPage": 0,
     "unverifiable": 0,
-    "notInRecord": 7,
-    "elided": 1,
-    "partial": 2
+    "notInRecord": 11,
+    "elided": 0,
+    "partial": 0
    },
    "detail": [
     {
-     "id": "src:1",
-     "url": "https://www.clay.com",
-     "host": "clay.com",
-     "speaker": "seller",
-     "verdict": "sells",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
      "id": "src:2",
-     "url": "https://moxiegtm.substack.com/p/how-to-save-200k-and-2-months-without",
-     "host": "moxiegtm.substack.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/clay.com",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 403
     },
     {
      "id": "src:3",
-     "url": "https://www.linkedin.com/posts/marinaghilchik_most-gtm-motions-dont-break-in-clay-they-activity-7425155378612682752-Wqu5",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/clay.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
+     "faults": [],
+     "status": 403
     },
     {
      "id": "src:4",
-     "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
+     "url": "https://softwarefinder.com/sales-tools/clay-ai/reviews",
+     "host": "softwarefinder.com",
+     "speaker": "customer",
      "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
+     "faults": [],
      "status": 200
     },
     {
      "id": "src:5",
-     "url": "https://www.linkedin.com/posts/michel-lieben_heres-the-biggest-issue-with-clay-it-activity-7184599187743739904-ioY8",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:6",
-     "url": "https://revnu.partners/blog/clay-story",
-     "host": "revnu.partners",
-     "speaker": "analyst",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:7",
-     "url": "https://university.clay.com/docs/legacy-plans",
-     "host": "university.clay.com",
-     "speaker": "seller",
-     "verdict": "sells",
-     "faults": [
-      "record_verbatim_not_on_page",
-      "sells_as_buyer"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:8",
-     "url": "https://gtmdaily.com/news/clay-2026-pricing-change-a-deep-dive-voice-of-the-customer-analysis/",
-     "host": "gtmdaily.com",
-     "speaker": "press",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:9",
-     "url": "https://www.clay.com/blog/sculpted-agency-pivot",
-     "host": "clay.com",
+     "url": "https://community.clay.com/x/announcements/msg_kTWQeOGiAfpB/introduction-of-clays-new-pricing-model-with-cheap",
+     "host": "community.clay.com",
      "speaker": "customer",
      "verdict": "sells",
      "faults": [
-      "record_verbatim_not_on_page",
       "speaker_mislabel",
       "sells_as_buyer"
      ],
      "status": 200
     },
     {
-     "id": "src:10",
-     "url": "https://www.linkedin.com/posts/anthony-natoli_signal-based-outbound-has-made-sdrs-and-aes-activity-7481049907370323968--029",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:11",
-     "url": "https://www.linkedin.com/posts/noemiejacquemin_struggling-to-hire-a-gtm-engineer-getting-activity-7428070601447235586-tx9g",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.linkedin.com/posts/marcos-stu_most-people-burn-clay-credits-like-theyre-activity-7386496938638155776-51NV",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:13",
-     "url": "https://www.linkedin.com/posts/anantha-koppa_unpopular-opinion-using-clay-doesnt-make-activity-7396072105261445120-Makg",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:14",
-     "url": "https://www.linkedin.com/posts/benjamin-aaron-reed_clay-coined-the-term-gtm-engineer-i-think-activity-7407123500437602304-dt8c",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:15",
-     "url": "https://www.linkedin.com/posts/john-p-gladysz_the-agency-business-is-brutal-i-reviewed-activity-7413997692626001920-k5zM",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:16",
-     "url": "https://gtmepulse.com/insights/job-market-2026/",
-     "host": "gtmepulse.com",
-     "speaker": "analyst",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:17",
-     "url": "https://www.sloane-staffing.com/insights/gtm-engineer-salary-guide-2026/",
-     "host": "sloane-staffing.com",
-     "speaker": "analyst",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    },
-    {
-     "id": "src:18",
-     "url": "https://www.linkedin.com/posts/billstath_not-all-intent-signals-are-worth-your-time-activity-7488165806317625344-zmyo",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "verdict": "unknown",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
-    }
-   ],
-   "badQuotes": [
-    {
-     "quote": "I spent ~$500 and 13,000+ credits on 1,000 CXO-level leads and got 632 with a verified email.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "Clay charges separately for personal and work emails, doubling your costs if you need both.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "why": "part of the quote is on the page, part is not"
-    },
-    {
-     "quote": "632 leads with verified emails out of 1,000, and an 8% bounce rate.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "why": "words are not on the cited page"
-    },
-    {
-     "quote": "Clay is a solid tool, but for lead email enrichment at volume the economics stop working.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "why": "part of the quote is on the page, part is not"
-    },
-    {
-     "quote": "Over 40%+ of emails bouncing tanked our sender reputation.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "why": "words are not on the cited page"
-    }
-   ],
-   "gray": [
-    {
-     "id": "src:2",
-     "url": "https://moxiegtm.substack.com/p/how-to-save-200k-and-2-months-without",
-     "host": "moxiegtm.substack.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (gtm) with no sales call to action"
-    },
-    {
-     "id": "src:3",
-     "url": "https://www.linkedin.com/posts/marinaghilchik_most-gtm-motions-dont-break-in-clay-they-activity-7425155378612682752-Wqu5",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
-    },
-    {
-     "id": "src:4",
-     "url": "https://www.linkedin.com/posts/milman-blum_clay-is-a-solid-tool-but-for-lead-email-activity-7314919952082243584-r8jO",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
-    },
-    {
-     "id": "src:5",
-     "url": "https://www.linkedin.com/posts/michel-lieben_heres-the-biggest-issue-with-clay-it-activity-7184599187743739904-ioY8",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
-    },
-    {
      "id": "src:6",
-     "url": "https://revnu.partners/blog/clay-story",
-     "host": "revnu.partners",
-     "speaker": "analyst",
-     "reason": "talks about this market (outbound, crm, leads) with no sales call to action"
+     "url": "https://www.clay.com/blog/introducing-clays-new-pricing",
+     "host": "clay.com",
+     "speaker": "seller",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
     },
     {
      "id": "src:8",
-     "url": "https://gtmdaily.com/news/clay-2026-pricing-change-a-deep-dive-voice-of-the-customer-analysis/",
-     "host": "gtmdaily.com",
-     "speaker": "press",
-     "reason": "talks about this market (gtm) with no sales call to action"
+     "url": "https://www.leadgenius.com/resources/clays-pricing-change-just-proved-the-bear-case",
+     "host": "leadgenius.com",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:9",
+     "url": "https://ghost.bitscale.ai/clay-pricing-changes-15k-action-limits-higher-costs-and-agency-risk",
+     "host": "ghost.bitscale.ai",
+     "speaker": "vendor",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
     },
     {
      "id": "src:10",
-     "url": "https://www.linkedin.com/posts/anthony-natoli_signal-based-outbound-has-made-sdrs-and-aes-activity-7481049907370323968--029",
-     "host": "linkedin.com",
+     "url": "https://community.clay.com/x/general/msg_phsg1IXLjYGr/can-a-motivated-learner-grasp-80-of-gtm-engineerin",
+     "host": "community.clay.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
     },
     {
      "id": "src:11",
-     "url": "https://www.linkedin.com/posts/noemiejacquemin_struggling-to-hire-a-gtm-engineer-getting-activity-7428070601447235586-tx9g",
-     "host": "linkedin.com",
+     "url": "https://gtmengineerschool.substack.com/p/the-gtm-engineer-pulse-5",
+     "host": "gtmengineerschool.substack.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
     },
     {
      "id": "src:12",
-     "url": "https://www.linkedin.com/posts/marcos-stu_most-people-burn-clay-credits-like-theyre-activity-7386496938638155776-51NV",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
+     "url": "https://jobs.workable.com/jobs/ab720e97-d4ba-436d-878c-619bee975e8c.md",
+     "host": "jobs.workable.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
     },
     {
      "id": "src:13",
-     "url": "https://www.linkedin.com/posts/anantha-koppa_unpopular-opinion-using-clay-doesnt-make-activity-7396072105261445120-Makg",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
+     "url": "https://apply.workable.com/huzzle/jobs/view/50C510A72E.md",
+     "host": "apply.workable.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
     },
     {
      "id": "src:14",
-     "url": "https://www.linkedin.com/posts/benjamin-aaron-reed_clay-coined-the-term-gtm-engineer-i-think-activity-7407123500437602304-dt8c",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
+     "url": "https://builtin.com/job/gtm-engineer/7710731",
+     "host": "builtin.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
     },
     {
      "id": "src:15",
-     "url": "https://www.linkedin.com/posts/john-p-gladysz_the-agency-business-is-brutal-i-reviewed-activity-7413997692626001920-k5zM",
-     "host": "linkedin.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
+     "url": "https://www.validity.com/resource-center/the-state-of-crm-data-management-in-2025/",
+     "host": "validity.com",
+     "speaker": "analyst",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
     },
     {
      "id": "src:16",
-     "url": "https://gtmepulse.com/insights/job-market-2026/",
-     "host": "gtmepulse.com",
+     "url": "https://bloomberry.com/blog/i-analyzed-1000-gtm-engineering-jobs/",
+     "host": "bloomberry.com",
      "speaker": "analyst",
-     "reason": "talks about this market (gtm, enrichment, signals) with no sales call to action"
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
     },
     {
      "id": "src:17",
-     "url": "https://www.sloane-staffing.com/insights/gtm-engineer-salary-guide-2026/",
-     "host": "sloane-staffing.com",
-     "speaker": "analyst",
-     "reason": "talks about this market (gtm, outbound, data) with no sales call to action"
+     "url": "https://www.smartlead.ai/blog/cold-email-agency-client-retention",
+     "host": "smartlead.ai",
+     "speaker": "vendor",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
     },
     {
      "id": "src:18",
-     "url": "https://www.linkedin.com/posts/billstath_not-all-intent-signals-are-worth-your-time-activity-7488165806317625344-zmyo",
-     "host": "linkedin.com",
+     "url": "https://www.skool.com/ai-automation-society/how-ai-personalisation-ruined-my-reply-rate",
+     "host": "skool.com",
      "speaker": "practitioner",
-     "reason": "talks about this market (crm, data) with no sales call to action"
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:20",
+     "url": "https://community.clay.com/members/d12f7570-9581-4b7f-99a2-29d195de854f",
+     "host": "community.clay.com",
+     "speaker": "practitioner",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:21",
+     "url": "https://community.clay.com/x/part-time-jobs/ewi1zwbrr9ze/hiring-gtm-engineer-part-timefull-time-role-with-c",
+     "host": "community.clay.com",
+     "speaker": "buyer",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:22",
+     "url": "https://leadmagic.io/blog/clay-agency-data-costs",
+     "host": "leadmagic.io",
+     "speaker": "vendor",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:23",
+     "url": "https://community.clay.com/members/4f912582-e057-452c-bd28-fcb6804a5d25",
+     "host": "community.clay.com",
+     "speaker": "practitioner",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    }
+   ],
+   "badQuotes": [],
+   "gray": [
+    {
+     "id": "src:2",
+     "url": "https://www.trustpilot.com/review/clay.com",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:3",
+     "url": "https://www.trustpilot.com/review/clay.com?page=2",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:4",
+     "url": "https://softwarefinder.com/sales-tools/clay-ai/reviews",
+     "host": "softwarefinder.com",
+     "speaker": "customer",
+     "reason": "talks about this market (crm, leads, data) with no sales call to action"
+    },
+    {
+     "id": "src:9",
+     "url": "https://ghost.bitscale.ai/clay-pricing-changes-15k-action-limits-higher-costs-and-agency-risk",
+     "host": "ghost.bitscale.ai",
+     "speaker": "vendor",
+     "reason": "talks about this market (outbound, enrichment, prospecting) with no sales call to action"
+    },
+    {
+     "id": "src:11",
+     "url": "https://gtmengineerschool.substack.com/p/the-gtm-engineer-pulse-5",
+     "host": "gtmengineerschool.substack.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (gtm) with no sales call to action"
+    },
+    {
+     "id": "src:12",
+     "url": "https://jobs.workable.com/jobs/ab720e97-d4ba-436d-878c-619bee975e8c.md",
+     "host": "jobs.workable.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (data) with no sales call to action"
+    },
+    {
+     "id": "src:13",
+     "url": "https://apply.workable.com/huzzle/jobs/view/50C510A72E.md",
+     "host": "apply.workable.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (data) with no sales call to action"
+    },
+    {
+     "id": "src:14",
+     "url": "https://builtin.com/job/gtm-engineer/7710731",
+     "host": "builtin.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (signals, data) with no sales call to action"
+    },
+    {
+     "id": "src:18",
+     "url": "https://www.skool.com/ai-automation-society/how-ai-personalisation-ruined-my-reply-rate",
+     "host": "skool.com",
+     "speaker": "practitioner",
+     "reason": "talks about this market (leads) with no sales call to action"
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.trustpilot.com/review/apollo.io",
+     "host": "trustpilot.com",
+     "speaker": "customer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:22",
+     "url": "https://leadmagic.io/blog/clay-agency-data-costs",
+     "host": "leadmagic.io",
+     "speaker": "vendor",
+     "reason": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
     }
    ]
   },
   {
    "arm": "otto",
-   "file": "otto-2026-09-18T14-12-27-098Z.json",
+   "file": "otto-2026-10-12T16-22-33-841Z.json",
    "accepted": true,
-   "costUsd": 3.9160324999999996,
+   "costUsd": 3.4443597999999995,
    "rounds": 1,
-   "pains": 8,
-   "sources": 38,
-   "domains": 4,
-   "cited": 38,
+   "pains": 5,
+   "sources": 10,
+   "domains": 2,
+   "cited": 9,
    "unverifiable": 0,
    "faultySources": 0,
    "faults": {
@@ -402,11 +346,11 @@
     "speaker_mislabel": 0
    },
    "quotes": {
-    "total": 35,
-    "onPage": 24,
-    "wordForWord": 24,
+    "total": 19,
+    "onPage": 19,
+    "wordForWord": 19,
     "notOnPage": 0,
-    "unverifiable": 11,
+    "unverifiable": 0,
     "notInRecord": 0,
     "elided": 0,
     "partial": 0
@@ -423,7 +367,7 @@
     },
     {
      "id": "src:2",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?page=5",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -432,7 +376,7 @@
     },
     {
      "id": "src:3",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/apollo.io?page=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -441,7 +385,7 @@
     },
     {
      "id": "src:4",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/apollo.io",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -450,7 +394,7 @@
     },
     {
      "id": "src:5",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/clay.com",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -459,7 +403,7 @@
     },
     {
      "id": "src:6",
-     "url": "https://www.trustpilot.com/review/cognism.com",
+     "url": "https://www.trustpilot.com/review/clay.com?page=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -468,7 +412,7 @@
     },
     {
      "id": "src:7",
-     "url": "https://www.trustpilot.com/review/cognism.com",
+     "url": "https://www.trustpilot.com/review/clay.com?stars=5",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -477,7 +421,7 @@
     },
     {
      "id": "src:8",
-     "url": "https://www.trustpilot.com/review/cognism.com",
+     "url": "https://www.trustpilot.com/review/clay.com?stars=5&page=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -486,365 +430,24 @@
     },
     {
      "id": "src:9",
-     "url": "https://www.trustpilot.com/review/cognism.com",
-     "host": "trustpilot.com",
+     "url": "https://jobs.workable.com/jobs/606db5a8-e160-45c1-9249-4e2bc0624445.md",
+     "host": "jobs.workable.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 403
+     "status": 200
     },
     {
      "id": "src:10",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
+     "url": "https://www.trustpilot.com/review/clay.com?stars=4",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
-    },
-    {
-     "id": "src:11",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:13",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:14",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:15",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:16",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:17",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:18",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:19",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:20",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:21",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:22",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:23",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:24",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:25",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:26",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:27",
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:28",
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:29",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:30",
-     "url": "https://www.trustpilot.com/review/instantly.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:31",
-     "url": "https://www.trustpilot.com/review/instantly.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:32",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:33",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:34",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:35",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:36",
-     "url": "https://productstudio.substack.com/p/everyones-doing-outbound-wrong-in",
-     "host": "productstudio.substack.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:37",
-     "url": "https://schoolofsdr.substack.com/p/your-sdr-supports-5-aes-makes-50",
-     "host": "schoolofsdr.substack.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:38",
-     "url": "https://www.orum.com/reports-and-guides/the-2026-state-of-sales-development",
-     "host": "orum.com",
-     "speaker": "vendor",
-     "verdict": "sells",
-     "faults": [],
-     "status": 200
     }
    ],
-   "badQuotes": [
-    {
-     "quote": "over 50% of the data is out of date",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.trustpilot.com/review/cognism.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "weaker coverage outside Europe, searching APAC turns up far fewer",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.trustpilot.com/review/cognism.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "their own email go into spam and the worst part is their warm up tool",
-     "cites": [
-      "src:30"
-     ],
-     "url": "https://www.trustpilot.com/review/instantly.ai",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Highest inaccuracy and bounce rates out of all providers I've used (cognism, apollo, clay, hunter.io) around 17-40% bounces or risky emails.",
-     "cites": [
-      "src:15"
-     ],
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "hence we are in the market for a new provider",
-     "cites": [
-      "src:16"
-     ],
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It is difficult to decipher the units provided by the literature and unclear what 40,000 means. You read unlimited and then are faced with 40,000.",
-     "cites": [
-      "src:28"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "charges credits when it is not necessary. It's called nickel and diming",
-     "cites": [
-      "src:29"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Watch the auto-renew clause. We have a paper trail that it was removed",
-     "cites": [
-      "src:7"
-     ],
-     "url": "https://www.trustpilot.com/review/cognism.com",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I've tried to cancel for months in a row now and I keep getting charged",
-     "cites": [
-      "src:31"
-     ],
-     "url": "https://www.trustpilot.com/review/instantly.ai",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "non-existent support - you are sent to read tons of docs whenever you have a simple question.",
-     "cites": [
-      "src:27"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "useless search and AI assistant",
-     "cites": [
-      "src:27"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    }
-   ],
+   "badQuotes": [],
    "gray": [
     {
      "id": "src:1",
@@ -855,238 +458,63 @@
     },
     {
      "id": "src:2",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?page=5",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:3",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/apollo.io?page=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:4",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/apollo.io",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:5",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/clay.com",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:6",
-     "url": "https://www.trustpilot.com/review/cognism.com",
+     "url": "https://www.trustpilot.com/review/clay.com?page=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:7",
-     "url": "https://www.trustpilot.com/review/cognism.com",
+     "url": "https://www.trustpilot.com/review/clay.com?stars=5",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:8",
-     "url": "https://www.trustpilot.com/review/cognism.com",
+     "url": "https://www.trustpilot.com/review/clay.com?stars=5&page=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:9",
-     "url": "https://www.trustpilot.com/review/cognism.com",
-     "host": "trustpilot.com",
+     "url": "https://jobs.workable.com/jobs/606db5a8-e160-45c1-9249-4e2bc0624445.md",
+     "host": "jobs.workable.com",
      "speaker": "buyer",
-     "reason": "front page unreadable (403)"
+     "reason": "talks about this market (data) with no sales call to action"
     },
     {
      "id": "src:10",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:11",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:12",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:13",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:14",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:15",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:16",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:17",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:18",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:19",
-     "url": "https://www.trustpilot.com/review/lusha.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:20",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:21",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:22",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:23",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:24",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:25",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:26",
-     "url": "https://www.trustpilot.com/review/clay.com",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:27",
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:28",
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:29",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:30",
-     "url": "https://www.trustpilot.com/review/instantly.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:31",
-     "url": "https://www.trustpilot.com/review/instantly.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:32",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:33",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:34",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
-     "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:35",
-     "url": "https://www.trustpilot.com/review/smartlead.ai",
+     "url": "https://www.trustpilot.com/review/clay.com?stars=4",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
@@ -1096,64 +524,79 @@
  ],
  "domains": [
   {
-   "host": "clay.com",
-   "verdict": "sells",
-   "why": "the company being researched"
-  },
-  {
-   "host": "moxiegtm.substack.com",
-   "verdict": "unknown",
-   "why": "talks about this market (gtm) with no sales call to action"
-  },
-  {
-   "host": "linkedin.com",
-   "verdict": "unknown",
-   "why": "talks about this market (crm, data) with no sales call to action"
-  },
-  {
-   "host": "revnu.partners",
-   "verdict": "unknown",
-   "why": "talks about this market (outbound, crm, leads) with no sales call to action"
-  },
-  {
-   "host": "university.clay.com",
-   "verdict": "sells",
-   "why": "the company being researched"
-  },
-  {
-   "host": "gtmdaily.com",
-   "verdict": "unknown",
-   "why": "talks about this market (gtm) with no sales call to action"
-  },
-  {
-   "host": "gtmepulse.com",
-   "verdict": "unknown",
-   "why": "talks about this market (gtm, enrichment, signals) with no sales call to action"
-  },
-  {
-   "host": "sloane-staffing.com",
-   "verdict": "unknown",
-   "why": "talks about this market (gtm, outbound, data) with no sales call to action"
-  },
-  {
    "host": "trustpilot.com",
    "verdict": "unknown",
    "why": "front page unreadable (403)"
   },
   {
-   "host": "productstudio.substack.com",
-   "verdict": "independent",
-   "why": "front page sells nothing into this market"
+   "host": "softwarefinder.com",
+   "verdict": "unknown",
+   "why": "talks about this market (crm, leads, data) with no sales call to action"
   },
   {
-   "host": "schoolofsdr.substack.com",
-   "verdict": "independent",
-   "why": "front page sells nothing into this market"
-  },
-  {
-   "host": "orum.com",
+   "host": "community.clay.com",
    "verdict": "sells",
-   "why": "front page has a sales call to action and this market's words (crm, sequences, data)"
+   "why": "the company being researched"
+  },
+  {
+   "host": "clay.com",
+   "verdict": "sells",
+   "why": "the company being researched"
+  },
+  {
+   "host": "leadgenius.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (gtm, outbound, crm)"
+  },
+  {
+   "host": "ghost.bitscale.ai",
+   "verdict": "unknown",
+   "why": "talks about this market (outbound, enrichment, prospecting) with no sales call to action"
+  },
+  {
+   "host": "gtmengineerschool.substack.com",
+   "verdict": "unknown",
+   "why": "talks about this market (gtm) with no sales call to action"
+  },
+  {
+   "host": "jobs.workable.com",
+   "verdict": "unknown",
+   "why": "talks about this market (data) with no sales call to action"
+  },
+  {
+   "host": "apply.workable.com",
+   "verdict": "unknown",
+   "why": "talks about this market (data) with no sales call to action"
+  },
+  {
+   "host": "builtin.com",
+   "verdict": "unknown",
+   "why": "talks about this market (signals, data) with no sales call to action"
+  },
+  {
+   "host": "validity.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (crm, signals, data)"
+  },
+  {
+   "host": "bloomberry.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (gtm, enrichment, crm)"
+  },
+  {
+   "host": "smartlead.ai",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (gtm, outbound, enrichment)"
+  },
+  {
+   "host": "skool.com",
+   "verdict": "unknown",
+   "why": "talks about this market (leads) with no sales call to action"
+  },
+  {
+   "host": "leadmagic.io",
+   "verdict": "unknown",
+   "why": "talks about this market (gtm, outbound, enrichment) with no sales call to action"
   }
  ]
 }

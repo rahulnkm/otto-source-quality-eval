@@ -1,31 +1,31 @@
 {
  "market": "sales-engagement",
- "scoredAt": "2026-10-12T15:06:36.096Z",
+ "scoredAt": "2026-10-12T17:24:23.009Z",
  "arms": [
   {
    "arm": "base",
-   "file": "base-2026-09-18T14-08-04-374Z.json",
+   "file": "base-2026-10-12T16-47-18-694Z.json",
    "accepted": true,
-   "costUsd": 3.026505,
+   "costUsd": 2.8338887,
    "rounds": 1,
-   "pains": 10,
-   "sources": 34,
-   "domains": 6,
-   "cited": 33,
+   "pains": 9,
+   "sources": 32,
+   "domains": 9,
+   "cited": 31,
    "unverifiable": 0,
-   "faultySources": 3,
+   "faultySources": 7,
    "faults": {
     "dead": 0,
-    "record_verbatim_not_on_page": 2,
-    "sells_as_buyer": 2,
-    "speaker_mislabel": 0
+    "record_verbatim_not_on_page": 1,
+    "sells_as_buyer": 7,
+    "speaker_mislabel": 5
    },
    "quotes": {
-    "total": 45,
-    "onPage": 11,
-    "wordForWord": 10,
+    "total": 29,
+    "onPage": 29,
+    "wordForWord": 28,
     "notOnPage": 0,
-    "unverifiable": 34,
+    "unverifiable": 0,
     "notInRecord": 0,
     "elided": 1,
     "partial": 0
@@ -33,234 +33,185 @@
    "detail": [
     {
      "id": "src:1",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:2",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:3",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:4",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:5",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:6",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:7",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:8",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:9",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:10",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:11",
-     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:12",
-     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:13",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:14",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=3",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:15",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "host": "capterra.com",
+     "url": "https://community.revgenius.com/x/chat-revops/o82tvwszsora/benchmarking-current-zoominfo-and-outreach-pricing",
+     "host": "community.revgenius.com",
      "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
     },
     {
      "id": "src:16",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
+     "url": "https://jobs.accel.com/companies/webflow/jobs/70008111-revenue-operations-data-hygiene-coordinator-part-time-contract-basis",
+     "host": "jobs.accel.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 403
+     "status": 200
     },
     {
      "id": "src:17",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "host": "capterra.com",
+     "url": "https://jobs.designerfund.com/companies/chromatic-2/jobs/64880821-revenue-operations-specialist",
+     "host": "jobs.designerfund.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 403
+     "status": 200
     },
     {
      "id": "src:18",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
+     "url": "https://www.salesforce.com/news/stories/sales-research-2023/",
+     "host": "salesforce.com",
+     "speaker": "analyst",
+     "verdict": "sells",
+     "faults": [
+      "sells_as_buyer"
+     ],
+     "status": 200
     },
     {
      "id": "src:19",
-     "url": "https://news.ycombinator.com/item?id=47649117",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
+     "url": "https://www.salesforce.com/news/stories/sales-research-2023/",
+     "host": "salesforce.com",
+     "speaker": "analyst",
+     "verdict": "sells",
      "faults": [],
      "status": 200
     },
     {
      "id": "src:20",
-     "url": "https://news.ycombinator.com/item?id=47649117",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:21",
-     "url": "https://news.ycombinator.com/item?id=47649117",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:22",
-     "url": "https://news.ycombinator.com/item?id=44504699",
-     "host": "news.ycombinator.com",
-     "speaker": "buyer",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:23",
-     "url": "https://news.ycombinator.com/item?id=42380054",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:24",
-     "url": "https://news.ycombinator.com/item?id=44501076",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:25",
-     "url": "https://news.ycombinator.com/item?id=47649117",
-     "host": "news.ycombinator.com",
-     "speaker": "practitioner",
-     "verdict": "independent",
-     "faults": [],
-     "status": 200
-    },
-    {
-     "id": "src:26",
-     "url": "https://salesmotion.io/blog/apollo-pricing",
-     "host": "salesmotion.io",
-     "speaker": "vendor",
+     "url": "https://www.salesforce.com/news/stories/sales-research-2023/",
+     "host": "salesforce.com",
+     "speaker": "analyst",
      "verdict": "sells",
      "faults": [
       "record_verbatim_not_on_page",
@@ -269,530 +220,301 @@
      "status": 200
     },
     {
-     "id": "src:28",
-     "url": "https://www.lusha.com/blog/b2b-data-decay-rate-measured/",
-     "host": "lusha.com",
-     "speaker": "vendor",
+     "id": "src:21",
+     "url": "https://www.producthunt.com/products/apollo-io/reviews",
+     "host": "producthunt.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.producthunt.com/products/apollo-io/reviews",
+     "host": "producthunt.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:23",
+     "url": "https://www.cleanlist.ai/blog/2026-09-22-apollo-io-review",
+     "host": "cleanlist.ai",
+     "speaker": "customer",
      "verdict": "sells",
      "faults": [
+      "speaker_mislabel",
       "sells_as_buyer"
      ],
      "status": 200
     },
     {
-     "id": "src:29",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "id": "src:24",
+     "url": "https://www.cleanlist.ai/blog/2026-09-22-apollo-io-review",
+     "host": "cleanlist.ai",
+     "speaker": "customer",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:25",
+     "url": "https://www.hyperbound.ai/blog/cold-calling-quality-over-quantity",
+     "host": "hyperbound.ai",
+     "speaker": "practitioner",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:26",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:27",
+     "url": "https://community.revgenius.com/x/chat-revops/o82tvwszsora/benchmarking-current-zoominfo-and-outreach-pricing",
+     "host": "community.revgenius.com",
+     "speaker": "practitioner",
+     "verdict": "sells",
+     "faults": [
+      "speaker_mislabel",
+      "sells_as_buyer"
+     ],
+     "status": 200
+    },
+    {
+     "id": "src:28",
+     "url": "https://kwanzoo.com/blog/sdrs-spend-40-percent-researching-leads",
+     "host": "kwanzoo.com",
+     "speaker": "vendor",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:29",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:30",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
+    },
+    {
+     "id": "src:31",
+     "url": "https://www.producthunt.com/products/apollo-io/reviews",
+     "host": "producthunt.com",
+     "speaker": "customer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
     },
     {
      "id": "src:32",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
-    },
-    {
-     "id": "src:34",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:35",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:36",
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "host": "trustpilot.com",
-     "speaker": "press",
-     "verdict": "unknown",
-     "faults": [],
-     "status": 403
-    },
-    {
-     "id": "src:37",
-     "url": "https://www.octavehq.com/post/salesforce-apollo-prospecting-crm-sync-setup",
-     "host": "octavehq.com",
-     "speaker": "vendor",
-     "verdict": "sells",
-     "faults": [
-      "record_verbatim_not_on_page"
-     ],
-     "status": 200
     }
    ],
-   "badQuotes": [
-    {
-     "quote": "data is not perfect",
-     "cites": [
-      "src:14"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "some emails can bounce or be missing",
-     "cites": [
-      "src:14"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "contact data wasn't always accurate or up to date",
-     "cites": [
-      "src:13"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "we do not have 100% of the required information, especially email addresses and phone numbers. This has hindered progress with several companies",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Extremely expensive and most of the data is terrible and invalid",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Some contact information is outdated and credit can runs out quickly with heavy",
-     "cites": [
-      "src:16"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Just a money grab on old outdated and junk data",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Some contact information is outdated and credit can runs out quickly with heavy",
-     "cites": [
-      "src:16"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "have to stay organized with your credits to maximize value",
-     "cites": [
-      "src:15"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Unclear pricing, forced waterfall verification, slow email access",
-     "cites": [
-      "src:18"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Charges you credits for any action you take inside which makes no sense because you've already paid an arm and a leg for the subscription",
-     "cites": [
-      "src:6"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Throttling and limits on their free plan makes it unusable and their paid plan is ridiculously expensive. Even their paid basic plan is heavily throttled and re",
-     "cites": [
-      "src:7"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The main drawback we've experienced is the low response rate to email campaigns, which can make it difficult to determine how effective the outreach is, despite",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It's utterly impossible to send emails... The damn thing adds all 700 at once and sends them, and then won't let me deactivate... then takes the 25 I wanted to ",
-     "cites": [
-      "src:11"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "This ai system is supposed to send emails for you... However, it failed over and over and over again... It's buggy. It does NOT work.",
-     "cites": [
-      "src:12"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It's buggy. It does NOT work.",
-     "cites": [
-      "src:12"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "There is nothing intuitive in the set up and I have worked in technology for years. Onboarding process needs better training/instruction.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Load of toggles and buttons with no clear purpose make it impossible to figure out is your warmup all set or you need to keep on reading instructions.",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "UI can feel slightly cluttered, and initial setup takes some time",
-     "cites": [
-      "src:34"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I went through several support agents all who told me that engineering would have to get involved.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "non-existent support - you are sent to read tons of docs whenever you have a simple question",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Data is fine.. but UX is very bad.. heavy loading pages to many windows with slow loading, too many clicks to reach data many navigation buttons seems to be not",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "ui and experience is overwhelming",
-     "cites": [
-      "src:17"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "interface can feel a bit overwhelming at first",
-     "cites": [
-      "src:35"
-     ],
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Occasionally the user session closes unexpectedly",
-     "cites": [
-      "src:10"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Same bloatware as Salesforce and Hubspot, useless search and AI assistant",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Steals and sells your data without consent. You get bombarded with junk email. They claim to remove your details but don't at all. Sham of an organisation!",
-     "cites": [
-      "src:29"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I've spent hours going in circles with this thing. No way to share feedback directly, so I'm venting here. Buyer beware.",
-     "cites": [
-      "src:1"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Permanently locked out of my account and no way of getting back in with the value of credits on the account being very substancial.",
-     "cites": [
-      "src:8"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I see value in the product but it's completely useless when you get locked out of your account... stay clear.",
-     "cites": [
-      "src:8"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "the process was rigid, opaque, and deeply dismissive of a business user's legitimate concerns.",
-     "cites": [
-      "src:32"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "the structure of how you are supposed to use it (massmail and outreaches, generic AI slop, etc.) is very tailored to the North American Consumer market whereas ",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "So if you have mainly U.S. clients you should definitely consider using Apollo, if you are elsewhere there might be better options available for you.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "there might be better options available for you",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    }
-   ],
+   "badQuotes": [],
    "gray": [
     {
      "id": "src:1",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:2",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:3",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:4",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:5",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:6",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:7",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:8",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:9",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:10",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:11",
-     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:12",
-     "url": "https://www.trustpilot.com/review/apollo.io?page=4",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:13",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:14",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:15",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=3",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:16",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
+     "url": "https://jobs.accel.com/companies/webflow/jobs/70008111-revenue-operations-data-hygiene-coordinator-part-time-contract-basis",
+     "host": "jobs.accel.com",
      "speaker": "buyer",
-     "reason": "front page unreadable (403)"
+     "reason": "talks about this market (sales, email, data) with no sales call to action"
     },
     {
      "id": "src:17",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews?page=3",
-     "host": "capterra.com",
+     "url": "https://jobs.designerfund.com/companies/chromatic-2/jobs/64880821-revenue-operations-specialist",
+     "host": "jobs.designerfund.com",
      "speaker": "buyer",
-     "reason": "front page unreadable (403)"
+     "reason": "talks about this market (sales, email, data) with no sales call to action"
     },
     {
-     "id": "src:18",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "id": "src:21",
+     "url": "https://www.producthunt.com/products/apollo-io/reviews",
+     "host": "producthunt.com",
+     "speaker": "customer",
+     "reason": "talks about this market (sales, email, leads) with no sales call to action"
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.producthunt.com/products/apollo-io/reviews",
+     "host": "producthunt.com",
+     "speaker": "customer",
+     "reason": "talks about this market (sales, email, leads) with no sales call to action"
+    },
+    {
+     "id": "src:26",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
+     "host": "trustpilot.com",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:29",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:30",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=2",
      "host": "trustpilot.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:31",
+     "url": "https://www.producthunt.com/products/apollo-io/reviews",
+     "host": "producthunt.com",
+     "speaker": "customer",
+     "reason": "talks about this market (sales, email, leads) with no sales call to action"
     },
     {
      "id": "src:32",
-     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1",
      "host": "trustpilot.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:34",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
-     "speaker": "buyer",
-     "reason": "front page unreadable (403)"
-    },
-    {
-     "id": "src:35",
-     "url": "https://www.capterra.com/p/158696/Apollo/reviews/?sort=lowest_rating",
-     "host": "capterra.com",
-     "speaker": "buyer",
+     "speaker": "customer",
      "reason": "front page unreadable (403)"
     }
    ]
   },
   {
    "arm": "otto",
-   "file": "otto-2026-09-18T14-05-51-305Z.json",
+   "file": "otto-2026-10-12T16-37-52-478Z.json",
    "accepted": true,
-   "costUsd": 2.41865,
+   "costUsd": 1.7573922000000002,
    "rounds": 1,
-   "pains": 7,
-   "sources": 10,
+   "pains": 5,
+   "sources": 23,
    "domains": 4,
-   "cited": 9,
+   "cited": 20,
    "unverifiable": 0,
    "faultySources": 0,
    "faults": {
@@ -802,11 +524,11 @@
     "speaker_mislabel": 0
    },
    "quotes": {
-    "total": 22,
-    "onPage": 7,
-    "wordForWord": 7,
+    "total": 19,
+    "onPage": 19,
+    "wordForWord": 19,
     "notOnPage": 0,
-    "unverifiable": 15,
+    "unverifiable": 0,
     "notInRecord": 0,
     "elided": 0,
     "partial": 0
@@ -814,7 +536,7 @@
    "detail": [
     {
      "id": "src:1",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -823,16 +545,16 @@
     },
     {
      "id": "src:2",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
-     "host": "aws.amazon.com",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 403
     },
     {
      "id": "src:3",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -841,8 +563,8 @@
     },
     {
      "id": "src:4",
-     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "host": "getapp.com",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
@@ -850,25 +572,25 @@
     },
     {
      "id": "src:5",
-     "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
-     "host": "getapp.com",
+     "url": "https://community.clay.com/x/general/msg_OejZIEJFTuIO/phone-number-accuracy-challenges-and-best-practice",
+     "host": "community.clay.com",
      "speaker": "practitioner",
      "verdict": "unknown",
      "faults": [],
-     "status": 403
+     "status": 200
     },
     {
      "id": "src:6",
-     "url": "https://www.getapp.com/it-management-software/a/zoominfo-operationsos/reviews/",
-     "host": "getapp.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:7",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "verdict": "unknown",
@@ -877,223 +599,310 @@
     },
     {
      "id": "src:8",
-     "url": "https://chromewebstore.google.com/detail/apollo-free-b2b-phone-num/alhgpfoeiimagjlnfekdhkjlkiomcapa/reviews",
-     "host": "chromewebstore.google.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
-     "status": 200
+     "status": 403
     },
     {
      "id": "src:9",
-     "url": "https://www.getapp.com/sales-software/a/salesloft/reviews/",
-     "host": "getapp.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     },
     {
      "id": "src:10",
-     "url": "https://www.getapp.com/sales-software/a/phoneburner/reviews/",
-     "host": "getapp.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/seamless.ai?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.trustpilot.com/review/seamless.ai?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.trustpilot.com/review/seamless.ai?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:14",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:15",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:16",
+     "url": "https://www.trustpilot.com/review/lusha.com?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.trustpilot.com/review/lusha.com?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:18",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:20",
+     "url": "https://jobs.accel.com/companies/webflow/jobs/70008111-revenue-operations-data-hygiene-coordinator-part-time-contract-basis",
+     "host": "jobs.accel.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:21",
+     "url": "https://jobs.designerfund.com/companies/chromatic-2/jobs/64880821-revenue-operations-specialist",
+     "host": "jobs.designerfund.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 200
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "verdict": "unknown",
+     "faults": [],
+     "status": 403
+    },
+    {
+     "id": "src:24",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "verdict": "unknown",
      "faults": [],
      "status": 403
     }
    ],
-   "badQuotes": [
-    {
-     "quote": "Some emails can bounce or be missing, and the interface can feel a little busy when I only need quick validation.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "we do not have 100% of the required information, especially email addresses and phone numbers",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "your total list reduces by like 20%",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Apollo charges credits when it is not necessary. It's called nickel and diming.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "unclear what 40,000 means",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "after your credits are gone is brick tool, you can't use it.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "to lock businesses into unfavourable terms with no regard for the actual experience or outcome",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Integration to CRM/marketing automation is a major weak spot for me.",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Contact database is my biggest concern because it doesn't seem to accurately exclude CRM integrated fields",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Activity tracking is frustrating because key call, email, and cadence-completion data can be missing or split across systems",
-     "cites": [
-      "src:2"
-     ],
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "it required constant maintenance, which doesn't seem to be getting done",
-     "cites": [
-      "src:5"
-     ],
-     "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "I've spent hours going in circles with this thing.",
-     "cites": [
-      "src:3"
-     ],
-     "url": "https://www.trustpilot.com/review/apollo.io",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "Apollo has made prospecting much faster and easier for me.",
-     "cites": [
-      "src:8"
-     ],
-     "url": "https://chromewebstore.google.com/detail/apollo-free-b2b-phone-num/alhgpfoeiimagjlnfekdhkjlkiomcapa/reviews",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "The drawbacks I did not enjoy was the limited daily email caps that throttle outreach",
-     "cites": [
-      "src:9"
-     ],
-     "url": "https://www.getapp.com/sales-software/a/salesloft/reviews/",
-     "why": "the page could not be read"
-    },
-    {
-     "quote": "It doesn't really support heavy outbound usage at scale.",
-     "cites": [
-      "src:4"
-     ],
-     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "why": "the page could not be read"
-    }
-   ],
+   "badQuotes": [],
    "gray": [
     {
      "id": "src:1",
-     "url": "https://www.trustpilot.com/review/zoominfo.com",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:2",
-     "url": "https://aws.amazon.com/marketplace/reviews/reviews-list/prodview-u52tqtal5ejbu",
-     "host": "aws.amazon.com",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
      "speaker": "buyer",
-     "reason": "talks about this market (email, data) with no sales call to action"
+     "reason": "front page unreadable (403)"
     },
     {
      "id": "src:3",
-     "url": "https://www.trustpilot.com/review/apollo.io",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:4",
-     "url": "https://www.getapp.com/marketing-software/a/apollo-io/reviews/",
-     "host": "getapp.com",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:5",
-     "url": "https://www.getapp.com/marketing-software/a/zoominfo/reviews/",
-     "host": "getapp.com",
+     "url": "https://community.clay.com/x/general/msg_OejZIEJFTuIO/phone-number-accuracy-challenges-and-best-practice",
+     "host": "community.clay.com",
      "speaker": "practitioner",
-     "reason": "front page unreadable (403)"
+     "reason": "talks about this market (sales, outbound, email) with no sales call to action"
     },
     {
      "id": "src:6",
-     "url": "https://www.getapp.com/it-management-software/a/zoominfo-operationsos/reviews/",
-     "host": "getapp.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:7",
-     "url": "https://www.trustpilot.com/review/seamless.ai",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
      "host": "trustpilot.com",
      "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:8",
-     "url": "https://chromewebstore.google.com/detail/apollo-free-b2b-phone-num/alhgpfoeiimagjlnfekdhkjlkiomcapa/reviews",
-     "host": "chromewebstore.google.com",
-     "speaker": "practitioner",
-     "reason": "talks about this market (sales, email, crm) with no sales call to action"
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
     },
     {
      "id": "src:9",
-     "url": "https://www.getapp.com/sales-software/a/salesloft/reviews/",
-     "host": "getapp.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "reason": "front page unreadable (403)"
     },
     {
      "id": "src:10",
-     "url": "https://www.getapp.com/sales-software/a/phoneburner/reviews/",
-     "host": "getapp.com",
-     "speaker": "practitioner",
+     "url": "https://www.trustpilot.com/review/seamless.ai?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:11",
+     "url": "https://www.trustpilot.com/review/seamless.ai?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:12",
+     "url": "https://www.trustpilot.com/review/seamless.ai?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:13",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:14",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:15",
+     "url": "https://www.trustpilot.com/review/zoominfo.com?stars=1&stars=2",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:16",
+     "url": "https://www.trustpilot.com/review/lusha.com?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:17",
+     "url": "https://www.trustpilot.com/review/lusha.com?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:18",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:19",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=5",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:20",
+     "url": "https://jobs.accel.com/companies/webflow/jobs/70008111-revenue-operations-data-hygiene-coordinator-part-time-contract-basis",
+     "host": "jobs.accel.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (sales, email, data) with no sales call to action"
+    },
+    {
+     "id": "src:21",
+     "url": "https://jobs.designerfund.com/companies/chromatic-2/jobs/64880821-revenue-operations-specialist",
+     "host": "jobs.designerfund.com",
+     "speaker": "buyer",
+     "reason": "talks about this market (sales, email, data) with no sales call to action"
+    },
+    {
+     "id": "src:22",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
+     "reason": "front page unreadable (403)"
+    },
+    {
+     "id": "src:24",
+     "url": "https://www.trustpilot.com/review/apollo.io?stars=1&stars=2&stars=3",
+     "host": "trustpilot.com",
+     "speaker": "buyer",
      "reason": "front page unreadable (403)"
     }
    ]
@@ -1106,44 +915,49 @@
    "why": "front page unreadable (403)"
   },
   {
-   "host": "capterra.com",
-   "verdict": "unknown",
-   "why": "front page unreadable (403)"
-  },
-  {
-   "host": "news.ycombinator.com",
-   "verdict": "independent",
-   "why": "front page sells nothing into this market"
-  },
-  {
-   "host": "salesmotion.io",
+   "host": "community.revgenius.com",
    "verdict": "sells",
    "why": "front page has a sales call to action and this market's words (sales, prospecting, outbound)"
   },
   {
-   "host": "lusha.com",
+   "host": "jobs.accel.com",
+   "verdict": "unknown",
+   "why": "talks about this market (sales, email, data) with no sales call to action"
+  },
+  {
+   "host": "jobs.designerfund.com",
+   "verdict": "unknown",
+   "why": "talks about this market (sales, email, data) with no sales call to action"
+  },
+  {
+   "host": "salesforce.com",
+   "verdict": "sells",
+   "why": "front page has a sales call to action and this market's words (sales, prospecting, email)"
+  },
+  {
+   "host": "producthunt.com",
+   "verdict": "unknown",
+   "why": "talks about this market (sales, email, leads) with no sales call to action"
+  },
+  {
+   "host": "cleanlist.ai",
    "verdict": "sells",
    "why": "front page has a sales call to action and this market's words (sales, prospecting, outbound)"
   },
   {
-   "host": "octavehq.com",
+   "host": "hyperbound.ai",
    "verdict": "sells",
-   "why": "front page has a sales call to action and this market's words (sales, outbound, email)"
+   "why": "front page has a sales call to action and this market's words (sales, email, crm)"
   },
   {
-   "host": "aws.amazon.com",
+   "host": "kwanzoo.com",
    "verdict": "unknown",
-   "why": "talks about this market (email, data) with no sales call to action"
+   "why": "talks about this market (sales, outbound, email) with no sales call to action"
   },
   {
-   "host": "getapp.com",
+   "host": "community.clay.com",
    "verdict": "unknown",
-   "why": "front page unreadable (403)"
-  },
-  {
-   "host": "chromewebstore.google.com",
-   "verdict": "unknown",
-   "why": "talks about this market (sales, email, crm) with no sales call to action"
+   "why": "talks about this market (sales, outbound, email) with no sales call to action"
   }
  ]
 }
